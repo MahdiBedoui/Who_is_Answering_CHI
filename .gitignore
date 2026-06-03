@@ -1,0 +1,45 @@
+# --- Big binary corpus (track in repo as just the metadata, not the PDFs) ---
+sigchi/
+sigchi/**
+
+# --- Backups and temporary files ---
+*.bak
+*.bak.*
+_tmp.py
+.tmp/
+.DS_Store
+Thumbs.db
+
+# --- Python caches ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# --- Virtual environments ---
+venv/
+env/
+.venv/
+.env
+
+# --- Editor / IDE ---
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# --- OS junk ---
+Desktop.ini
+*.lnk
+
+# --- Outputs that can be regenerated ---
+data/analysis/chi24_disk_dois.txt
+data/analysis/chi24_analysis.csv
+
+# --- Misc accidental files ---
+data/extras/
+
+# --- Local-only working folders (notes, screenshots, side projects) ---
+STEP 2/
+Screenshots/
+lit-happens/

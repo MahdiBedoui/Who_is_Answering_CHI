@@ -1,0 +1,210 @@
+venue,year,content_type,downloaded,missing,excluded,orphan,total
+AHs,,,0,60,0,0,60
+AutomotiveUI,,,0,273,0,0,273
+AutomotiveUI,2022,Research Article,35,0,0,0,35
+AutomotiveUI,2023,Research Article,31,0,0,0,31
+AutomotiveUI,2024,Research Article,38,0,0,0,38
+AutomotiveUI,2025,Research Article,31,0,0,0,31
+C&C,,,0,218,0,0,218
+C&C,2022,Research Article,45,0,0,0,45
+C&C,2023,Research Article,25,0,0,0,25
+C&C,2024,Research Article,34,0,0,0,34
+C&C,2025,Research Article,46,0,0,0,46
+CHI,2022,EA,157,0,0,0,157
+CHI,2022,Research Article,637,0,0,0,637
+CHI,2023,EA,181,0,0,0,181
+CHI,2023,Research Article,879,0,0,0,879
+CHI,2024,EA,189,0,0,0,189
+CHI,2024,Research Article,1057,0,0,0,1057
+CHI,2025,EA,217,0,0,0,217
+CHI,2025,Research Article,1249,0,0,0,1249
+CHI,2026,EA,942,0,0,0,942
+CHI,2026,Research Article,0,1,0,0,1
+CHI,2026,Research Articles,1702,0,0,0,1702
+CHI PLAY,,,59,0,0,0,59
+CHI PLAY,2023,Excluded,0,0,16,0,16
+CHI PLAY,2023,Research Article,51,0,0,0,51
+CHI PLAY,2024,Research Article,86,0,0,0,86
+CHI-EA,,,547,1442,0,0,1989
+CHIIR,,,0,121,0,0,121
+CI,2023,Research Article,7,0,0,0,7
+CI,2024,Research Article,6,0,0,0,6
+CI,2025,Research Article,24,0,0,0,24
+COMPASS,,,0,14,0,0,14
+COMPASS,2022,Research Article,37,0,0,0,37
+COMPASS,2022,Short Paper,26,0,0,0,26
+COMPASS,2023,Research Article,13,0,0,0,13
+COMPASS,2024,Short Paper,34,0,0,0,34
+COMPASS,2025,Research Article,45,0,0,0,45
+CSCW,,,0,246,0,0,246
+CSCW,2023,Research Article,82,0,0,0,82
+CSCW,2024,Research Article,82,0,0,0,82
+CSCW,2024,Short Paper,17,0,0,0,17
+CSCW,2025,Short Paper,4,0,0,0,4
+CUI,,,0,120,0,0,120
+CUI,2023,,22,0,0,0,22
+CUI,2024,,29,0,0,0,29
+CUI,2025,,35,0,0,0,35
+DIS,,,0,39,0,0,39
+DIS,2022,,131,0,0,0,131
+DIS,2022,EA,14,0,0,0,14
+DIS,2023,,230,0,0,0,230
+DIS,2023,EA,10,0,0,0,10
+DIS,2024,,310,0,0,0,310
+DIS,2024,EA,16,0,0,0,16
+DIS,2025,,219,0,0,0,219
+DIS,2025,Workshops,15,0,0,0,15
+EICS,2022,Research Article,41,0,0,0,41
+EICS,2023,Research Article,40,0,0,0,40
+EICS,2024,Research Article,45,0,0,0,45
+EICS,2025,Research Article,37,0,0,0,37
+ETRA,,,0,100,0,0,100
+ETRA,2022,Research Article,58,0,0,0,58
+ETRA,2022,Short Paper,5,0,0,0,5
+ETRA,2023,Research Article,47,0,0,0,47
+ETRA,2023,Short Paper,15,0,0,0,15
+ETRA,2024,Research Article,69,0,0,0,69
+ETRA,2025,Research Article,49,0,0,0,49
+ETRA,2025,Short Paper,35,0,0,0,35
+ETRA,2026,Research Article,0,79,0,0,79
+ETRA,2026,Short Paper,0,6,0,0,6
+EduCHI,2023,Research Article,16,0,0,0,16
+EduCHI,2024,Research Article,13,0,0,0,13
+EduCHI,2025,Research Article,18,0,0,0,18
+GROUP,2022,Research Article,45,0,0,0,45
+GROUP,2023,Research Article,47,0,0,0,47
+GROUP,2024,Research Article,9,0,0,0,9
+GROUP,2025,Research Article,29,0,0,0,29
+HAI,,,0,149,0,0,149
+HRI,,,0,1,0,0,1
+HRI,2023,Excluded,0,0,54,0,54
+HRI,2023,Research Article,68,0,0,0,68
+HRI,2023,Short Paper,160,0,0,0,160
+HRI,2024,Excluded,0,0,69,0,69
+HRI,2024,Research Article,94,0,0,0,94
+HRI,2024,Short Paper,249,0,0,0,249
+HRI,2026,Excluded,0,0,42,0,42
+HRI,2026,Research Article,139,0,0,0,139
+HRI,2026,Short Paper,262,0,0,0,262
+HSCC,,,0,33,0,0,33
+HT,,,0,121,0,0,121
+ICMI,,,0,48,0,0,48
+ICMI,2022,Research Article,81,0,0,0,81
+ICMI,2022,Short Paper,38,0,0,0,38
+ICMI,2023,Research Article,109,0,0,0,109
+ICMI,2023,Short Paper,51,0,0,0,51
+ICMI,2024,Research Article,12,0,0,0,12
+ICMI,2024,Short Paper,20,0,0,0,20
+ICMI,2025,Research Article,96,0,0,0,96
+ICMI,2025,Short Paper,15,0,0,0,15
+IDC,,,0,236,0,0,236
+IDC,2022,Research Article,42,0,0,0,42
+IDC,2023,Research Article,36,0,0,0,36
+IDC,2024,Research Article,46,0,0,0,46
+IDC,2025,Research Article,47,0,0,0,47
+IHC,,,0,45,0,0,45
+IHM,,,0,46,0,0,46
+IMX,,,0,148,0,0,148
+IMX,2022,Research Article,19,0,0,0,19
+IMX,2023,Research Article,14,0,0,0,14
+IMX,2024,Research Article,26,0,0,0,26
+IMX,2025,Research Article,22,0,0,0,22
+ISPD,,,0,58,0,0,58
+ISS,2022,Research Article,52,0,0,0,52
+ISS,2023,Research Article,48,0,0,0,48
+ISS,2024,Research Article,48,0,0,0,48
+ISS,2025,Research Article,17,0,0,0,17
+IUI,,,0,19,0,0,19
+IUI,2022,Excluded,0,0,40,0,40
+IUI,2022,Research Article,62,0,0,0,62
+IUI,2023,Excluded,0,0,71,0,71
+IUI,2023,Research Article,66,0,0,0,66
+IUI,2024,Excluded,0,0,41,0,41
+IUI,2024,Research Article,61,0,0,0,61
+IUI,2025,Research Article,97,0,0,0,97
+IUI,2026,Excluded,0,0,74,0,74
+IUI,2026,Research Article,113,0,0,0,113
+Interactions,,,0,464,0,0,464
+MobileHCI,2022,Research Article,68,0,0,0,68
+MobileHCI,2023,Research Article,86,0,0,0,86
+MobileHCI,2024,Research Article,89,0,0,0,89
+MobileHCI,2025,Research Article,81,0,0,0,81
+PACM HCI,,,0,1,0,0,1
+PACM HCI - Journal,2022,,438,0,0,0,438
+PACM HCI - Journal,2023,,338,0,0,0,338
+PACM HCI - Journal,2024,,503,0,0,0,503
+PACM HCI - Journal,2025,,496,0,0,0,496
+PACM HCI - Journal,2026,,21,0,0,0,21
+RecSys,2022,Excluded,0,0,70,0,70
+RecSys,2022,Research Article,53,0,0,0,53
+RecSys,2022,Short Paper,13,0,0,0,13
+RecSys,2023,Excluded,0,0,95,0,95
+RecSys,2023,Research Article,63,0,0,0,63
+RecSys,2023,Short Paper,49,0,0,0,49
+RecSys,2024,Excluded,0,0,106,0,106
+RecSys,2024,Research Article,81,0,0,0,81
+RecSys,2024,Short Paper,40,0,0,0,40
+RecSys,2025,Excluded,0,0,135,0,135
+RecSys,2025,Research Article,84,0,0,0,84
+RecSys,2025,Short Paper,33,0,0,0,33
+SCF,2022,Research Article,33,0,0,0,33
+SCF,2023,Research Article,26,0,0,0,26
+SCF,2024,Research Article,23,0,0,0,23
+SCF,2025,Research Article,55,0,0,0,55
+SIGGRAPH,,,0,195,0,0,195
+SUI,,,0,99,0,0,99
+SUI,2022,Research Article,18,0,0,0,18
+SUI,2023,Research Article,44,0,0,0,44
+SUI,2024,Research Article,27,0,0,0,27
+SUI,2025,Research Article,26,0,0,0,26
+TEI,,,0,203,0,0,203
+TEI,2022,Research Article,39,0,0,0,39
+TEI,2022,Short Paper,5,0,0,0,5
+TEI,2023,Research Article,36,0,0,0,36
+TEI,2024,Research Article,53,0,0,0,53
+TEI,2024,Short Paper,7,0,0,0,7
+TEI,2025,Research Article,54,0,0,0,54
+TEI,2025,Short Paper,8,0,0,0,8
+TEI,2026,Research Article,57,0,0,0,57
+UIST,,,115,0,0,0,115
+UIST,2022,,98,0,0,0,98
+UIST,2022,Excluded,0,0,115,0,115
+UIST,2023,,121,0,0,0,121
+UIST,2023,Excluded,0,0,122,0,122
+UIST,2025,,210,0,0,0,210
+UIST,2025,Excluded,0,0,180,0,180
+UMAP,,,54,0,0,0,54
+UMAP,2022,Excluded,0,0,37,0,37
+UMAP,2022,Research Article,53,0,0,0,53
+UMAP,2022,Short Paper,14,0,0,0,14
+UMAP,2023,Excluded,0,0,41,0,41
+UMAP,2023,Research Article,66,0,0,0,66
+UMAP,2024,Excluded,0,0,48,0,48
+UMAP,2024,Research Article,46,0,0,0,46
+UMAP,2024,Short Paper,49,0,0,0,49
+UMAP,2025,Research Article,54,1,0,0,55
+UMAP,2025,Short Paper,39,0,0,0,39
+UbiComp,,,195,8,0,0,203
+UbiComp,2022,,84,0,0,0,84
+UbiComp,2023,,128,0,0,0,128
+UbiComp,2024,,152,0,0,0,152
+UbiComp,2025,,353,0,0,0,353
+UbiComp-IMWUT,2022,,210,0,0,0,210
+UbiComp-IMWUT,2023,,205,0,0,0,205
+UbiComp-IMWUT,2024,,208,0,0,0,208
+UbiComp-IMWUT,2025,,242,0,0,0,242
+UbiComp-IMWUT,2026,,27,0,0,0,27
+VRST,2022,Excluded,0,0,49,0,49
+VRST,2022,Research Article,31,0,0,0,31
+VRST,2022,Short Paper,4,0,0,0,4
+VRST,2023,Excluded,0,0,54,0,54
+VRST,2023,Research Article,39,0,0,0,39
+VRST,2024,Excluded,0,0,57,0,57
+VRST,2024,Research Article,45,0,0,0,45
+VRST,2025,Excluded,0,0,67,0,67
+VRST,2025,Research Article,89,0,0,0,89
+Voices of SIGCHI,,,0,22,0,0,22
+W4A,,,0,27,0,0,27
+e-Energy,,,0,28,0,0,28
+lookup-failed,,,0,2,0,0,2
+non-ACM,,,0,559,0,0,559

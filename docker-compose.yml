@@ -1,0 +1,43 @@
+# Hybrid setup for "Who's Answering CHI?" Stage 2.
+#
+# Default `docker compose up` starts ONLY GROBID — this is what you run during
+# the local extraction batch on a 4-core / 8 GB machine. Postgres lives in the
+# cloud (Neon/RDS), so it is NOT started by default to keep RAM free for GROBID.
+#
+# A local Postgres is available under the "localdb" profile for offline
+# development of the loader:  `docker compose --profile localdb up`
+services:
+  grobid:
+    # CRF image: lightweight, CPU-only. Do NOT use the deep-learning image
+    # (grobid/grobid:*-full) on an 8 GB machine — it needs far more RAM/GPU.
+    image: lfoppiano/grobid:0.8.0
+    container_name: chi_grobid
+    ports:
+      - "8070:8070"
+    environment:
+      # Cap server-side concurrency to match 4 physical cores.
+      - JAVA_OPTS=-Xmx3g
+    ulimits:
+      core: 0
+    restart: unless-stopped
+    # No healthcheck: the GROBID image lacks an in-container HTTP client, so a
+    # curl/wget probe gives false "unhealthy" status. Verify readiness from the
+    # host instead:  curl http://localhost:8070/api/isalive   (returns "true")
+
+  # Optional local Postgres for developing/testing the loader without touching
+  # the cloud DB. Enable with:  docker compose --profile localdb up
+  postgres:
+    image: postgres:16
+    container_name: chi_postgres
+    profiles: ["localdb"]
+    environment:
+      - POSTGRES_USER=chi
+      - POSTGRES_PASSWORD=chi
+      - POSTGRES_DB=whos_answering_chi
+    ports:
+      - "5432:5432"
+    volumes:
+      - chi_pgdata:/var/lib/postgresql/data
+
+volumes:
+  chi_pgdata:

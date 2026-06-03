@@ -1,0 +1,19 @@
+# Core extraction
+pdfplumber>=0.11
+requests>=2.31
+lxml>=5.0
+
+# Validation
+pydantic>=2.6
+
+# Storage (cloud Postgres via Neon/RDS; psycopg is the driver)
+SQLAlchemy>=2.0
+psycopg[binary]>=3.1
+python-dotenv>=1.0
+
+# Optional: LLM heading classifier (only for --heading-classifier llm/hybrid)
+# openai>=1.0        # --llm-provider openai (GPT-4.1-nano)
+# anthropic>=0.39    # --llm-provider anthropic
+
+# Dev / testing
+pytest>=8.0
