@@ -26,7 +26,7 @@ The output is a structured dataset (CSV / JSON), one record per paper, that quan
 | Stage | Status | Description |
 |---|---|---|
 | 1. Corpus assembly | ✓ Complete | ~16,000 papers PDFs downloaded, organized, dual-source validated |
-| 2. PDF → text (GROBID) | Planned | Extract abstract + methods per paper |
+| 2. PDF → text (GROBID) | In Progress | Extract abstract + methods per paper |
 | 3. Regex + NLP detection | Planned | Two parallel tracks classify survey usage |
 | 4. LLM adjudication | Planned | Resolve regex/NLP disagreements |
 | 5. Fraud-method detection | Planned | Same pipeline, second objective |
@@ -203,4 +203,3 @@ Full methodology, including venue-specific decisions (UbiComp = IMWUT, GROUP, IS
 - [ ] **Stage 5** — fraud-detection classification (attention checks, CAPTCHA, IP filtering, platform-native tools)
 - [ ] **Stage 6** — participant-source classification (Prolific, MTurk, CloudResearch, university pools, social media, mailing lists)
 - [ ] **Stage 7** — gold-standard validation on 300 hand-labeled papers
-- [ ] **Stage 8** — public release of structured dataset with cross-platform sub-analyses
