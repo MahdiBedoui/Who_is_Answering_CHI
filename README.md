@@ -192,7 +192,7 @@ The 124 GB PDF corpus is **not** in this repo. Run the downloader against the ke
 - **Track separation** : main proceedings (proc-style DOIs) and journal tracks (PACMHCI ISS / GROUP / MHCI / EICS issues) are reconciled per event year, not per publication year
 - **Type bucketing** : Research Article / Short Paper / `_excluded` mirrors ACM's own ContentItemType taxonomy
 
-Full methodology, including venue-specific decisions (UbiComp = IMWUT, biennial GROUP, ISS 2025 → PACMHCI Vol 9 Issue 8, etc.), is documented in [`Phase 1 - Data Collection/README.md`](Phase%201%20-%20Data%20Collection/README.md) and [`Phase 2 - Text Extraction/README.md`](Phase%202%20-%20Text%20Extraction/README.md).
+Full methodology, including venue-specific decisions (UbiComp = IMWUT, GROUP, ISS 2025 → PACMHCI Vol 9 Issue 8, etc.), is documented in [`Phase 1 - Data Collection/README.md`](Phase%201%20-%20Data%20Collection/README.md) and [`Phase 2 - Text Extraction/README.md`](Phase%202%20-%20Text%20Extraction/README.md).
 
 ## Roadmap
 
