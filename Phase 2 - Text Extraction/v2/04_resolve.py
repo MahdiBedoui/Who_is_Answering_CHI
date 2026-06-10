@@ -3,7 +3,10 @@
 
 Resolution table (docs/EXTRACTION_V2_PLAN.md §4):
   publisher text + >=1 PDF candidate agrees        -> resolved (publisher, high)
-  publisher candidates agree, no PDF agreement     -> resolved (publisher, high, flag pdf_divergent)
+  publisher candidates agree, no PDF agreement     -> resolved (publisher, high,
+                                                      flag pdf_divergent / pdf_unverified)
+  single publisher source, no PDF evidence         -> resolved (publisher, medium,
+                                                      flag single_source_unverified)
   no publisher; >=2 PDF candidates agree           -> resolved (docling-preferred, medium)
   conflict                                         -> needs_adjudication (--adjudicate calls OpenAI)
   nothing                                          -> manual_queue
@@ -105,7 +108,14 @@ def resolve_one(rec: dict, threshold: float) -> dict:
         elif len(pubs) >= 2 and all(agree(pubs[0], s) for s in pubs[1:]):
             res.update(status="resolved", text=texts[best_pub], source=best_pub,
                        confidence="high")
-            res["flags"].append("pdf_divergent")  # text-layer risk list (plan §7)
+            # Distinguish real conflict from absent PDF evidence (API-only runs).
+            res["flags"].append("pdf_divergent" if pdfs else "pdf_unverified")
+        elif len(pubs) == 1 and not pdfs:
+            # Single publisher source, no PDF evidence yet: accept provisionally.
+            # Nothing to adjudicate against; gold set + later PDF passes verify these.
+            res.update(status="resolved", text=texts[best_pub], source=best_pub,
+                       confidence="medium")
+            res["flags"].append("single_source_unverified")
         else:
             res["status"] = "needs_adjudication"
     else:
@@ -114,10 +124,8 @@ def resolve_one(rec: dict, threshold: float) -> dict:
             pick = next((s for s in PDF_PREF if any(s in pair for pair in agreeing)))
             res.update(status="resolved", text=texts[pick], source=pick,
                        confidence="medium")
-        elif len(pdfs) == 1:
-            res["status"] = "needs_adjudication"  # single unverifiable PDF candidate
         else:
-            res["status"] = "needs_adjudication"
+            res["status"] = "needs_adjudication"  # PDF-only conflict or single candidate
 
     res["flags"] += text_flags(res["text"]) if res["text"] else []
     return res
