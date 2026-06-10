@@ -48,13 +48,38 @@ The methods text is the hardest part of the pipeline. There is no single `<metho
 
 ### 5.1 Lexicon + regex classifier
 
-`extract_corpus.py` walks the GROBID section list in document order and applies a heading classifier that uses:
+The heading classifier lives in `src/methods.py` (`classify_headings_regex`); `extract_corpus.py` just calls it. It walks the GROBID section list in document order and tags **every heading** with one of four labels:
 
-- A **methods-family lexicon** : "methodology", "study design", "procedure", "participants", "materials", "apparatus", "data collection", "experimental setup", "study 1", "experiment 1", and so on
-- **Regex patterns** for numbered headings : "3. Method", "3.1 Participants", "Study 1: ..."
-- An **anti-lexicon** for sections that look methodological but are not : "results", "discussion", "related work", "limitations", "future work"
+| Tag | Meaning |
+|---|---|
+| `methods` | a methods-family heading — starts/continues the methods region |
+| `exclude` | results / discussion / back-matter — *ends* the methods region |
+| `front` | introduction / related work / background — leading filler |
+| `other` | unlabeled or ambiguous — kept only if it sits *inside* the methods region |
 
-The first methods-family heading and the next non-methods-family heading bound the methods region. The text between them is sliced verbatim from the TEI.
+Matching is case-insensitive and tolerates a leading section number (the prefix `^\s*(?:\d+(?:\.\d+)*\.?\s*)?`), so `3 Method`, `3.1 Participants`, and `Method` all match. The full HCI-aware lexicons are:
+
+```text
+methods : method(s), methodolog(y|ies), materials and methods, study design,
+          experimental design, research design, procedure(s), participant(s),
+          subject(s), material(s), apparatus, measure(s), stimuli,
+          data collection, data analysis, recruit(ment|ing), survey design,
+          questionnaire, protocol, setup, condition(s), user study,
+          field study | field deployment, evaluation(s), task(s)
+          + "Study N" / "Experiment N" / "Phase N"
+
+exclude : result(s), finding(s), discussion(s), limitation(s), conclusion(s),
+          future work, acknowledge?ment(s), reference(s), bibliography, appendix
+
+front   : introduction, related work, background, motivation, prior work,
+          literature review, abstract
+```
+
+**Region bounds.** The region starts at the first `methods` heading (or, for a paper with none, the first non-`front` section) and ends at the first `exclude` heading after it (or the end of the paper). `methods_heading_found` records whether any `methods` heading existed at all.
+
+The text in that region is sliced **verbatim** from the TEI. An `other` (non-lexicon) subsection sitting inside a methods run — e.g. "Audio Stimuli" or "Hardware and Software" — is kept, so unusually-named methods subsections are not dropped; only a `front` heading interrupts the run.
+
+The pattern lists in `src/methods.py` are the source of truth; the block above is a readable mirror. The default classifier is regex; an LLM or hybrid classifier (`src/heading_classifier.py`) is a drop-in replacement that tags the same headings.
 
 ### 5.2 Two output fields
 
@@ -67,14 +92,15 @@ The wider window protects Stage 3 detectors against classifier under-bounding. B
 
 ### 5.3 Quality flags
 
-When the classifier's confidence is low, the record is flagged for LLM rescue. Triggers include:
+After slicing, `methods_quality_flags` (in `src/methods.py`) runs a set of deterministic, no-LLM checks. Any non-empty result routes the paper to LLM rescue (§6). The flags are:
 
-- No methods-family heading found anywhere in the paper
-- Methods region shorter than 200 characters
-- Methods region longer than 50% of the paper
-- The methods region overlaps the references or appendix
+- `no_methods_heading` — no `methods` heading anywhere in the paper
+- `empty_methods` — the tight slice came out empty
+- `short_methods` — the methods region is under 400 characters (likely truncated by an early "Results" subsection)
+- `caption_leak` — the region begins with a figure/table caption
+- `multi_study_truncation` — the paper has multiple studies ("Study 1 … Study 2 …") but the captured region misses some of them
 
-Flagged papers get `needs_llm_methods: true`. Everything else is considered clean.
+Flagged papers get `needs_llm_methods: true` in the record's `extra` map; everything else is considered clean.
 
 ## 6. LLM rescue (only for flagged papers)
 
@@ -134,9 +160,13 @@ The JSON records are loaded into PostgreSQL via `init_db.py` (creates the schema
 
 ## 10. Scripts at a glance
 
+The runnable entry points live in this folder; the reusable extraction and storage
+logic they import lives in the `src/` package alongside them (`grobid`, `extract`,
+`methods`, `heading_classifier`, `abstract`, `schema`, `models`, `db`, `pdf_fallback`).
+
 | Script | Role |
 |---|---|
-| `extract_paper.py` | Single-PDF prototype with a `pdfplumber` fallback. Used for debugging GROBID issues on individual papers. Not part of the production run. |
+| `extract_paper.py` | Single-PDF debug CLI: a thin wrapper that runs one PDF through the same `src.extract.extract_record` path as the batch, falling back to `src.pdf_fallback` (pdfplumber) only if GROBID is down. Not part of the production run. |
 | `extract_corpus.py` | The production batch script. 14 workers, resumable, circuit-breaker. |
 | `escalate_methods.py` | LLM rescue for papers flagged `needs_llm_methods: true`. |
 | `init_db.py` | Creates the PostgreSQL schema in the Neon database. |

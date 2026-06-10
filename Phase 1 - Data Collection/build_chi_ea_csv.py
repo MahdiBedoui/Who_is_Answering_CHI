@@ -40,4 +40,4 @@ with open(out, "w", newline="", encoding="utf-8") as f:
         w.writerow([d, "CHI-EA", "True"])
 
 print(f"\nWrote {out}  ({len(missing)} rows)")
-print(f"\nNext: py scripts/sigchi_downloader.py --csv {out.relative_to(ROOT)}")
+print(f'\nNext: py "Phase 1 - Data Collection/sigchi_downloader.py" --csv {out.relative_to(ROOT)}')

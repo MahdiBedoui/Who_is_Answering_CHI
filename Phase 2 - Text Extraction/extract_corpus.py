@@ -9,10 +9,10 @@ Designed for a 4-core / 8 GB machine: keep --workers at 2-3 so GROBID (running i
 Docker with a 3 GB heap) is the bottleneck, not your RAM.
 
 Usage:
-    python scripts/extract_corpus.py
-    python scripts/extract_corpus.py --venue CHI --year 2024 --workers 3
-    python scripts/extract_corpus.py --limit 20            # smoke test
-    python scripts/extract_corpus.py --venue CHI --heading-classifier hybrid
+    python "Phase 2 - Text Extraction/extract_corpus.py"
+    python "Phase 2 - Text Extraction/extract_corpus.py" --venue CHI --year 2024 --workers 3
+    python "Phase 2 - Text Extraction/extract_corpus.py" --limit 20            # smoke test
+    python "Phase 2 - Text Extraction/extract_corpus.py" --venue CHI --heading-classifier hybrid
 """
 
 from __future__ import annotations
@@ -26,8 +26,9 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from typing import Dict, List, Optional
 
-# Allow running as `python scripts/extract_corpus.py` from the repo root.
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+# src/ now lives alongside this script (Phase 2 - Text Extraction/src/); put this
+# script's own directory on the path so `from src.X` resolves regardless of cwd.
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from src.extract import extract_record, parse_path_metadata  # noqa: E402
 

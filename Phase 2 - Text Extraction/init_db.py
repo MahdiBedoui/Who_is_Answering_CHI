@@ -2,14 +2,19 @@
 """Create the database schema (tables, indexes, generated columns).
 
 Usage:
-    python scripts/init_db.py        # uses DATABASE_URL from .env
+    python "Phase 2 - Text Extraction/init_db.py"        # uses DATABASE_URL from .env
 """
 
 from __future__ import annotations
 
 import sys
+from pathlib import Path
 
-from src.db import get_engine, init_db
+# src/ lives alongside this script (Phase 2 - Text Extraction/src/); put this
+# script's own directory on the path so `from src.X` resolves regardless of cwd.
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+from src.db import get_engine, init_db  # noqa: E402
 
 
 def main() -> int:

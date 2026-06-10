@@ -1,0 +1,14 @@
+The data files in this repository (DOI keep-lists, venue coverage data, and
+derived metadata under data/) are licensed under the Creative Commons
+Attribution 4.0 International License (CC BY 4.0).
+
+Copyright (c) 2026 Mahdi Bedoui
+
+You are free to share and adapt this data for any purpose, provided you give
+appropriate credit.
+
+Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Note: the underlying papers and their PDFs are NOT part of this repository and
+remain under their respective publishers' copyright (ACM and others). The
+keep-lists contain only DOIs and bibliographic metadata.

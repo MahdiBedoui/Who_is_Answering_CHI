@@ -7,8 +7,8 @@ already in a subfolder are left alone. Run once after switching the extractor to
 the nested output layout, so existing work is found by the resume/skip check.
 
 Usage:
-    python scripts/reorganize_extracted.py                 # migrate data/extracted
-    python scripts/reorganize_extracted.py --dry-run        # show planned moves only
+    python "Phase 2 - Text Extraction/reorganize_extracted.py"                 # migrate data/extracted
+    python "Phase 2 - Text Extraction/reorganize_extracted.py" --dry-run        # show planned moves only
 """
 
 from __future__ import annotations
@@ -20,11 +20,11 @@ import sys
 from pathlib import Path
 from typing import List, Optional
 
-_PTYPE_MAP = {
-    "research article": "Research Article",
-    "short paper": "Short Paper",
-    "_excluded": "_excluded",
-}
+# src/ lives alongside this script (Phase 2 - Text Extraction/src/); put this
+# script's own directory on the path so `from src.X` resolves regardless of cwd.
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+from src.extract import parse_path_metadata  # noqa: E402
 
 
 def log(message: str) -> None:
@@ -37,31 +37,21 @@ def _safe(name: str) -> str:
     return re.sub(r"[^A-Za-z0-9._-]+", "_", str(name)).strip("_") or "unknown"
 
 
-def _meta_from_source(source_pdf_path: str) -> dict:
-    """Derive venue/year/ptype from a stored '.../<venue>/<year>/<type>/file.pdf' path."""
-    venue, year, ptype = "unknown", "unknown", "unknown"
-    parts = re.split(r"[\\/]+", source_pdf_path or "")
-    for i, p in enumerate(parts):
-        if re.fullmatch(r"(?:19|20)\d{2}", p):
-            year = p
-            if i - 1 >= 0:
-                venue = parts[i - 1]
-            if i + 1 < len(parts):
-                ptype = _PTYPE_MAP.get(parts[i + 1].lower(), parts[i + 1])
-            break
-    return {"venue": venue, "year": year, "ptype": ptype}
-
-
 def destination(root: Path, record: dict) -> Optional[Path]:
-    """Compute the nested destination path for a record (None if undetermined)."""
+    """Compute the nested destination path for a record (None if undetermined).
+
+    Prefers the record's stored venue/year/ptype; falls back to deriving them from
+    the corpus `source_pdf_path` via the shared library parser. Returns None (skip)
+    when none of the three can be determined, rather than creating an 'unknown' bucket.
+    """
     venue = record.get("venue") or ""
-    year = record.get("year") or ""
+    year = str(record.get("year") or "")
     ptype = record.get("ptype") or ""
     if not (venue and year and ptype):
-        meta = _meta_from_source(str(record.get("source_pdf_path", "")))
-        venue = venue or meta["venue"]
-        year = year or meta["year"]
-        ptype = ptype or meta["ptype"]
+        meta = parse_path_metadata(record.get("source_pdf_path", ""))
+        venue = venue or (meta["venue"] or "")
+        year = year or (str(meta["year"]) if meta["year"] else "")
+        ptype = ptype or (meta["ptype"] or "")
     if not (venue and year and ptype):
         return None
     return root / _safe(venue) / _safe(str(year)) / _safe(ptype)

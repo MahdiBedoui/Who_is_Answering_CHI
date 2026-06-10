@@ -11,7 +11,7 @@ on disk under sigchi/, write one row to papers.csv with status:
 coverage_summary.csv aggregates totals per venue x year x content_type.
 
 Usage:
-    python scripts/build_manifest.py
+    python "Phase 1 - Data Collection/build_manifest.py"
 """
 from __future__ import annotations
 

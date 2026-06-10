@@ -13,9 +13,9 @@ record keeps an audit trail: extra.methods_source='llm-whole-paper',
 extra.escalated=true, and the pre-escalation methods in extra.methods_pre_escalation.
 
 Usage:
-    python scripts/escalate_methods.py --dry-run        # list what would escalate
-    python scripts/escalate_methods.py --limit 5        # escalate 5 (smoke test)
-    python scripts/escalate_methods.py                  # escalate all flagged
+    python "Phase 2 - Text Extraction/escalate_methods.py" --dry-run        # list what would escalate
+    python "Phase 2 - Text Extraction/escalate_methods.py" --limit 5        # escalate 5 (smoke test)
+    python "Phase 2 - Text Extraction/escalate_methods.py"                  # escalate all flagged
 """
 
 from __future__ import annotations
@@ -27,7 +27,7 @@ import sys
 from pathlib import Path
 from typing import List, Optional
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from lxml import etree  # noqa: E402
 

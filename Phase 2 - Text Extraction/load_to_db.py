@@ -6,8 +6,8 @@ UPSERTs into the `papers` table (insert-or-update on DOI). Idempotent: re-runnin
 refreshes existing rows rather than duplicating them.
 
 Usage:
-    python scripts/load_to_db.py                       # loads data/extracted/*.json
-    python scripts/load_to_db.py --input-dir data/extracted --batch 500
+    python "Phase 2 - Text Extraction/load_to_db.py"                       # loads data/extracted/*.json
+    python "Phase 2 - Text Extraction/load_to_db.py" --input-dir data/extracted --batch 500
 """
 
 from __future__ import annotations
@@ -18,7 +18,7 @@ import sys
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from pydantic import ValidationError  # noqa: E402
 from sqlalchemy.dialects.postgresql import insert as pg_insert  # noqa: E402

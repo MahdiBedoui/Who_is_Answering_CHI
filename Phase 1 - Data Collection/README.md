@@ -69,7 +69,7 @@ These keep-lists are the canonical record of what should be in the corpus. The d
 
 ## 3. PDF acquisition
 
-The actual PDFs were downloaded by `scripts/sigchi_downloader.py`, which reads a CSV of DOIs and uses a Chrome browser session to fetch each one.
+The actual PDFs were downloaded by `Phase 1 - Data Collection/sigchi_downloader.py`, which reads a CSV of DOIs and uses a Chrome browser session to fetch each one.
 
 ### 3.1 Why Chrome, not requests
 
@@ -121,7 +121,7 @@ Year-then-type, rather than type-then-year, was chosen because:
 
 ## 5. Cross-source validation
 
-Every venue × year combination was validated against **two independent bibliographic sources**: Crossref and OpenAlex. The validator (`scripts/validate_count.py`) issues queries to both APIs with the same filter and reports:
+Every venue × year combination was validated against **two independent bibliographic sources**: Crossref and OpenAlex. The validator (`Phase 1 - Data Collection/validate_count.py`) issues queries to both APIs with the same filter and reports:
 
 - Total matches from Crossref
 - Total matches from OpenAlex
@@ -149,20 +149,20 @@ cd "Who's Answering CHI"
 pip install -r requirements.txt
 
 # 3. For each venue you want to download, edit the venue/year in
-#    scripts/sigchi_downloader.py's CSV input and run:
-python scripts/sigchi_downloader.py --csv data/downloads/<venue>_missing.csv
+#    "Phase 1 - Data Collection/sigchi_downloader.py"'s CSV input and run:
+python "Phase 1 - Data Collection/sigchi_downloader.py" --csv data/downloads/<venue>_missing.csv
 
 # 4. Organize by year (edit VENUE at the top of the script first)
-python scripts/organize_by_year.py
+python "Phase 1 - Data Collection/organize_by_year.py"
 
 # 5. Organize by content type (edit VENUE, KEEP_DIR, RA_FILE, SHORT_FILE)
-python scripts/organize_by_type.py
+python "Phase 1 - Data Collection/organize_by_type.py"
 
 # 6. Validate against both sources
-python scripts/validate_count.py --issn 2573-0142 --year 2024 --issue ISS
+python "Phase 1 - Data Collection/validate_count.py" --issn 2573-0142 --year 2024 --issue ISS
 
 # 7. Rebuild the contributor-facing manifest
-python scripts/build_manifest.py
+python "Phase 1 - Data Collection/build_manifest.py"
 ```
 
 Chrome must be installed and logged in to `dl.acm.org` (with valid institutional access) for step 3 to succeed. The full corpus is ~130 GB.

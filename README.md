@@ -26,7 +26,7 @@ The output is a structured dataset (CSV / JSON), one record per paper, that quan
 | Stage | Status | Description |
 |---|---|---|
 | 1. Corpus assembly | ✓ Complete | ~16,000 papers PDFs downloaded, organized, dual-source validated |
-| 2. PDF → text (GROBID) | Planned | Extract abstract + methods per paper |
+| 2. PDF → text (GROBID) | ⏳ In progress | Extract abstract + methods per paper |
 | 3. Regex + NLP detection | Planned | Two parallel tracks classify survey usage |
 | 4. LLM adjudication | Planned | Resolve regex/NLP disagreements |
 | 5. Fraud-method detection | Planned | Same pipeline, second objective |
@@ -144,11 +144,26 @@ Pipeline is run **three times**: first for online-survey detection (Obj 1), then
 │   └── README.md                      # Phase 1 methodology (corpus build + validation)
 ├── Phase 2 - Text Extraction/     # PDF → structured JSON code
 │   ├── extract_corpus.py              # Production GROBID batch (resumable, 14 workers)
-│   ├── extract_paper.py               # Single-PDF prototype (pdfplumber fallback)
+│   ├── extract_paper.py               # Single-PDF debug CLI (thin wrapper over src/)
 │   ├── escalate_methods.py            # LLM rescue for low-confidence methods
 │   ├── init_db.py                     # Create PostgreSQL schema
 │   ├── load_to_db.py                  # Load JSON records into Postgres
 │   ├── reorganize_extracted.py        # Maintenance: reshape data/extracted/
+│   ├── qa_report.py                   # Extraction QA: coverage + quality stats
+│   ├── review_abstracts.py            # Manual review CLI for extracted abstracts
+│   ├── compare_grobid_models.py       # A/B compare GROBID model variants
+│   ├── fix_abstracts_experiment.py    # Experiment: re-extract failing abstracts
+│   ├── docling_abstract_experiment.py # Experiment: Docling as abstract fallback
+│   ├── src/                           # Phase 2 library package (imported by the scripts above)
+│   │   ├── grobid.py                      # GROBID REST client (PDF → TEI XML)
+│   │   ├── extract.py                     # Per-paper PDF → validated record orchestration
+│   │   ├── methods.py                     # Methods-section isolation from TEI
+│   │   ├── heading_classifier.py          # Regex / LLM / hybrid heading classifiers
+│   │   ├── abstract.py                    # OpenAlex-primary abstract selection
+│   │   ├── schema.py                      # Pydantic record contract
+│   │   ├── models.py                      # SQLAlchemy ORM (papers table)
+│   │   ├── db.py                          # Engine/session + schema creation
+│   │   └── pdf_fallback.py                # pdfplumber heuristic fallback (debug CLI only)
 │   └── README.md                      # Phase 2 methodology (extraction pipeline)
 ├── data/
 │   ├── keep_lists/<venue>/        # Per-venue, per-year DOI lists (canonical record)
@@ -159,7 +174,6 @@ Pipeline is run **three times**: first for online-survey detection (Obj 1), then
 ├── .gitignore                     # Excludes the 124 GB PDF corpus and local-only files
 ├── LICENSE                        # MIT (code)
 ├── LICENSE-DATA                   # CC-BY-4.0 (DOI keep-lists, coverage data)
-├── sigchi/                        # PDF corpus (gitignored — ~124 GB local-only)
 └── README.md                      # You are here
 ```
 
@@ -185,6 +199,16 @@ python "Phase 1 - Data Collection/organize_by_type.py"
 
 The 124 GB PDF corpus is **not** in this repo. Run the downloader against the keep-lists in `data/keep_lists/` to reconstruct it locally.
 
+### Local data store
+
+Large local-only artifacts (the `sigchi/` PDF corpus, `data/extracted_cloud/` extraction outputs, caches) live in a separate data-store folder outside the repo. Every script takes its data location as a CLI flag, so point them there explicitly, e.g.:
+
+```bash
+DATA_STORE="../Who's Answering CHI"   # adjust to your local path
+python "Phase 2 - Text Extraction/extract_corpus.py" --corpus-root "$DATA_STORE/sigchi/VERIFIED COUNT"
+python "Phase 2 - Text Extraction/qa_report.py"      --input-dir   "$DATA_STORE/data/extracted_cloud"
+```
+
 ## Methodology highlights
 
 - **Dual-source validation** : every paper count is confirmed by both Crossref *and* OpenAlex (see `Phase 1 - Data Collection/validate_count.py`)
@@ -192,15 +216,4 @@ The 124 GB PDF corpus is **not** in this repo. Run the downloader against the ke
 - **Track separation** : main proceedings (proc-style DOIs) and journal tracks (PACMHCI ISS / GROUP / MHCI / EICS issues) are reconciled per event year, not per publication year
 - **Type bucketing** : Research Article / Short Paper / `_excluded` mirrors ACM's own ContentItemType taxonomy
 
-Full methodology, including venue-specific decisions (UbiComp = IMWUT, biennial GROUP, ISS 2025 → PACMHCI Vol 9 Issue 8, etc.), is documented in [`Phase 1 - Data Collection/README.md`](Phase%201%20-%20Data%20Collection/README.md) and [`Phase 2 - Text Extraction/README.md`](Phase%202%20-%20Text%20Extraction/README.md).
-
-## Roadmap
-
-- [x] **Stage 1** — corpus assembly + dual-source validation *(complete)*
-- [ ] **Stage 2** — GROBID pipeline for abstract + methods extraction
-- [ ] **Stage 3** — regex + NLP classifiers for online-survey detection
-- [ ] **Stage 4** — LLM adjudication on disagreements
-- [ ] **Stage 5** — fraud-detection classification (attention checks, CAPTCHA, IP filtering, platform-native tools)
-- [ ] **Stage 6** — participant-source classification (Prolific, MTurk, CloudResearch, university pools, social media, mailing lists)
-- [ ] **Stage 7** — gold-standard validation on 300 hand-labeled papers
-- [ ] **Stage 8** — public release of structured dataset with cross-platform sub-analyses
+Full methodology, including venue-specific de

@@ -6,10 +6,10 @@ content type. Pulls N random DOIs from a keep-list (or per-year files for a
 venue) and prints title / year / container / event / page count side by side.
 
 Usage:
-    python scripts/spot_check.py --keep-list data/keep_lists/chi/chi24_ra.txt --n 5
-    python scripts/spot_check.py --venue chi --n 3
-    python scripts/spot_check.py --doi 10.1145/3613904.3641887
-    python scripts/spot_check.py --keep-list <file> --n 5 --show issue volume
+    python "Phase 1 - Data Collection/spot_check.py" --keep-list data/keep_lists/chi/chi24_ra.txt --n 5
+    python "Phase 1 - Data Collection/spot_check.py" --venue chi --n 3
+    python "Phase 1 - Data Collection/spot_check.py" --doi 10.1145/3613904.3641887
+    python "Phase 1 - Data Collection/spot_check.py" --keep-list <file> --n 5 --show issue volume
 """
 from __future__ import annotations
 
