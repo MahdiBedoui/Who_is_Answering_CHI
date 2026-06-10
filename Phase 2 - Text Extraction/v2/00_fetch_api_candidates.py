@@ -85,6 +85,10 @@ def main() -> None:
 
     ds = config.data_store(args.data_store)
     section_dir = config.sections_dir(ds, "abstracts")
+    print(f"Data store : {ds}", flush=True)
+    print(f"Corpus     : {config.corpus_root(ds)} ({args.venue} {args.years})", flush=True)
+    print(f"Records    : {section_dir}", flush=True)
+    print("Fetching (resumable; Ctrl+C any time, rerun to continue)...", flush=True)
     fetchers = {
         "openalex": lambda doi: fetch_openalex(doi),
         "crossref": lambda doi: fetch_crossref(doi),
@@ -121,8 +125,11 @@ def main() -> None:
             time.sleep(args.sleep)
         if dirty:
             save_record(section_dir, paper, rec)
-        if n % 200 == 0:
-            print(f"...{n} papers", file=sys.stderr)
+        if n % 25 == 0:
+            oa = stats["openalex"]
+            print(f"  [{n}] {paper.year} {paper.doi}  "
+                  f"(openalex ok={oa['ok']} empty={oa['empty']} skipped={oa['skipped']})",
+                  flush=True)
 
     print(f"\nProcessed {min(n, args.limit) if args.limit else n} papers")
     for s, c in stats.items():
