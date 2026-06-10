@@ -66,6 +66,8 @@ def main() -> None:
     ap.add_argument("--data-store", default=os.environ.get("WAC_DATA_STORE"),
                     help="Path to the 'Who's Answering CHI' data folder.")
     ap.add_argument("--years", type=int, nargs="*", default=[2022, 2023, 2024, 2025, 2026])
+    ap.add_argument("--fresh", action="store_true",
+                    help="Ignore saved answers AND the existing CSV; re-query OpenAlex live.")
     args = ap.parse_args()
     if not args.data_store:
         sys.exit("Pass --data-store or set WAC_DATA_STORE.")
@@ -73,6 +75,10 @@ def main() -> None:
     corpus = ds / "sigchi" / "VERIFIED COUNT" / "CHI"
     out = ds / "data" / "openalex" / "abstracts_openalex.csv"
     out.parent.mkdir(parents=True, exist_ok=True)
+
+    if args.fresh and out.exists():
+        out.rename(out.with_suffix(".csv.bak"))  # keep the old one, never delete
+        print(f"--fresh: previous CSV moved to {out.name}.bak")
 
     # already-done DOIs (resume)
     done = set()
@@ -99,7 +105,7 @@ def main() -> None:
                     doi = doi_from_stem(pdf.stem)
                     if doi in done:
                         continue
-                    abstract = reuse_earlier_fetch(ds, year, pdf.stem)
+                    abstract = None if args.fresh else reuse_earlier_fetch(ds, year, pdf.stem)
                     if abstract is None:
                         try:
                             abstract = fetch_openalex_abstract(doi)
