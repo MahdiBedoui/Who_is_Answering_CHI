@@ -66,10 +66,18 @@ def main() -> None:
     p = argparse.ArgumentParser(description=__doc__)
     config.add_common_args(p)
     p.add_argument("--force", action="store_true")
+    p.add_argument("--gap-only", action="store_true",
+                   help="Process only papers NOT yet resolved in the abstracts records.")
     p.add_argument("--skip", nargs="*", default=[], choices=list(config.PDF_SOURCES))
     args = p.parse_args()
 
     ds = config.data_store(args.data_store)
+    _skip_keys = set()
+    if args.gap_only:
+        from lib.records import resolved_keys
+        _skip_keys = resolved_keys(config.sections_dir(ds, 'abstracts'),
+                                   args.venue, args.years)
+        print(f'--gap-only: skipping {len(_skip_keys)} already-resolved papers', flush=True)
     section_dir = config.sections_dir(ds, "abstracts")
     tei_root, docling_root = config.tei_dir(ds), config.docling_dir(ds)
 
@@ -85,6 +93,8 @@ def main() -> None:
         n += 1
         if args.limit and n > args.limit:
             break
+        if paper.key in _skip_keys:
+            continue
         rec = load_or_new(section_dir, paper)
         dirty = False
         for source in config.PDF_SOURCES:

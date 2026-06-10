@@ -103,3 +103,14 @@ def iter_records(section_dir: Path, venue: str, years) -> Iterator[dict]:
             rec = load_record(f)
             if rec:
                 yield rec
+
+
+def resolved_keys(section_dir: Path, venue: str, years) -> set:
+    """Keys already resolved (resolved / llm_adjudicated). Everything else -- including
+    papers with no record at all -- is part of the gap."""
+    keys = set()
+    for rec in iter_records(section_dir, venue, years):
+        status = (rec.get("resolution") or {}).get("status")
+        if status in ("resolved", "llm_adjudicated"):
+            keys.add(rec["key"])
+    return keys

@@ -46,15 +46,25 @@ def main() -> None:
     p.add_argument("--grobid-url", default="http://localhost:8070")
     p.add_argument("--workers", type=int, default=8)
     p.add_argument("--force", action="store_true")
+    p.add_argument("--gap-only", action="store_true",
+                   help="Process only papers NOT yet resolved in the abstracts records.")
     args = p.parse_args()
 
     ds = config.data_store(args.data_store)
+    _skip_keys = set()
+    if args.gap_only:
+        from lib.records import resolved_keys
+        _skip_keys = resolved_keys(config.sections_dir(ds, 'abstracts'),
+                                   args.venue, args.years)
+        print(f'--gap-only: skipping {len(_skip_keys)} already-resolved papers', flush=True)
     tei_root = config.tei_dir(ds)
 
     todo, skipped = [], 0
     for n, paper in enumerate(iter_corpus(config.corpus_root(ds), args.venue, args.years), 1):
         if args.limit and n > args.limit:
             break
+        if paper.key in _skip_keys:
+            continue
         out = tei_path(tei_root, paper)
         if not args.force and out.exists() and out.stat().st_size > 0:
             skipped += 1
