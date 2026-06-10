@@ -133,6 +133,8 @@ def main() -> None:
     stats = {s: {"ok": 0, "not_found": 0, "empty": 0, "error": 0, "skipped": 0}
              for s in config.API_SOURCES}
     stats_lock = threading.Lock()
+    consec_429 = {s: 0 for s in config.API_SOURCES}
+    MAX_CONSEC_429 = 25  # after this many consecutive 429s, drop the source for this run
     done = 0
 
     def process(paper):
@@ -147,15 +149,25 @@ def main() -> None:
             try:
                 raw, status = fetchers[source](paper.doi)
             except Exception as exc:  # transient -> retried next run
-                print(f"  [{source}] {paper.doi}: {exc}", file=sys.stderr, flush=True)
                 with stats_lock:
                     stats[source]["error"] += 1
+                    if "429" in str(exc):
+                        consec_429[source] += 1
+                        if consec_429[source] == MAX_CONSEC_429 and source in active:
+                            active.remove(source)
+                            print(f"NOTE: {source} rate-limited {MAX_CONSEC_429}x in a row "
+                                  "-- disabled for the rest of this run. Its papers stay "
+                                  "pending; rerun later (ideally with an API key) to backfill.",
+                                  flush=True)
+                    else:
+                        print(f"  [{source}] {paper.doi}: {exc}", file=sys.stderr, flush=True)
                 continue
             text, repairs = clean_stored(raw, pdf_derived=False)
             if status == "ok" and not text:
                 status = "empty"
             set_candidate(rec, source, text, status, repairs, raw_len=len(raw))
             with stats_lock:
+                consec_429[source] = 0
                 key = status if status in ("ok", "not_found", "empty") else "error"
                 stats[source][key] += 1
             dirty = True
