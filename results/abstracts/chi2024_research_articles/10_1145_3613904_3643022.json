@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3613904.3643022",
+ "year": 2024,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T01:14:51+00:00",
+ "text": "Data storytelling (DS) is rapidly gaining attention as an approach that integrates data, visuals, and narratives to create data stories that can help a particular audience to comprehend the key messages underscored by the data with enhanced efficiency and effectiveness. It is been posited that DS can be especially advantageous for audiences with limited visualisation literacy, by presenting the data clearly and concisely. However, empirical studies confirming whether data stories indeed provide these benefits over conventional data visualisations are scarce. To bridge this gap, we conducted a study with 103 participants to determine whether DS indeed improve both efficiency and effectiveness in tasks related to information retrieval and insights comprehension. Our findings suggest that data stories do improve the efficiency of comprehension tasks, as well as the effectiveness of comprehension tasks that involve a single insight, compared with conventional visualisations. Interestingly, these benefits were not associated with participants’ visualisation literacy."
+}

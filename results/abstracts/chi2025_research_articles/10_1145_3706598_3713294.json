@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3706598.3713294",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T01:15:17+00:00",
+ "text": "Record soundsTrain personalized model Iteratively test Figure 1: Overview of the SPECTRA pipeline.In an interactive machine learning training workfow, users collect audio data samples (left), flter their data into a training dataset (center), and assess their model's performance in a live environment (right).The design includes key elements to support the needs of DHH users during this process, including spectrogram and waveform audio visualizations of audio, data annotating to save useful contextual information, and an interactive clustering visualization of their dataset."
+}

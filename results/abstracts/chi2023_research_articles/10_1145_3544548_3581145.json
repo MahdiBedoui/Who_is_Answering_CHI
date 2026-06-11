@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3544548.3581145",
+ "year": 2023,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T01:14:07+00:00",
+ "text": "Conversational agents are emerging as channels for a natural and accessible interaction with digital services. Their benefits span across a wide range of usage scenarios and address visual impairments and any situational impairments that may take advantage of voice-based interactions. A few works highlighted the potential and the feasibility of adopting conversational agents for making the Web truly accessible for everyone. Yet, there is still a lack of concrete guidance in designing conversational experiences for browsing the Web. This paper illustrates a human-centered process that involved 26 blind and visually impaired people to investigate their difficulties when using assistive technology for accessing the Web, and their attitudes and preferences on adopting conversational agents. In response to the identified challenges, the paper introduces patterns for conversational Web browsing. It also discusses design implications that can promote Conversational AI as a technology to enhance Web accessibility."
+}

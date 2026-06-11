@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3706598.3713661",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T01:15:19+00:00",
+ "text": "Unsustainable behaviors are challenging to prevent due to their long-term, often unclear consequences. Serious games offer a promising solution by creating artificial environments where players can immediately experience the outcomes of their actions. To explore this potential, we developed EcoEcho, a GenAI-powered game leveraging multimodal agents to raise sustainability awareness. These agents engage players in natural conversations, prompting them to take in-game actions that lead to visible environmental impacts. We evaluated EcoEcho using a mixed-methods approach with 23 participants. Results show a significant increase in intended sustainable behaviors post-game, although attitudes towards sustainability had only marginal effects, suggesting that in-game actions likely can motivate intended real world behaviors despite similar opinions on sustainability. This finding highlights multimodal agents and action-consequence mechanics to effectively raising sustainability awareness and the potential of motivating real-world behavioral change. © 2025 Copyright held by the owner/author(s)."
+}

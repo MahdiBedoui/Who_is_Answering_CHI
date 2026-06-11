@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3706598.3713781",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T01:15:19+00:00",
+ "text": "Constant-and Dual-Threshold Dwell keyboards (CTD and DTD) (b) Multi-Threshold Dwell keyboard (MTD) Figure 1: We compared three keyboard designs: (a) The conventional Constant-Threshold Dwell (CTD) keyboard uses a single dwell threshold of 450 ms.The Dual-Threshold Dwell (DTD) keyboard reduces the dwell threshold for the first selection of a letter to 300 ms but increases the threshold to 500 ms for immediately following selections of that same letter, avoiding unintentional \"double clicks\" of the same letter.(b) The Multi-Threshold Dwell (MTD) keyboard additionally uses a third, further reduced, dwell threshold of 200 ms for up to three letters that are likely next targets.These keys are highlighted and enlarged.The spacebar is also assigned an even shorter threshold of 100 ms."
+}

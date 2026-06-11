@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3544548.3580637",
+ "year": 2023,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T01:14:04+00:00",
+ "text": "Legitimate interest is one of the six grounds for processing data under the European Union’s General Data Protection Regulation (GDPR). The flexibility and ambiguity of the term \"legitimate interests\" can be problematic; coupled with the lack of enforcement from legal authorities and different interpretations from the various data protection authorities, legitimate interests can be taken advantage of as a loophole to collect more user data."
+}

@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3613904.3642271",
+ "year": 2024,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T01:14:47+00:00",
+ "text": "People are increasingly using their smartphones to 3D scan objects and landmarks. On one hand, users have intrinsic motivations to scan well, i.e. keeping the object in-frame while walking around it to achieve coverage. On the other, users can lose interest when filming inanimate objects, and feel rushed and uncertain of their progress when watching their step in public, seeking to avoid attention."
+}

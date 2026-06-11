@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3706598.3713083",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T01:15:15+00:00",
+ "text": "With the recent advancements in Large Language Models (LLMs), web developers increasingly apply their code-generation capabilities to website design. However, since these models are trained on existing designerly knowledge, they may inadvertently replicate bad or even illegal practices, especially deceptive designs (DD). This paper examines whether users can accidentally create DD for a fictitious webshop using GPT-4. We recruited 20 participants, asking them to use ChatGPT to generate functionalities (product overview or checkout) and then modify these using neutral prompts to meet a business goal (e.g., “increase the likelihood of us selling our product”). We found that all 20 generated websites contained at least one DD pattern (mean: 5, max: 9), with GPT-4 providing no warnings. When reflecting on the designs, only 4 participants expressed concerns, while most considered the outcomes satisfactory and not morally problematic, despite the potential ethical and legal implications for end-users and those adopting ChatGPT’s recommendations."
+}

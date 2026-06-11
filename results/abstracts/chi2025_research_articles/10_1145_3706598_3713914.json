@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3706598.3713914",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T01:15:20+00:00",
+ "text": "types (Container Transform, Panels), and compared them to a baseline.We found that transitions with a standard duration did not impact the discovery of swipe-related widgets (N=33).We ran a follow-up study (N=22) with extremely slow 5000ms transitions to guarantee noticeability, but similarly found no impact on discovery of swipe-revealed widgets, diverging from previous findings for visual signifiers.This raises interesting questions about the perception and understanding of interaction signifiers, and indicates a disconnect between noticeability and discoverability, while highlighting difficulties with adapting established interface elements beyond their entrenched functionality."
+}

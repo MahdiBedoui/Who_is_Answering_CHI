@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3706598.3713928",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T01:15:20+00:00",
+ "text": "Figure 1: Interaction flow of PrivCAP: (a) PrivCAP automatically extracts key information from the app's privacy policy, grouping them into information categories and presents them as a CAPTCHA during app registration.(b) Users click on orange chunks that represent personal information collection.As they interact, new chunks appear, allowing users to simultaneously learn about the app's privacy policy.(c) Once all orange chunks are clicked, the interaction on the current page is complete, directing users to a new page featuring the next information category."
+}

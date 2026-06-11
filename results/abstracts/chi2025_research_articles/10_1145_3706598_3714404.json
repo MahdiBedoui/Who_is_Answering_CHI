@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3706598.3714404",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T01:15:23+00:00",
+ "text": "Computational intelligence is increasingly common in interactive systems in many domains, including health. Health coaching with conversational agents (CA) can reach wide populations, but the level of computational intelligence needed for a positive coaching experience is unclear. We conducted a study with sixteen individuals with diabetes and prediabetes who used a CA for health coaching, T2 Coach. Qualitative interviews revealed that participants saw T2 Coach as reliable in helping them stay on track with self-management, appreciated the flexibility in choosing personally meaningful goals and engaging on their own terms, and felt it provided encouragement and even compared it favorably with human coaches. However, they also noted that coaching experience could be improved with more fluid conversations, more tailoring to their personal preferences and lifestyles, and more sensitivity to specific contexts, all of which require more computational intelligence. We discuss implications and design directions for more intelligent coaching CA in health."
+}

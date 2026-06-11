@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3706598.3713549",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T01:15:18+00:00",
+ "text": "Despite HCI research emphasizing the direct involvement of racial minorities in technology design, Black patients have been notably excluded when designing virtual patients intended to represent them in healthcare training applications.To address this gap, this paper describes an iterative user-centered design process to create a virtual patient prototype (EQUITY) that authentically refects realworld racially biased encounters using narratives of Black patients' lived experiences.EQUITY was developed using insights gathered from 6 focus groups with 33 Black patients (Study 1).EQUITY was evaluated with 25 doctors to assess its efectiveness in inducing disorienting experiences and facilitating self-refection (Study 2).Findings suggest that incorporating patient narratives, particularly through virtual patients' verbal and non-verbal behaviors and roleplaying, signifcantly enhanced virtual patient's authenticity and meaningful self-refection among doctors.Our research contributes to HCI by identifying key virtual patient interface design features that align with Black patients' lived experiences of racially biased encounters."
+}

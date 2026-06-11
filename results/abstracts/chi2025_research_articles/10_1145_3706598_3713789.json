@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3706598.3713789",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T01:15:19+00:00",
+ "text": "Although the literature on Human-Computer Interaction (HCI) catalogues many theories, it offers surprisingly few tools for theorising.This paper critiques dominant approaches to engaging with theory and proposes a working model for theorising in HCI.We then present graphical causal modelling as an effective theorising tool.This includes a step-by-step guide to building causal models and examples of their use in different stages of the research process.We explain how causal models help develop method-agnostic representations of research problems using directed acyclic graphs, identify potential confounders, and construct alternative interpretations of data.Finally, we discuss their limitations and challenges for adoption by the HCI community."
+}

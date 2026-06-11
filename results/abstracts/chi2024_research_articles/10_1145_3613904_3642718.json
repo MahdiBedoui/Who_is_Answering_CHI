@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3613904.3642718",
+ "year": 2024,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T01:14:49+00:00",
+ "text": "We present EcoThreads, a sustainable e-textile prototyping approach for fabricating biodegradable functional threads. We synthesized two thread-based fabrication methods, wet spinning and thread coating, to fabricate functional threads from biomaterials or modify natural fiber to achieve conductive or interactive functionality. We built a wet spinning tool from a modified DIY syringe pump to spin biodegradable conductive threads. The conductive and interactive threads can be further integrated into textiles through weaving, knitting, embroidery, and braiding. We conducted a workshop study inviting e-textile practitioners to use the materials to fabricate e-textile swatches for transient use cases. The EcoThreads approach presents a path for individual creators to incorporate biodegradable material choices toward sustainable e-textile practices."
+}

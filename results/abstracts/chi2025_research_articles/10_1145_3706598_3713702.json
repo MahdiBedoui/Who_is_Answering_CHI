@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3706598.3713702",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T01:15:19+00:00",
+ "text": "As HCI research turns to women's reproductive health as a topic of interest, an increasing number of female-oriented technologies (FemTech) are being marketed to consumers.This opens up a space for better management and understanding of intimate health but is not without risk.Reproductive health data collected by FemTech devices is highly sensitive and politicized.Breaches of privacy can cause or exacerbate discrimination and gender inequality, and negatively impact users' safety and well-being.It is therefore important that users are well informed about how their data is collected, handled, used and stored.This work contributes insights into whether and to what extent this is achieved by current FemTech.We conduct a structured content analysis of 18 in-effect privacy policies.Applying an empirically-grounded taxonomy, we identify challenges in policy wording, content and presentation.We conclude with recommendations for improving transparency and supporting users in providing informed consent and claiming data authority."
+}

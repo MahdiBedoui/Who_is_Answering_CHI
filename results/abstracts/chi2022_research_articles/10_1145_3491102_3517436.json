@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3491102.3517436",
+ "year": 2022,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T01:10:48+00:00",
+ "text": "Tactile maps can help people who are blind or have low-vision navigate and familiarize themselves with unfamiliar locations. Ideally, tactile maps can be customized to an individual’s unique needs and abilities because of their limited space for representation. We present Maptimizer, a tool that generates tactile maps based on users’ preferences and requirements. Maptimizer uses a two stage optimization process to pair representations with geographic information and tune those representations to present that information more clearly. In a small user study, Maptimizer helped participants more successfully and efficiently identify locations of interest in unknown areas. These results demonstrate the utility of optimization techniques and generative design in complex accessibility domains."
+}

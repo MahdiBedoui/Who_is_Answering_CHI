@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3706598.3713295",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T01:15:17+00:00",
+ "text": "ExtendAI makes plan for action extends user's plan by embedding feedback makes sense of plan containing AI's feedback makes final decision RecommendAI makes sense of AI's suggestions makes suggestion for action makes final decision Figure 1: Illustrative comparison of the thought process when interacting with two 'types' of AI -RecommendAI and ExtendAI."
+}

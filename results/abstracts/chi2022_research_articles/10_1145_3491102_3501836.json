@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3491102.3501836",
+ "year": 2022,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T01:10:47+00:00",
+ "text": "Figure 1: Our AsyncReality system volumetrically captures physical events and allows immersed users to experience those events in an asynchronous yet causally-accurate manner. (1) The user is immersed inside a virtual replica of his real ofce and uses his physical mouse and keyboard to interact with virtual displays. (2) A coworker enters the room and leaves a spoken message while placing an object on the table, but the user had activated Focus Mode, so AsyncReality conceals any visual and auditory sensations from him. (3) After he completes his task, he discovers an artifact on the table and approaches it, which (4) triggers the playback of the captured event. (5) When the playback fnishes, the user can interact with the real object."
+}

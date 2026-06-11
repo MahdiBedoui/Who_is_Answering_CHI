@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3706598.3713423",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T01:15:17+00:00",
+ "text": "Traditional AI-assisted decision-making systems often provide fixed recommendations that users must either accept or reject entirely, limiting meaningful interaction - especially in cases of disagreement. To address this, we introduce Human-AI Deliberation, an approach inspired by human deliberation theories that enables dimension-level opinion elicitation, iterative decision updates, and structured discussions between humans and AI. At the core of this approach is Deliberative AI, an assistant powered by large language models (LLMs) that facilitates flexible, conversational interactions and precise information exchange with domain-specific models. Through a mixed-methods user study, we found that Deliberative AI outperforms traditional explainable AI (XAI) systems by fostering appropriate human reliance and improving task performance. By analyzing participant perceptions, user experience, and open-ended feedback, we highlight key findings, discuss potential concerns, and explore the broader applicability of this approach for future AI-assisted decision-making systems."
+}

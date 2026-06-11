@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3613904.3642531",
+ "year": 2024,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T01:14:48+00:00",
+ "text": "Many call for algorithmic systems to be more transparent, yet it is often unclear for designers how to do so in practice. Standards are emerging that aim to support designers in building transparent systems, e.g by setting testable transparency levels, but their efficacy in this regard is not yet understood. In this paper, we use the ‘Standard for Transparency of Autonomous Systems’ (IEEE 7001) to explore designers’ understanding of algorithmic system transparency, and the degree to which their perspectives align with the standard’s recommendations. Our mixed-method study reveals participants consider transparency important, difficult to implement, and welcome support. However, despite IEEE 7001’s potential, many did not find its recommendations particularly appropriate. Given the importance and increased attention on transparency, and because standards like this purport to guide system design, our findings reveal the need for ‘bridging the gap’, through (i) raising designers’ awareness about the importance of algorithmic system transparency, alongside (ii) better engagement between stakeholders (i.e. standards bodies, designers, users). We further identify opportunities towards developing transparency best practices, as means to help drive more responsible systems going forward."
+}

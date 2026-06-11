@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3706598.3714072",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T01:15:21+00:00",
+ "text": "HCI research on goals and behavior change has significantly increased over the past decade.However, while emerging work has synthesized personal informatics goals, fewer efforts have focused on also integrating HCI research on behavior change to chart future research directions.We conducted a systematic review of 180 papers focused on goals and behavior change from over 10 years of SIGCHI journals and conference proceedings.We further analyzed 37 papers from the data set that included evaluations of interventions' effectiveness in-the-wild.We also reported on the effectiveness of 76 of such technology-based interventions and the meta-analysis of 28 of these interventions.We find that most research has focused on goals in the health and wellbeing domains, centered on the individual, low intrinsic goals, and partial use of theoretical constructs in technology-based interventions.We highlight opportunities for supporting multiple-domain, social, high intrinsic, and qualitative goals in HCI research for behavior change, and for more effective technology-based interventions with stronger theoretical underpinning, supporting users' awareness of deep motives for qualitative goals."
+}

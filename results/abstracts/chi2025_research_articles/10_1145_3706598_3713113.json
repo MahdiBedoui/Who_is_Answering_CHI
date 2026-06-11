@@ -1,0 +1,10 @@
+{
+ "doi": "10.1145/3706598.3713113",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "pdf",
+ "fetched_at": "2026-06-11T01:19:01+00:00",
+ "quality": "ok",
+ "text": "Social robots are employed as companions, helping in industrial and domestic environments. Adapting robots’ capabilities to user needs can be achieved through teaching from human demonstrations. However, the influence of robots’ preexisting proficiency and learning rate on human teachers’ self-efficacy and perception of the robots is underexplored. In this paper, we simulated four robot performance types that combine: (1) preexisting proficiency (low/high) and (2) learning rate (slow/fast). We conducted a controlled lab experiment studying the impact of robots’ performance type on teachers’ self-efficacy, willingness to teach the robot, and This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. CHI ’25, Yokohama, Japan © 2025 Copyright held by the owner/author(s). ACM ISBN 979-8-4007-1394-1/25/04 https://doi.org/10.1145/3706598.3713113 ots’ Preexisting Proficiency and Teachers Demonstrating Object ement Patrick Gietl TU Wien Vienna, Austria pat.gietl@gmail.com Andrii Matviienko KTH Royal Institute of Technology Stockholm, Sweden andriim@kth.se B n the right order and position: (A) a participant is teaching the of the interaction surface from above. perception of the robot (N=24), in which robots placed objects in suitable locations. Fast learners were perceived as more intelligent, anthropomorphic, and likable, and this caused higher teaching self-efficacy regardless of preexisting skills. Slow learners caused frustration while teaching. Moreover, participants stopped teaching robots with low preexisting skills sooner, regardless of the learning rate, indicating potential bias caused by expectations."
+}

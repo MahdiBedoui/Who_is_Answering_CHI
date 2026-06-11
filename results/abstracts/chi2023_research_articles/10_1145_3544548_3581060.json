@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3544548.3581060",
+ "year": 2023,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T01:14:07+00:00",
+ "text": "While the literature on permissions from the end-user perspective is rich, there is a lack of empirical research on why developers request permissions, their conceptualization of permissions, and how their perspectives compare with end-users’ perspectives. Our study aims to address these gaps using a mixed-methods approach."
+}

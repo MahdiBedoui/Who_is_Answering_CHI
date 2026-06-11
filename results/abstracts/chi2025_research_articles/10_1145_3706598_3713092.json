@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3706598.3713092",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T01:15:15+00:00",
+ "text": "Users hold their mobile phones at varying distances depending on their posture, the application being used, and the task’s nature. Without considering such variation when designing UI target sizes limits the applicability of gaze selection for everyday interaction with mobile devices. Towards this end, we conducted a user study (N = 24) to investigate the implications of different target sizes and viewing across different screen regions. While larger targets generally improve accuracy and decrease precision, accuracy is significantly higher in the horizontal than in the vertical direction. This subsequently led us to find that increasing the tracking area in the vertical direction only, while maintaining the same visual target size, significantly improves accuracy. This suggests that visually smaller targets with larger vertical tracking areas enhance accuracy. Based on our results, we present concrete design guidelines for developers to optimise target sizes on gaze-enabled mobile devices to improve accuracy across varying user-to-screen distances."
+}

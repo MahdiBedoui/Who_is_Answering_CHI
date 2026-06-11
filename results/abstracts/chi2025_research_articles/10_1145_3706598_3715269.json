@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3706598.3715269",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T01:15:23+00:00",
+ "text": "Figure 1: Proposals for sketching commands on spreadsheets: a) Multiplying a cell with the sum of other cells; b) Calculating multiple sums; c) Sorting a column alphabetically; d) Applying conditional formatting to cells; and e) Deleting a table column"
+}

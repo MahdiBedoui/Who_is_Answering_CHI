@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3491102.3517460",
+ "year": 2022,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T01:10:48+00:00",
+ "text": "Urban accessibility assessments are challenging: they involve varied stakeholders across decision-making contexts while serving a diverse population of people with disabilities. To better support urban accessibility assessment using data visualizations, we conducted a three-part interview study with 25 participants across five stakeholder groups using map visualization probes. We present a multi-stakeholder analysis of visualization needs and sensemaking processes to explore how interactive visualizations can support stakeholder decision making. In particular, we elaborate how stakeholders’ varying levels of familiarity with accessibility, geospatial analysis, and specific geographic locations influences their sensemaking needs. We then contribute 10 design considerations for geovisual analytic tools for urban accessibility communication, planning, policymaking, and advocacy."
+}

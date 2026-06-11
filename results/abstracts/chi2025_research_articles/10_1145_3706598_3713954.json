@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3706598.3713954",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T01:15:20+00:00",
+ "text": "Figure 1: The On-body Icons interface enables users to quickly launch apps in AR and offers onboarding by letting them experience the feature firsthand (a-c) and guiding them through the setup of on-body shortcuts (d, f).It also supports methods for setting up shortcuts beyond \"grab-and-place\" (e), such as \"select-and-point\" (g)."
+}

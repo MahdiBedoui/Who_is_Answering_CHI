@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3613904.3642648",
+ "year": 2024,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T01:14:49+00:00",
+ "text": "To promote drivers’ overall experiences in highly automated vehicles, we designed three objective criticality-adaptive displays: IO display highlighting Influential Objects, CO display highlighting Critical Objects, and ICO display highlighting Influential and Critical Objects differently. We conducted an online video-based survey study with 295 participants to evaluate them in varying traffic conditions. Results showed that low-trust propensity participants found ICO display more useful while high-trust propensity participants found CO displays more useful. When interacting with vulnerable road users (VRUs), participants had higher situational awareness (SA) but worse non-driving related task (NDRT) performance. Aging and CO displays also led to slower NDRT reactions. Nonetheless, older participants found displays more useful. We recommend providing different criticality-adaptive displays based on drivers’ trust propensity, age, and NDRT choice to enhance driving and NDRT performance and suggest carefully treating objects of different categories in traffic."
+}

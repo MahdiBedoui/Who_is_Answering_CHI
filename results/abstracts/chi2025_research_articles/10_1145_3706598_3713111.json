@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3706598.3713111",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T01:15:15+00:00",
+ "text": "Interactive Digital Testimonies (IDTs) allow users to learn virtually about the life stories of contemporary witnesses as recounted by the witnesses themselves. Although several IDTs have been created in recent years, there is little empirical research on their effects on users. We investigated how different levels of visual modality (audio-only, audio-visual 2D, audio-visual stereoscopic 3D) affect user perception by conducting two separate mixed-methods studies: A 2x2 between-subjects study comparing audio-only with audio-visual 2D in in-person and online settings (n = 82) and a within-subjects study comparing audio-visual 2D with audio-visual stereoscopic 3D (n = 51). We found that audio-visual 2D improves user experience, immersion, and perceived authenticity over audio-only versions. Audio-visual 3D IDTs are more authentic and immersive than audio-visual 2D IDTs, however, this is diminished by a less comfortable interaction. Our findings broaden empirical research on user perception of realistic Embodied Conversational Agents and help guide future thanatosensitive designs."
+}

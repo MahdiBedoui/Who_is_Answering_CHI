@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3544548.3581173",
+ "year": 2023,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T01:14:07+00:00",
+ "text": "Regardless of which community, incentivizing users is a necessity for well-sustainable operations. In the blockchain-backed Web3 communities, known for their transparency and security, airdrop serves as a widespread incentive mechanism for allocating capital and power. However, it remains a controversy on how to justify airdrop to incentive and empower the decentralized governance. In this paper, we use ParaSwap as an example to propose a role taxonomy methodology through a data-driven study to understand the characteristic of community members and the effectiveness of airdrop. We find that users receive more rewards tend to take positive actions towards the community. We summarize several arbitrage patterns and confirm the current detection is not sufficient in screening out airdrop hunters. In conjunction with the results, we discuss from the aspects of interaction, financialization, and system design to conclude the challenges and possible research directions for decentralized communities."
+}

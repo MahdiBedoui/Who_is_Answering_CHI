@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3706598.3713908",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T01:15:20+00:00",
+ "text": "Figure 1: Concept of our motion-tuning method.Our method is for modulating the drafts of motion effects automatically in the presence of video for the best quality of the user experience.It allows designers to easily create different versions of motion effects that can provide the designed user experiences, i.e., user feelings.Our method takes as input the draft motion effect and target adjective scores for perceiving both video and motion effects, as determined by the designers.It first converts the input scores into motion-only scores, leveraging the regression models addressing audiovisual effects, and then generates a new motion effect modulated for the converted scores from the draft."
+}

@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3706598.3714038",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T01:15:21+00:00",
+ "text": "Recent attention to anthropomorphism -- the attribution of human-like qualities to non-human objects or entities -- of language technologies like LLMs has sparked renewed discussions about potential negative impacts of anthropomorphism. To productively discuss the impacts of this anthropomorphism and in what contexts it is appropriate, we need a shared vocabulary for the vast variety of ways that language can be anthropomorphic. In this work, we draw on existing literature and analyze empirical cases of user interactions with language technologies to develop a taxonomy of textual expressions that can contribute to anthropomorphism. We highlight challenges and tensions involved in understanding linguistic anthropomorphism, such as how all language is fundamentally human and how efforts to characterize and shift perceptions of humanness in machines can also dehumanize certain humans. We discuss ways that our taxonomy supports more precise and effective discussions of and decisions about anthropomorphism of language technologies."
+}

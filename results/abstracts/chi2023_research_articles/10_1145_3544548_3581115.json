@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3544548.3581115",
+ "year": 2023,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T01:14:07+00:00",
+ "text": "We present Escapement, a video prototyping tool that introduces a powerful new concept for prototyping screen-based interfaces by flexibly mapping sensor values to dynamic playback control of videos. This recasts the time dimension of video mock-ups as sensor-mediated interaction."
+}

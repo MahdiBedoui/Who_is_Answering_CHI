@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3491102.3502124",
+ "year": 2022,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T01:10:47+00:00",
+ "text": "Through a mixed-method analysis of data from Scratch, we examine how novices learn to program with simple data structures by using community-produced learning resources. First, we present a qualitative study that describes how community-produced learning resources create archetypes that shape exploration and may disadvantage some with less common interests. In a second quantitative study, we find broad support for this dynamic in several hypothesis tests. Our findings identify a social feedback loop that we argue could limit sources of inspiration, pose barriers to broadening participation, and confine learners’ understanding of general concepts. We conclude by suggesting several approaches that may mitigate these dynamics."
+}

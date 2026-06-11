@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3706598.3713783",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T01:15:19+00:00",
+ "text": "Personally identifiable information (PII) is a fundamental concept in privacy research and regulations. Understanding users' perspectives on PII is critical, as their understanding of PII can significantly affect their privacy decisions and practices. While much research has explored users’ privacy perceptions and disclosure preferences regarding PII, less attention has been focused on how users internally define and conceptualize PII. In this study, we conducted interviews with 32 participants to investigate their conceptualization and understanding of PII, using period and fertility tracking apps as the context. Our findings reveal how users perceive the processes and contexts through which personal information, by becoming identifiable, transitions into PII, as well as concerns about data sharing and misuse in these apps. We conclude by advocating for addressing the misalignment between users' perceptions of PII and the regulatory protections and privacy designs surrounding it."
+}

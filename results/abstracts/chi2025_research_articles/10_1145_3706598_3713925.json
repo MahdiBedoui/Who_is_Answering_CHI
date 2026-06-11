@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3706598.3713925",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T01:15:20+00:00",
+ "text": "Figure 1: EchoSight leverages in-situ optical backscatter tethering to achieve a look-and-control bidirectional interaction on commercial AR glasses.This process mimics human's natural interaction with low mental burden.EchoSight requires no pre-registration or network connection, facilitating scenarios where interactions are opportunistic and impromptu."
+}

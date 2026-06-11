@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3544548.3581114",
+ "year": 2023,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T01:14:07+00:00",
+ "text": "Information asymmetries create extractive, often harmful relationships between platform workers (e.g., Uber or Deliveroo drivers) and their algorithmic managers. Recent HCI studies have put forward more equitable platform designs but leave open questions about the social and technical infrastructures required to support them without the cooperation of platforms. We conducted a participatory design study in which platform workers deconstructed and re-imagined Uber’s schema for driver data. We analyzed the data structures and social institutions participants proposed, focusing on the stakeholders, roles, and strategies for mitigating conflicting interests of privacy, personal agency, and utility. Using critical theory, we reflected on the capability of participatory design to generate bottom-up collective data infrastructures. Based on the plurality of alternative institutions participants produced and their aptitude to navigate data stewardship decisions, we propose user-configurable tools for lightweight data institution building, as an alternative to redesigning existing platforms or delegating control to centralized trusts."
+}

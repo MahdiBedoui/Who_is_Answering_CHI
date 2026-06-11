@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3544548.3581210",
+ "year": 2023,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T01:14:07+00:00",
+ "text": "Typical foreign language (L2) pronunciation training focuses mainly on individual sounds. Intonation, the patterns of pitch change across words or phrases is often neglected, despite its key role in word-level intelligibility and in the expression of attitudes and affect. This paper examines hand-controlled real-time vocal synthesis, known as Performative Vocal Synthesis (PVS), as an interaction technique for practicing L2 intonation in computer aided pronunciation training (CAPT)."
+}

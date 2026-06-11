@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3613904.3642260",
+ "year": 2024,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T01:14:47+00:00",
+ "text": "Data collection purposes and their descriptions are presented on almost all privacy notices under the GDPR, yet there is a lack of research focusing on how effective they are at informing users about data practices. We fill this gap by investigating users’ perceptions of data collection purposes and their descriptions, a crucial aspect of informed consent. We conducted 23 semi-structured interviews with European users to investigate user perceptions of six common purposes (Strictly Necessary, Statistics and Analytics, Performance and Functionality, Marketing and Advertising, Personalized Advertising, and Personalized Content) and identified elements of an effective purpose name and description."
+}

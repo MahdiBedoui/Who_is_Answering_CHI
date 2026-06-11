@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3544548.3581536",
+ "year": 2023,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T01:14:09+00:00",
+ "text": "Many tools are designed to support users in maintaining or developing strong time management practices. Abandonment of these specialized tools is common, in favor of returning to a more general-purpose unstructured tool. How can designs leverage the familiarity of general-purpose tools and the advantages of specialized ones? We explore if applying a time-management-specific understanding of conventions and interactions within unstructured plaintext can be a successful approach to designing support for these tasks. We report the results of two field deployments (combined n=29) of “Plan” - a mobile application with a notes-application-based interface designed to support the practice of Time Management Planning. We show that modest, domain-specific modifications of general-purpose designs can facilitate users’ pre-existing workflows and nudge them towards better practices while leaving interfaces familiar and flexible. However, those with minimal planning experience desired additional structure."
+}

@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3491102.3501861",
+ "year": 2022,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T01:10:47+00:00",
+ "text": "Immersive interactive technologies such as virtual reality (VR) have the potential to foster well-being. While VR applications have been successfully used to evoke positive emotions through the presetting of light, colour and scenery, the experiential potential of allowing users to independently create a virtual environment (VE) has not yet been sufficiently addressed. To that end, we explore how the autonomous design of a VE can affect emotional engagement and well-being. We present Mood Worlds – a VR application allowing users to visualise their emotions by self-creating a VE. In an exploratory evaluation (N=16), we found that Mood Worlds is an effective tool supporting emotional engagement. Additionally, we found that an autonomous creation process in VR increases positive emotions and well-being. Our work shows that VR can be an effective tool to visualise emotions, thereby increasing positive affect. We discuss opportunities and design requirements for VR as positive technology."
+}

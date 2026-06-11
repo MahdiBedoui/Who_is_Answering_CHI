@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3706598.3713968",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T01:15:20+00:00",
+ "text": "snowball sampling search results final sample Hybrid Thematic Analysis RQ1 What is a unifying definition and description of TaPSI?Terminology & Definitions UPS Domain Tangible (or not)?RQ3 How are TaPSI designed in terms of appearance and functionality?Implementation Opportunities & Challenges Implement: Design Space RQ2 What approaches to TaPSI research exist and which have yet to be explored?Contribution Method Consult Related Work The Tangible Privacy and Security Interfaces (TaPSI) Research Framework Evaluate (or Inform)Figure 1: We searched for publications on tangible privacy and security interfaces (TaPSI) in 28 usable privacy and security (UPS) venues and used snowball sampling to broaden our sample further.Applying hybrid thematic analysis to our final sample ( = 80), we describe the used terminology and definitions, addressed UPS domains, contributions, methods, implementations, and opportunities or challenges inherent to TaPSI.Based on these findings, we present the TaPSI Research Framework, which gives recommendations for future researchers and describes a design space for TaPSI."
+}

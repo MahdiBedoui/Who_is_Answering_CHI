@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3613904.3642891",
+ "year": 2024,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T01:14:50+00:00",
+ "text": "We propose augmenting initially passive structures built from simple repeated cells, with novel active units to enable dynamic, shape-changing, and robotic applications. Inspired by metamaterials that can employ mechanisms, we build a framework that allows users to configure cells of this passive structure to allow it to perform complex tasks. A key benefit is that our structures can be repeatedly (re)configured by users inserting our configuration units to turn the passive material into, e.g., locomotion robots, integrated motion platforms, or interactive interfaces, as we demonstrate in this paper."
+}

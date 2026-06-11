@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3544548.3581300",
+ "year": 2023,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T01:14:08+00:00",
+ "text": "We present AdHocProx, a system that uses device-relative, inside-out sensing to augment co-located collaboration across multiple devices, without recourse to externally-anchored beacons – or even reliance on WiFi connectivity."
+}
