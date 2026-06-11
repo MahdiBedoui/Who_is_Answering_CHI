@@ -18,10 +18,27 @@ import importlib.util
 import json
 import os
 import re
+import shutil
 import sys
 import time
 from datetime import datetime, timezone
 from pathlib import Path
+
+# Docling's C++ PDF parser cannot handle non-ASCII characters in file paths
+# (e.g. the umlaut in C:\Users\H¨P\...). Work around it by copying each PDF
+# to an ASCII-only temp folder before converting.
+TMP_DIR = Path("C:/chi_tmp") if os.name == "nt" else Path("/tmp/chi_tmp")
+
+
+def ascii_safe_copy(pdf: Path) -> Path:
+    try:
+        str(pdf).encode("ascii")
+        return pdf  # path is already ASCII-safe
+    except UnicodeEncodeError:
+        TMP_DIR.mkdir(parents=True, exist_ok=True)
+        dst = TMP_DIR / pdf.name
+        shutil.copy2(pdf, dst)
+        return dst
 
 HERE = Path(__file__).resolve().parent
 _spec = importlib.util.spec_from_file_location("s3", HERE / "step3_extract_from_pdf.py")
@@ -84,13 +101,17 @@ def main() -> None:
             continue
         t0 = time.time()
         try:
-            result = converter.convert(str(pdf), max_num_pages=2)
+            safe_pdf = ascii_safe_copy(pdf)
+            result = converter.convert(str(safe_pdf), max_num_pages=2)
             md = result.document.export_to_markdown()
         except Exception as exc:
             print(f"  ERROR {doi}: {exc}", flush=True)
             failed += 1
             remaining.append(doi)
             continue
+        finally:
+            if 'safe_pdf' in dir() and safe_pdf != pdf and safe_pdf.exists():
+                safe_pdf.unlink()
         m = MD_HEADING_RE.search(md) or MD_INLINE_RE.search(md[:20000])
         text = s3._clean(m.group(1)) if m else ""
         verdict = s3.quality(text)
