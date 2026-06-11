@@ -72,10 +72,18 @@ def main() -> None:
     print(f"Batch  : {batch.name} -- {len(targets)} papers for Docling")
 
     try:
-        from docling.document_converter import DocumentConverter
+        from docling.document_converter import DocumentConverter, PdfFormatOption
+        from docling.datamodel.base_models import InputFormat
+        from docling.datamodel.pipeline_options import PdfPipelineOptions
     except ImportError:
         sys.exit("docling not installed: pip install docling")
-    converter = DocumentConverter()
+    # OCR off: these PDFs have intact text layers (pdfplumber read them);
+    # what we need from Docling is its LAYOUT analysis, not OCR. This also
+    # sidesteps the broken RapidOCR install (missing arch_config.yaml).
+    opts = PdfPipelineOptions()
+    opts.do_ocr = False
+    converter = DocumentConverter(
+        format_options={InputFormat.PDF: PdfFormatOption(pipeline_options=opts)})
 
     corpus = ds / "sigchi" / "VERIFIED COUNT" / "CHI"
     pdf_index = {p.stem: p for p in corpus.rglob("*.pdf")}
