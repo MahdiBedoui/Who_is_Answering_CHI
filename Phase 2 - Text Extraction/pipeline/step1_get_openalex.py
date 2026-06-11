@@ -66,6 +66,10 @@ def main() -> None:
     ap.add_argument("--data-store", default=os.environ.get("WAC_DATA_STORE"),
                     help="Path to the 'Who's Answering CHI' data folder.")
     ap.add_argument("--years", type=int, nargs="*", default=[2022, 2023, 2024, 2025, 2026])
+    ap.add_argument("--types", nargs="*", default=None,
+                    help='Filter paper types, e.g. --types "Research Article" (default: all).')
+    ap.add_argument("--out", default=None,
+                    help="Output CSV path (default: <data store>/data/openalex/abstracts_openalex.csv).")
     ap.add_argument("--fresh", action="store_true",
                     help="Ignore saved answers AND the existing CSV; re-query OpenAlex live.")
     args = ap.parse_args()
@@ -73,7 +77,7 @@ def main() -> None:
         sys.exit("Pass --data-store or set WAC_DATA_STORE.")
     ds = Path(args.data_store).resolve()
     corpus = ds / "sigchi" / "VERIFIED COUNT" / "CHI"
-    out = ds / "data" / "openalex" / "abstracts_openalex.csv"
+    out = Path(args.out).resolve() if args.out else ds / "data" / "openalex" / "abstracts_openalex.csv"
     out.parent.mkdir(parents=True, exist_ok=True)
 
     if args.fresh and out.exists():
@@ -101,6 +105,8 @@ def main() -> None:
                 continue
             for tdir in sorted(p for p in ydir.iterdir() if p.is_dir()):
                 ptype = "Research Article" if tdir.name.startswith("Research Article") else tdir.name
+                if args.types and ptype not in args.types:
+                    continue
                 for pdf in sorted(tdir.glob("*.pdf")):
                     doi = doi_from_stem(pdf.stem)
                     if doi in done:
