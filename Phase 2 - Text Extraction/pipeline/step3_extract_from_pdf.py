@@ -65,6 +65,12 @@ def repair_ligatures(text: str) -> str:
     return _TOKEN_RE.sub(fix, text)
 
 
+_BLEED_RE = re.compile(
+    r"(?i)CCS Concepts|ACM Reference|this work is licensed|creative commons|"
+    r"ACM ISBN|copyright held by|permission to make digital|doi\.org/|"
+    r"[\w.+-]+@[\w-]+\.(?:edu|com|org|ac\.\w+)")
+
+
 def quality(text: str) -> str:
     """'ok', 'review' (extracted but suspect), or 'missing' (unusable)."""
     if not text or len(text) < 200:
@@ -76,7 +82,7 @@ def quality(text: str) -> str:
         issues += 1
     if _SUSPECT_RE.search(text):
         issues += 1
-    if re.search(r"(?i)CCS Concepts|ACM Reference", text):
+    if _BLEED_RE.search(text):
         issues += 1
     return "ok" if issues == 0 else "review"
 

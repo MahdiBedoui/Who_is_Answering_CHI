@@ -5,6 +5,6 @@
  "section": "abstract",
  "source": "pdf",
  "fetched_at": "2026-06-11T01:27:23+00:00",
- "quality": "ok",
+ "quality": "review",
  "text": "Expressing stressful experiences in words is proven to improve mental and physical health, but individuals often disengage with writing interventions as they struggle to organize their thoughts © 2025 Copyright held by the owner/author(s). ACM ISBN 979-8-4007-1394-1/25/04 https://doi.org/10.1145/3706598.3713883 CHI ’25, April 26–May 01, 2025, Yokohama, Japan Inhwa Song, SoHyun Pa and emotions. Reflective prompts have been used to provide direction, and large language models (LLMs) have demonstrated the potential to provide tailored guidance. However, current systems often limit users’ flexibility to direct their reflections. We thus present ExploreSelf, an LLM-driven application designed to empower users to control their reflective journey, providing adaptive support through dynamically generated questions. Through an exploratory study with 19 participants, we examine how participants explore and reflect on personal challenges using ExploreSelf. Our findings demonstrate that participants valued the flexible navigation of adaptive guidance to control their reflective journey, leading to deeper engagement and insight. Building on our findings, we discuss the implications of designing LLM-driven tools that facilitate user-driven and effective reflection of personal challenges."
 }
