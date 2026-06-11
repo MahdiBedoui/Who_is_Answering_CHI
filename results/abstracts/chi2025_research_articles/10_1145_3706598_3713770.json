@@ -1,0 +1,10 @@
+{
+ "doi": "10.1145/3706598.3713770",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "pdf",
+ "fetched_at": "2026-06-11T01:26:39+00:00",
+ "quality": "ok",
+ "text": "Conversational search offers an easier and faster alternative to conventional web search, while having downsides like a lack of source verification. Research has examined performance disparities between these two systems in various settings. However, little work has investigated how changes in the nature of a search task affect user preferences. We investigate how psychological distance -the perceived closeness of one to an event -affects user preferences between conversational and web search. We hypothesise that tasks with different psychological distances elicit different information needs, which in turn affect user preferences between systems. Our study finds that, under fixed condition ordering, greater psychological distances lead users to prefer conversational search, which they perceive as more credible, useful, enjoyable, and easy to use. We reveal qualitative reasons for these differences and provide design implications for search system designers."
+}

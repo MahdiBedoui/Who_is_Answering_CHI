@@ -1,0 +1,10 @@
+{
+ "doi": "10.1145/3706598.3714199",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "pdf",
+ "fetched_at": "2026-06-11T01:29:22+00:00",
+ "quality": "ok",
+ "text": "Viewers desire to watch video content with subtitles in various font sizes according to their viewing environment and personal preferences. Unfortunately, because a chunk of the subtitle—a segment of the text corpus displayed on the screen at once—is typically constructed based on one specific font size, text truncation or awkward line breaks can occur when different font sizes are utilized. While existing methods address this problem by reconstructing subtitle chunks based on maximum character counts, they overlook synchronization of the display time with the content, often causing misaligned text. We introduce OptiSub, a fully automated method that optimizes subtitle segmentation to fit any user-specified font This work is licensed under a Creative Commons Attribution-NonCommercialNoDerivatives 4.0 International License. CHI ’25, Yokohama, Japan © 2025 Copyright held by the owner/author(s). ACM ISBN 979-8-4007-1394-1/25/04 https://doi.org/10.1145/3706598.3714199 ubtitle Presentation for Varied eech Pause-Driven Chunking oo Choi Junyong Noh & KAI Inc. KAIST ublic of Korea Daejeon, Republic of Korea @kaist.ac.kr junyongnoh@kaist.ac.kr which may vary depending on the display size (due to PPI) and n optimized presentation of subtitles. The method reconstructs ng to the given font size. To achieve optimal reconstruction that pause between adjacent words is utilized. Image source: BTS at size while ensuring synchronization with the content. Our method leverages the timing of speech pauses within the video for synchronization. Experimental results, including a user study comparing OptiSub with previous methods, demonstrate its effectiveness and practicality across diverse font sizes and input videos."
+}

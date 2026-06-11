@@ -1,0 +1,10 @@
+{
+ "doi": "10.1145/3706598.3713660",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "pdf",
+ "fetched_at": "2026-06-11T01:25:59+00:00",
+ "quality": "ok",
+ "text": "In impoverished regions, limited resources, economic constraints, and low psychological health literacy among guardians often prevent timely support for children’s mental health. The absence of migrant worker parents further exacerbates these issues, as they © 2025 Copyright held by the owner/author(s). Publication rights licensed to ACM. ACM ISBN 979-8-4007-1394-1/25/04 https://doi.org/10.1145/3706598.3713660 CHI ’25, April 26–May 01, 2025, Yokohama, Japan remain unaware of their children’s psychological states. Existing AI advancements in psychological tools often overlook the specific needs of left-behind children and lack parental involvement. To address this, we developed DiSandbox, a low-cost AI-powered sandbox system that supports children in creating sandbox works for mental health assessments and engages parents in counseling. DiSandbox uses AI to guide children in sandbox play, analyze creations for psychological insights, and help parents understand their children’s mental health, enabling timely intervention. By integrating large language models with sandbox play, DiSandbox is a scalable, reliable, and accessible tool for home use. Qualitative and quantitative studies confirm its usability and provide guidance for future AI applications in children’s mental health."
+}

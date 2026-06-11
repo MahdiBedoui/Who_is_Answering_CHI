@@ -1,0 +1,10 @@
+{
+ "doi": "10.1145/3706598.3713319",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "pdf",
+ "fetched_at": "2026-06-11T01:23:40+00:00",
+ "quality": "review",
+ "text": "Artificial intelligence (AI)-based decision support systems hold promise for enhancing diagnostic accuracy and efficiency in computational pathology. However, human-AI collaboration can introduce and amplify cognitive biases, like confrmation bias caused by false confrmation when erroneous human opinions are reinforced by inaccurate AI output. This bias may increase under time pressure, a ubiquitous factor in routine pathology, as it strains practitioners’ cognitive resources. We quantifed confrmation bias triggered by AI-induced false confrmation and examined the role of time constraints in a web-based experiment, where trained pathology experts (n=28) estimated tumor cell percentages. Our results suggest This work is licensed under a Creative Commons Attribution-NonCommercialShareAlike 4.0 International License. CHI ’25, Yokohama, Japan © 2025 Copyright held by the owner/author(s). ACM ISBN 979-8-4007-1394-1/25/04 https://doi.org/10.1145/3706598.3713319 tathonikos Matthias Uhl Utrecht University of Hohenheim etherlands Stuttgart, Germany @umcutrecht.nl matthias.uhl@uni-hohenheim.de s Riener Marc Aubreville Interaction Group Flensburg University of Applied hschule Ingolstadt Sciences varia, Germany Flensburg, Germany ner@thi.de marc.aubreville@hs-fensburg.de (2) AI recommendation: 87% provides Your assessment prediction deep learning system estimate tumor cell percentage bias in human-AI collaboration within computational patholdependently and second with AI-assistance, with half of these his figure). that AI integration fuels confrmation bias, evidenced by a statistically significant positive linear-mixed-efects model coefcient linking AI recommendations mirroring fawed human judgment and alignment with system advice. Conversely, time pressure appeared to weaken this relationship. These findings highlight potential risks of AI in healthcare and aim to support the safe integration of clinical decision support systems."
+}

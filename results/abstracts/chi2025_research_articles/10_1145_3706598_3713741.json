@@ -1,0 +1,10 @@
+{
+ "doi": "10.1145/3706598.3713741",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "pdf",
+ "fetched_at": "2026-06-11T01:26:23+00:00",
+ "quality": "ok",
+ "text": "Temporal Action Localization (TAL) aims to detect the start and end timestamps of actions in a video. However, the training of TAL models requires a substantial amount of manually annotated data. Data programming is an efficient method to create training labels with a series of human-defned labeling functions. However, its application in TAL faces difficulties of defining complex actions in the context of temporal video frames. In this paper, we propose ProTAL, a drag-and-link video programming framework for TAL. ProTAL enables users to define key events by dragging nodes representing body parts and objects and linking them to constrain the relations (direction, distance, etc.). These definitions are used to generate action labels for large-scale unlabelled videos. A semisupervised method is then employed to train TAL models with such labels. We demonstrate the effectiveness of ProTAL through a usage scenario and a user study, providing insights into designing video programming framework."
+}

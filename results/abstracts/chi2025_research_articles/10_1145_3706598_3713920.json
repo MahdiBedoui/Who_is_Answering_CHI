@@ -1,0 +1,10 @@
+{
+ "doi": "10.1145/3706598.3713920",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "pdf",
+ "fetched_at": "2026-06-11T01:27:35+00:00",
+ "quality": "ok",
+ "text": "Parkinson’s Disease (PD) significantly impacts driving abilities, often leading to early driving cessation or accidents due to reduced CHI ’25, Yokohama, Japan © 2025 Copyright held by the owner/author(s). ACM ISBN 979-8-4007-1394-1/25/04 https://doi.org/10.1145/3706598.3713920 CHI ’25, April 26–May 01, 2025, Yokohama, Japan motor control and increasing reaction times. To diminish the impact of these symptoms, we developed PANDA (Parkinson’s Assistance and Notification Driving Aid), a multi-modality real-time alert system designed to monitor driving patterns continuously and provide immediate alerts for irregular driving behaviors, enhancing driver safety of individuals with PD. The system was developed through a participatory design process with 9 people with PD and 13 non-PD individuals using a driving simulator, which allowed us to identify critical design characteristics and collect detailed data on driving behavior. A user study involving individuals with PD evaluated the effectiveness of PANDA, exploring optimal strategies for delivering alerts and ensuring they are timely and helpful. Our findings demonstrate that PANDA has the potential to enhance the driving safety of individuals with PD, offering a valuable tool for maintaining independence and confidence behind the wheel."
+}

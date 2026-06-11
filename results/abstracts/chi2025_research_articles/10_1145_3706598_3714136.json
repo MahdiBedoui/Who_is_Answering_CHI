@@ -1,0 +1,10 @@
+{
+ "doi": "10.1145/3706598.3714136",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "pdf",
+ "fetched_at": "2026-06-11T01:29:06+00:00",
+ "quality": "ok",
+ "text": "Violenceisasignificantpublichealthissue.Interventionstoreduce violencerelyondataaboutwhereincidentsoccur.Citieshavehistoricallyusedincompletelawenforcementcrimedata,butmany areshiftingtowarddatacollectedfromhospitalpatientsviathe CardiffModeltoformamorecompleteunderstandingofviolence. Still,locationdataiswroughtwithissuesrelatedtocompleteness, quality,andprivacy.Forexample,ifapatientfeelsthatsharinga CHI’25,April26–May01,2025,Yokohama,Japan detailedlocationmaypresentthemwithadditionalrisks,suchas undesiredpoliceinvolvementorretaliatoryviolence,theymaybe unwillingorunabletoshare.Consequently,survivorsofviolence whoarethemostvulnerablemayremainthemostatrisk.Wehave designedauserinterfaceandmappingalgorithmtoconfrontthese challengesandconductedanexperimentwithemergencydepartmentpatients.Theresultsindicateasignificantimprovementin locationdataobtainedusingtheinterfacecomparedtotheexisting screeninginterview. CCSConcepts • Human-centered computing → HCI design and evaluationmethods;Geographicvisualization;•Appliedcomputing →Healthcareinformationsystems."
+}

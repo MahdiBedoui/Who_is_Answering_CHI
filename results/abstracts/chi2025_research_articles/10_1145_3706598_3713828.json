@@ -1,0 +1,10 @@
+{
+ "doi": "10.1145/3706598.3713828",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "pdf",
+ "fetched_at": "2026-06-11T01:26:56+00:00",
+ "quality": "ok",
+ "text": "Dark patterns are ubiquitous in digital systems, impacting users throughout their journeys on many popular apps and websites. While substantial efforts from the research community in the last five years have led to consolidated taxonomies and an ontology of dark patterns, most characterizations of these patterns have been focused on static images or isolated pattern types. In this paper, we leverage documents from a US Federal Trade Commission complaint describing dark patterns in Amazon Prime’s “Iliad Flow,” illustrating the interplay of dark patterns across a user journey. We use this case study to illustrate how dark patterns can be characterized and mapped over time, providing a sufficient audit trail and consistent application of dark patterns at high-and meso-level scales. We conclude by describing the groundwork for a methodology of Temporal Analysis of Dark Patterns (TADP) that allows for rigorous identification of dark patterns by researchers, regulators, and legal scholars."
+}

@@ -1,0 +1,10 @@
+{
+ "doi": "10.1145/3706598.3713485",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "pdf",
+ "fetched_at": "2026-06-11T01:24:47+00:00",
+ "quality": "ok",
+ "text": "Eating disorders (ED) are complex mental health conditions that require long-term management and support. Recent advancements in large language model (LLM)-based chatbots offer the potential to assist individuals in receiving immediate support. Yet, concerns This work is licensed under a Creative Commons Attribution 4.0 International License. CHI ’25, Yokohama, Japan © 2025 Copyright held by the owner/author(s). ACM ISBN 979-8-4007-1394-1/25/04 https://doi.org/10.1145/3706598.3713485 hatbots Support and Challenge der Recovery an Kim Subin Park Computing School of Electrical Engineering AIST KAIST ublic of Korea Daejeon, Republic of Korea kaist.ac.kr subin.park@kaist.ac.kr Sung-Ju Lee School of Electrical Engineering KAIST Daejeon, Republic of Korea profsj@kaist.ac.kr M chatbot for people with eating disorders. When a user sends a at support is needed. (A) If indicators are found, (B) WellnessBot he Context Checker (C) identifies references to past experiences ellnessBot then generates a response based on all the gathered ontext and the pseudonymized user profile. remain about their reliability and safety in sensitive contexts such as ED. We explore the opportunities and potential harms of using LLM-based chatbots for ED recovery. We observe the interactions between 26 participants with ED and an LLM-based chatbot, WellnessBot, designed to support ED recovery, over 10 days. We discovered that our participants have felt empowered in recovery by discussing ED-related stories with the chatbot, which served as a personal yet social avenue. However, we also identified harmful chatbot responses, especially concerning individuals with ED, that went unnoticed partly due to participants’ unquestioning trust in the chatbot’s reliability. Based on these findings, we provide design CHI ’25, April 26–May 01, 2025, Yokohama, Japan implications for safe and effective LLM-based interventions in ED management."
+}

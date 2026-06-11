@@ -1,0 +1,10 @@
+{
+ "doi": "10.1145/3706598.3714284",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "pdf",
+ "fetched_at": "2026-06-11T01:29:52+00:00",
+ "quality": "ok",
+ "text": "Dark environment challenges low-vision (LV) individuals to engage in running by following sighted guide—a Caller-style guided running—due to insufficient illumination, because it prevents them from using their residual vision to follow the guide and be aware about their environment. We design, develop, and evaluate RunSight, an augmented reality (AR)-based assistive tool to support LV individuals to run at night. RunSight combines see-through HMD and image processing to enhance one’s visual awareness of the surrounding environment (e.g., potential hazard) and visualize the This work is licensed under a Creative Commons Attribution 4.0 International License. CHI ’25, Yokohama, Japan © 2025 Copyright held by the owner/author(s). ACM ISBN 979-8-4007-1394-1/25/04 https://doi.org/10.1145/3706598.3714284 ugmented Reality to Support ng for Low-vision Runners Matsushima Kotaro Hara er Interaction Lab School of Computing and Information University Systems kkaido, Japan Singapore Management University ke.n0@elms.hokudai.ac.jp Singapore, Singapore kotarohara@smu.edu.sg Tetsuo Ono Human-Computer Interaction Lab Hokkaido University Sapporo, Hokkaido, Japan Kyoto Tachibana University Kyoto, Japan tetsuoono1@gmail.com B Guide ght ! Guide -vision (LV) people to run during nighttime. (A) An LV runner es LV individuals to run who would otherwise be unable to run. nced view of the environment along with a visualization of the ntial hazards, follow a guide, and run safely at night. guide’s position with AR-based visualization. To demonstrate RunSight’s efficacy, we conducted a user study with 8 LV runners. The results showed that all participants could run at least 1km (mean = 3.44 km) using RunSight, while none could engage in Callerstyle guided running without it. Our participants could run safely because they effectively synthesized RunSight-provided cues and information gained from runner-guide communication."
+}

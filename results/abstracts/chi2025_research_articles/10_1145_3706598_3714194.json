@@ -1,0 +1,10 @@
+{
+ "doi": "10.1145/3706598.3714194",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "pdf",
+ "fetched_at": "2026-06-11T01:29:20+00:00",
+ "quality": "ok",
+ "text": "overview of various physical interactions created by designers using t Abstract Physical interactions in Human-Computer Interaction (HCI) provide immersive ways for people to engage with technology. However, designers face challenges in integrating physical computing and modeling when designing physical interactions. We explore triboelectric material sensing, a promising technology that addresses these challenges, though its use within the design community remains underexplored. To bridge this gap, we develop a toolkit consisting of triboelectric material pairs, a mechanism taxonomy, a signal processing tool, and computer program templates. We introduce this toolkit to designers in two workshops, where reflections on the design process highlight its effectiveness and inspire innovative interaction designs. Our work contributes valuable resources and knowledge to the design community, making triboelectric sensing more accessible and fostering creativity in physical interaction design. This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. CHI ’25, Yokohama, Japan © 2025 Copyright held by the owner/author(s). ACM ISBN 979-8-4007-1394-1/25/04 https://doi.org/10.1145/3706598.3714194 ns with Triboelectric Material sing Chengkuo Lee Electrical and Computer Engineering National University of Singapore Singapore, Singapore elelc@nus.edu.sg Ching Chiuan Yen Division of Industrial Design & CUTE Center National University of Singapore Singapore, Singapore didyc@nus.edu.sg the proposed triboelectric material sensing toolkit based on single-electrode configuration."
+}

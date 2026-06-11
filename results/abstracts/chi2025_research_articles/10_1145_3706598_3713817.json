@@ -1,0 +1,10 @@
+{
+ "doi": "10.1145/3706598.3713817",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "pdf",
+ "fetched_at": "2026-06-11T01:26:51+00:00",
+ "quality": "review",
+ "text": "While digital contact tracing has been extensively studied in Western contexts, its relevance and application in Africa remain largely unexplored. This study focuses on Kenya and Côte d’Ivoire to uncover user perceptions and inform the design of culturally resonant contact tracing technologies. Utilizing a wearable proximity sensor as a technology probe, we conducted field studies with healthcare workers and community members in rural areas through interviews (N = 19) and participatory design workshops (N = 72). Our findings identify critical barriers to adoption, including low awareness, widespread misconceptions, and social stigma. The study emphasizes the need for culturally sensitive and discreet wearables and advocates for awareness campaigns over mandates to foster adoption. Our work addresses the unique needs of Kenyan and Ivorian populations, offering vital design recommendations and insights to guide designers and policymakers in enhancing digital contact tracing adoption across Africa. This work is licensed under a Creative Commons Attribution 4.0 International License. CHI ’25, Yokohama, Japan © 2025 Copyright held by the owner/author(s). ACM ISBN 979-8-4007-1394-1/25/04 https://doi.org/10.1145/3706598.3713817 Digital Contact Tracing: Insights d Côte d’Ivoire Munyendo Onicio Batista Leal Neto Computer Science University of Arizona hington University Tucson, Arizona, USA n, DC, USA onicio@arizona.edu o@gwu.edu Kouassi Kevin Ochieng de Recherches Center for Public Health and ifiques Development vory Coast Nairobi, Kenya assi@csrs.ci kevin.ochieng@cphdev.org d Olayo Jean-Philippe Barras blic Health and Infineon Technologies opment Neubiberg, Germany i, Kenya jean-philippe.barras@infineon.com cphdev.org J. Aviv Carmela Troncoso Computer Science EPFL hington University Lausanne, VD, Switzerland n, DC, USA carmela.troncoso@epfl.ch gwu.edu"
+}

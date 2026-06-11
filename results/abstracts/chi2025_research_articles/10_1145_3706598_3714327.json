@@ -1,0 +1,10 @@
+{
+ "doi": "10.1145/3706598.3714327",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "pdf",
+ "fetched_at": "2026-06-11T01:30:12+00:00",
+ "quality": "ok",
+ "text": "Multimodal interactions are more flexible, efficient, and adaptable than graphical interactions, allowing users to execute commands beyond simply tapping GUI buttons. However, the flexibility of multimodal commands makes it hard for designers to prototype and provide design specifications for developers. It is also hard for developers to anticipate what actions users may want. We present GenieWizard, a tool to aid developers in discovering potential features to implement in multimodal interfaces. GenieWizard supports user-desired command discovery early in the implementation process, streamlining the development process. GenieWizard uses an LLM to generate potential user interactions and parse these interactions into a form that can be used to discover the missing features for developers. Our evaluations showed that GenieWizard can reliably simulate user interactions and identify missing features. Also, in a study (N = 12), we demonstrated that developers using GenieWizard can identify and implement 42% of the missing features of multimodal apps compared to only 10% without GenieWizard."
+}

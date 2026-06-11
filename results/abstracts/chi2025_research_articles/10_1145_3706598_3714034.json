@@ -1,0 +1,10 @@
+{
+ "doi": "10.1145/3706598.3714034",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "pdf",
+ "fetched_at": "2026-06-11T01:28:14+00:00",
+ "quality": "ok",
+ "text": "A content creator’s success depends on understanding their audience, but existing tools fail to provide in-depth insights and actionable feedback necessary for effectively targeting their audience. We present Proxona, an LLM-powered system that transforms static audience comments into interactive, multi-dimensional personas, allowing creators to engage with them to gain insights, gather simulated feedback, and refine content. Proxona distills audience traits from comments, into dimensions (categories) and values (attributes), then clusters them into interactive personas representing audience segments. Technical evaluations show that This work is licensed under a Creative Commons Attribution 4.0 International License. CHI ’25, Yokohama, Japan © 2025 Copyright held by the owner/author(s). ACM ISBN 979-8-4007-1394-1/25/04 https://doi.org/10.1145/3706598.3714034 Sensemaking and Ideation with udience Personas ng Kang Seulgi Choi University School of Computing w York, USA KAIST ornell.edu Daejeon, Republic of Korea igules8925@kaist.ac.kr Juho Kim School of Computing KAIST Daejeon, Republic of Korea juhokim@kaist.ac.kr udience comments into interactive, multi-dimensional personas, edback, and refine their early-stage creative work. Proxona generates diverse dimensions and values, enabling the creation of personas that sufficiently reflect the audience and support data-grounded conversation. User evaluation with 11 creators confirmed that Proxona helped creators discover hidden audiences, gain persona-informed insights on early-stage content, and allowed them to confidently employ strategies when iteratively creating storylines. Proxona introduces a novel creator-audience interaction framework and fosters a persona-driven, co-creative process."
+}

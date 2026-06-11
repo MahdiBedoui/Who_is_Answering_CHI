@@ -1,0 +1,10 @@
+{
+ "doi": "10.1145/3706598.3713403",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "pdf",
+ "fetched_at": "2026-06-11T01:24:15+00:00",
+ "quality": "ok",
+ "text": "This paper explores the design of interpersonal bodily intertwinement in social body games. We present “Light Up Fireflies”, a twoplayer VR game where players embody a single avatar, with each player responsible for controlling one half of the avatar’s body. Players must coordinate closely to navigate the virtual environment and engage with the game’s tasks, where any misalignment might cause the avatar to fall. Unlike previous research, which often focused on partial or segmented bodily interactions, our game encourages a fully integrated form of bodily coordination. Players do not merely react to each other’s movements but co-experience the avatar’s body, fostering a richer and more immersive connection between them. Through a study with 16 participants, we identified CHI ’25, April 26–May 01, 2025, Yokohama, Japan three key player experiences: bodily strangeness, intertwined bodily movements, and interpersonal bodily understanding. We also provide design implications for future social body games that aim to facilitate deeper, more intertwined embodied experiences."
+}

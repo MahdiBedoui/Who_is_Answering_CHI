@@ -1,0 +1,10 @@
+{
+ "doi": "10.1145/3706598.3713364",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "pdf",
+ "fetched_at": "2026-06-11T01:23:59+00:00",
+ "quality": "ok",
+ "text": "using a design space of visualization tasks and chart types, (2) deVisualization literacy is the ability to both interpret and construct signing an assessment tool to support the combinatorial nature of visualizations. Yet existing assessments focus solely on visualiza- selecting appropriate visual encodings, (3) building an autograder tion interpretation. A lack of construction-related measurements from expert scores of answers to our items, and (4) refning and hinders eforts in understanding and improving literacy in visual- validating the item bank and autograder through an analysis of test izations. We design and develop avec, an assessment of a person’s tryout data with 95 participants and feedback from the expert panel. visual encoding ability—a core component of the larger process We discuss recommendations for using avec, potential alternative of visualization construction—by: (1) creating an initial item bank scoring strategies, and the challenges in assessing higher-level visualization skills using constructed-response tests. Supplemental materials are available at: https://osf.io/hg7kx/. This work is licensed under a Creative Commons Attribution 4.0 International License."
+}

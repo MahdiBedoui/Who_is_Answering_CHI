@@ -1,0 +1,10 @@
+{
+ "doi": "10.1145/3706598.3713973",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "pdf",
+ "fetched_at": "2026-06-11T01:27:47+00:00",
+ "quality": "ok",
+ "text": "d/Deaf and hearing song-signers have become prevalent across video-sharing platforms, but translating songs into sign language remains cumbersome and inaccessible. Our formative study revealed the challenges song-signers face, including semantic, syntactic, expressive, and rhythmic considerations in translations. We present ELMI, an accessible song-signing tool that assists in translating CHI ’25, April 26–May 01, 2025, Yokohama, Japan lyrics into sign language. ELMI enables users to edit glosses line-byline, with real-time synced lyric and music video snippets. Users can also chat with a large language model-driven AI to discuss meaning, glossing, emoting, and timing. Through an exploratory study with 13 song-signers, we examined how ELMI facilitates their workflows and how song-signers leverage and receive an LLM-driven chat for translation. Participants successfully adopted ELMI to song-signing, with active discussions throughout. They also reported improved confidence and independence in their translations, finding ELMI encouraging, constructive, and informative. We discuss research and design implications for accessible and culturally sensitive songsigning translation tools."
+}

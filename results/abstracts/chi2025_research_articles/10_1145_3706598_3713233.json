@@ -1,0 +1,10 @@
+{
+ "doi": "10.1145/3706598.3713233",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "pdf",
+ "fetched_at": "2026-06-11T01:23:14+00:00",
+ "quality": "review",
+ "text": "This breakthrough with GANs laid the foundation for further adGenerative AI image creation tools have the potential to trans- vancements, including architectures like variational autoencoders form design education and practice, but raise critical concerns for (VAEs) [56], difusion models [45, 93], etc., which significantly encreativity and ownership. We leverage the 2022 launch of tools hanced the image creation capabilities of generative AI. Building like Midjourney and DALL.E as a point dividing design enthusi- on these foundational models, text-to-image tools like Midjourney asts into pre-and post-tool learners. In this paper, we conduct 28 [48], Stable Difusion [4], and DALL.E [7, 80] allow users to create artifact-based interviews with designers at varying levels of tool high-quality images from textual descriptions or early-stage visual"
+}

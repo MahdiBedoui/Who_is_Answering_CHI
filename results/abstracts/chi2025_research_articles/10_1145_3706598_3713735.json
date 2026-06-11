@@ -1,0 +1,10 @@
+{
+ "doi": "10.1145/3706598.3713735",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "pdf",
+ "fetched_at": "2026-06-11T01:26:22+00:00",
+ "quality": "ok",
+ "text": "We introduce a novel method for fabricating functional flat-to-shape objects using a large computer-controlled sewing machine (11 fit / 3.4m wide), a process that is both rapid and scalable beyond the machine’s sewable area. Flat-to-shape deployable objects can allow for quick and easy need-based activation, but the selective flexibility required can involve complex fabrication or tedious assembly. In our method, we sandwich rigid form-defining materials, such as plywood and acrylic, between layers of fabric. The sewing process This work is licensed under a Creative Commons Attribution 4.0 International License. CHI ’25, Yokohama, Japan © 2025 Copyright held by the owner/author(s). ACM ISBN 979-8-4007-1394-1/25/04 https://doi.org/10.1145/3706598.3713735 Deployable Objects with a ed Sewing Machine Lea Albaugh Human-Computer Interaction Institute Carnegie Mellon University Pittsburgh, Pennsylvania, USA lea@andrew.cmu.edu Scott E Hudson Human-Computer Interaction Institute Carnegie Mellon University Pittsburgh, Pennsylvania, USA scott.hudson@cs.cmu.edu (b) B D (d) (e) s including (a) a full-size chair, (b) a functioning table lamp, (c) a n and a deployed 3D shape (shown). (e) Our flexible fabrication tachments such as hook-and-loop fasteners. secures these layers together, creating soft hinges between the rigid inserts which allow the object to transition smoothly into its three-dimensional functional form with little post-processing."
+}

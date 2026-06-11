@@ -1,0 +1,10 @@
+{
+ "doi": "10.1145/3706598.3714288",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "pdf",
+ "fetched_at": "2026-06-11T01:29:54+00:00",
+ "quality": "ok",
+ "text": "Authors of typeset formulas augment those formulas to make them easier to understand. When they do so, they trade off between using markup tools like LaTeX and formula-unaware graphical editors. In this paper, we explore how editing tools could combine the best affordances of both kinds of tools. We develop FreeForm, a projectional editor wherein authors can augment formulas—with color, labels, spacing, and more—across multiple synchronized representations. Augmentations are created graphically using direct selections and compact menus. Those augmentations propagate to LaTeX markup, which can itself be edited and easily exported. In This work is licensed under a Creative Commons Attribution 4.0 International License. CHI ’25, Yokohama, Japan © 2025 Copyright held by the owner/author(s). ACM ISBN 979-8-4007-1394-1/25/04 https://doi.org/10.1145/3706598.3714288 ng Formulas with Synchronized Graphical Edits o Yan Jessica Shi Pennsylvania University of Pennsylvania nnsylvania, USA Philadelphia, Pennsylvania, USA s.upenn.edu jwshi@seas.upenn.edu Andrew Head University of Pennsylvania Philadelphia, Pennsylvania, USA head@seas.upenn.edu ons 3 Graphical Edits ed Formula 5 Element Tree Authors can quickly add and edit LaTeX-based formula code in the left phical edits allow authors to select elements of the formula directly (➌) its are synchronized in both directions between the code and graphics e shows this tree hierarchy and facilitates navigation and editing (➎). two lab studies, we observe the value of our editor versus baselines of a widely-used LaTeX document editor and a state-of-the-art formula augmentation tool. Finally, we make recommendations for the design of projectional markup augmentation editors."
+}

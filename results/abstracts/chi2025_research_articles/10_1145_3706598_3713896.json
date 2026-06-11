@@ -1,0 +1,10 @@
+{
+ "doi": "10.1145/3706598.3713896",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "pdf",
+ "fetched_at": "2026-06-11T01:27:30+00:00",
+ "quality": "ok",
+ "text": "Understanding user input preferences is crucial in immersive environments, where input methods such as gestures and controllers are common. Traditional evaluation methods rely on post experience questionnaires, which don’t capture real-time preferences. This study used brain signals to classify input preferences during Augmented Reality (AR) interactions. Thirty participants performed three interaction tasks (pointing, manipulation, and rotation) using hands or controllers. Their electroencephalogram (EEG) data were CHI ’25, April 26–May 01, 2025, Yokohama, Japan collected at varying task difficulties (low, medium, high) and phases (preparation, task, and completion). Machine learning was used to classify preferred and non-preferred input methods. Results showed that EEG signals effectively classify preferences with accuracies up to 86%, with the completion phase being the best indicator of preference. In addition, different input methods exhibited distinct EEG patterns. These findings highlight the potential of EEG signals for decoding real-time input preference in AR, offering insights for enhancing user experiences."
+}

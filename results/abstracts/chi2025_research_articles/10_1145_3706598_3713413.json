@@ -1,0 +1,10 @@
+{
+ "doi": "10.1145/3706598.3713413",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "pdf",
+ "fetched_at": "2026-06-11T01:24:19+00:00",
+ "quality": "ok",
+ "text": "Charts are used to communicate data visually, but often, we do not know whether a chart’s intended message aligns with the message readers perceive. In this mixed-methods study, we investigate how data journalists encode data and how members of a broad audience engage with, experience, and understand these visualizations. We conducted workshops and interviews with school and university students, job seekers, designers, and senior citizens to collect perceived messages and feedback on eight real-world charts. We analyzed these messages and compared them to the intended message. Our results help to understand the gulf that can exist between messages (that producers encode) and viewer interpretations. In particular, we find that consumers are often overwhelmed with the amount of data provided and are easily confused with terms that are not well known. Chart producers tend to follow strong conventions on how to visually encode particular information that might not always benefit consumers."
+}

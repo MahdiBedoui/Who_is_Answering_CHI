@@ -1,0 +1,10 @@
+{
+ "doi": "10.1145/3706598.3714110",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "pdf",
+ "fetched_at": "2026-06-11T01:28:52+00:00",
+ "quality": "ok",
+ "text": "The use of haptic and visual stimuli to create body illusions and enhance body ownership of virtual avatars in virtual reality (VR) has been extensively studied in the fields of psychology and HumanComputer Interaction (HCI). However, previous studies have relied on mechanical devices or corresponding proxies to provide haptic feedback. In this paper, we applied haptic retargeting to induce body illusions by redirecting users’ hand movements, altering their perception of the shape of body parts when touched. Our technique allows for the realization of more precise and complex deformations. We implemented mapping of the ear’s contour, thereby creating illusions of different ear shapes, such as elf ears and dog ears. To determine the scope of retargeting, we conducted a user study to identify the maximum tolerable deviation angle for virtual ears. Subsequently, we explored the impact of haptic retargeting on body ownership of virtual avatars."
+}

@@ -1,0 +1,10 @@
+{
+ "doi": "10.1145/3706598.3713731",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "pdf",
+ "fetched_at": "2026-06-11T01:26:19+00:00",
+ "quality": "ok",
+ "text": "Pedagogical questions are crucial for fostering student engagement and learning. In daily teaching, teachers pose hundreds of questions to assess understanding, enhance learning outcomes, and facilitate the transfer of theory-rich content. However, even experienced teachers often struggle to generate a large volume of effective pedagogical questions. To address this, we introduce TutorCraftEase, an interactive generation system that leverages large language models (LLMs) to assist teachers in creating pedagogical questions. TutorCraftEase enables the rapid generation of questions at varying difficulty levels with a single click, while also allowing for manual review and refinement. In a comparative user study with 39 participants, we evaluated TutorCraftEase against a traditional manual authoring tool and a basic LLM tool. The results show that TutorCraftEase can generate pedagogical questions comparable in quality to those created by experienced teachers, while significantly reducing their workload and time."
+}

@@ -1,0 +1,10 @@
+{
+ "doi": "10.1145/3706598.3713445",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "pdf",
+ "fetched_at": "2026-06-11T01:24:32+00:00",
+ "quality": "review",
+ "text": "• Human-centered computing → Human computer interac- We present Persona-L, a novel approach for creating personas using tion (HCI); Empirical studies in HCI; Web-based interaction; Large Language Models (LLMs) and an ability-based framework, User centered design; specifically designed to improve the representation of people with complex needs. Traditional methods of persona creation often fall short of accurately depicting the dynamic and diverse nature of complex needs, resulting in oversimplified or stereotypical profiles. Persona-L enables users to create and interact with personas through a chat interface. Persona-L was evaluated through interviews with UX designers (N=6), where we examined its effectiveness"
+}

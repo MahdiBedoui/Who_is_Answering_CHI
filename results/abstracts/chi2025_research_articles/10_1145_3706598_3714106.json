@@ -1,0 +1,10 @@
+{
+ "doi": "10.1145/3706598.3714106",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "pdf",
+ "fetched_at": "2026-06-11T01:28:51+00:00",
+ "quality": "ok",
+ "text": "Understanding how AI recommendations work can help the younger generation become more informed and critical consumers of the © 2025 Copyright held by the owner/author(s). ACM ISBN 979-8-4007-1394-1/25/04 https://doi.org/10.1145/3706598.3714106 CHI ’25, April 26–May 01, 2025, Yokohama, Japan vast amount of information they encounter daily. However, young learners with limited math and computing knowledge often find AI concepts too abstract. To address this, we developed Briteller, a light-based recommendation system that makes learning tangible. By exploring and manipulating light beams, Briteller enables children to understand an AI recommender system’s core algorithmic building block, the dot product, through hands-on interactions. Initial evaluations with ten middle school students demonstrated the effectiveness of this approach, using embodied metaphors, such as \"merging light\" to represent addition. To overcome the limitations of the physical optical setup, we further explored how AR could embody multiplication, expand data vectors with more attributes, and enhance contextual understanding. Our findings provide valuable insights for designing embodied and tangible learning experiences that make AI concepts more accessible to young learners."
+}

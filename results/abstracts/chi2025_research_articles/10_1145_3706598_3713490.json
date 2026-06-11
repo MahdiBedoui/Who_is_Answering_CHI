@@ -1,0 +1,10 @@
+{
+ "doi": "10.1145/3706598.3713490",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "pdf",
+ "fetched_at": "2026-06-11T01:24:50+00:00",
+ "quality": "ok",
+ "text": "is particularly evident in HCI, where transcripts as a form of data Transcripts are central to qualitative research in HCI, particularly have received little attention. In this article, we make three contrifor researchers using methods of Conversation Analysis (CA) and butions to HCI research. First, we present Transcript Explorer, an Interaction Analysis (IA) who study the socially situated nature open-source visualization system that integrates three visualization of human-computer interaction. However, CA and IA researchers techniques we have developed to interactively visualize transcripts continue to highlight the significant need for more dynamic ways linked to videos: Distribution Diagrams, Turn Charts and Contributo visualize transcripts to support interaction analysis. This need tion Clouds. Second, we present findings from a qualitative analysis of focus group interviews with three different qualitative research groups who engaged with this system to analyze common transcript data. Finally, we expand upon transcripts as a unique form of This work is licensed under a Creative Commons Attribution 4.0 International License. CHI ’25, Yokohama, Japan data for HCI research and propose directions for future research. © 2025 Copyright held by the owner/author(s). ACM ISBN 979-8-4007-1394-1/25/04 https://doi.org/10.1145/3706598.3713490 CHI ’25, April 26–May 01, 2025, Yokohama, Japan Shapiro, et al."
+}

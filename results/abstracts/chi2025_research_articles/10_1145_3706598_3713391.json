@@ -1,0 +1,10 @@
+{
+ "doi": "10.1145/3706598.3713391",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "pdf",
+ "fetched_at": "2026-06-11T01:24:08+00:00",
+ "quality": "ok",
+ "text": "Bystander privacy has become a critical concern amidst the widespread activities of video sharing, engaging billions of users daily. Concerns arise when individuals inadvertently appear in public videos without consent. Existing methods for determining bystander permissions require significant adaptation and modifications by videographers and video sharing platforms, potentially limiting their adoption. This study explores leveraging platform censorship capabilities to enforce bystander privacy. We introduce SelfFlag, a type of violative media signal designed to trigger automatic content flagging. Bystanders exhibiting such signals, captured in public videos, can be automatically identified and removed by platforms, thereby indirectly enforcing privacy preferences, primarily through the efforts of bystanders themselves. We conduct thorough measurements on current censorship practices, propose music-based triggering content, and develop an auxiliary tool for videographers to produce high-quality content with privacy compliance."
+}

@@ -1,0 +1,10 @@
+{
+ "doi": "10.1145/3706598.3714119",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "pdf",
+ "fetched_at": "2026-06-11T01:28:58+00:00",
+ "quality": "ok",
+ "text": "Good writing is a dynamic process of knowledge transformation, where writers refine and evolve ideas through planning, translating, and reviewing. Generative AI-powered writing tools can enhance this process but may also disrupt the natural fow of writing, such as when using LLMs for complex tasks like restructuring content across different sections or creating smooth transitions. We introduce Script&Shift, a layered interface paradigm designed to minimize these disruptions by aligning writing intents with LLM capabilities to support diverse content development and rhetorical strategies. By bridging envisioning, semantic, and articulatory distances, Script&Shift’s interactions allow writers to leverage LLMs for various content development tasks (scripting) and experiment with diverse organization strategies while tailoring their writing for different audiences (shifting). This approach preserves creative control while encouraging divergent and iterative writing. Our This work is licensed under a Creative Commons Attribution 4.0 International License. CHI ’25, Yokohama, Japan © 2025 Copyright held by the owner/author(s). ACM ISBN 979-8-4007-1394-1/25/04 https://doi.org/10.1145/3706598.3714119 face Paradigm for Integrating orical Strategy with LLM Writing tants D Pea Hari Subramonyam ol of Education Stanford University University Stanford, California, USA lifornia, USA harihars@stanford.edu tanford.edu empowers writers to query LLMs using familiar visual design d Writer’s Friends inline. (B) Shifting allows writers to reorganize s like. evaluation shows that Script&Shift enables writers to creatively and efficiently incorporate LLMs while preserving a natural fow of composition."
+}

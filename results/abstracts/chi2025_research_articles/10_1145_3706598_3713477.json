@@ -1,0 +1,10 @@
+{
+ "doi": "10.1145/3706598.3713477",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "pdf",
+ "fetched_at": "2026-06-11T01:24:45+00:00",
+ "quality": "ok",
+ "text": "Content Warning: This paper presents textual examples that may be offensive or upsetting. Large language model-based AI companions are increasingly viewed by users as friends or romantic partners, leading to deep emotional bonds. However, they can generate biased, discriminatory, and harmful outputs. Recently, users are taking the initiative to address these harms and re-align AI companions. We introduce the concept of user-driven value alignment, where users actively identify, challenge, and attempt to correct AI outputs they perceive as harmful, aiming to guide the AI to better align with their values. We analyzed 77 social media posts about discriminatory AI statements and conducted semi-structured interviews with 20 experienced users. Our analysis revealed six common types of discriminatory statements perceived by users, how users make sense of those AI behaviors, and seven user-driven alignment strategies, such as gentle persuasion and anger expression. We discuss implications for supporting user-driven value alignment in future AI systems, where users and their communities have greater agency."
+}

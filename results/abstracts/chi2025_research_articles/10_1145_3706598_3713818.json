@@ -1,0 +1,10 @@
+{
+ "doi": "10.1145/3706598.3713818",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "pdf",
+ "fetched_at": "2026-06-11T01:26:51+00:00",
+ "quality": "ok",
+ "text": "Songwriting is often driven by multimodal inspirations, such as imagery, narratives, or existing music, yet songwriters remain unsupported by current music AI systems in incorporating these multimodal inputs into their creative processes. We introduce Amuse, a songwriting assistant that transforms multimodal (image, text, or audio) inputs into chord progressions that can be seamlessly incorporated into songwriters’ creative process. A key feature of Amuse is its novel method for generating coherent chords that are relevant to music keywords in the absence of datasets with paired examples of multimodal inputs and chords. Specifically, we propose a method that leverages multimodal LLMs to convert multimodal inputs into noisy chord suggestions and uses a unimodal chord model to filter the suggestions. A user study with songwriters shows that Amuse effectively supports transforming multimodal ideas into coherent musical suggestions, enhancing users’ agency and creativity throughout the songwriting process."
+}

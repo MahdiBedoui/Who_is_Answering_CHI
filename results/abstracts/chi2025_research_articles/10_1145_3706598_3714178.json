@@ -1,0 +1,10 @@
+{
+ "doi": "10.1145/3706598.3714178",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "pdf",
+ "fetched_at": "2026-06-11T01:29:14+00:00",
+ "quality": "ok",
+ "text": "Co-viewing, traditionally defined as watching content together in the same physical space, enhances emotional connections through shared experiences. With the rise of remote viewing during the ∗Both authors contributed equally to this research. This work is licensed under a Creative Commons Attribution-NonCommercialShareAlike 4.0 International License. CHI ’25, Yokohama, Japan © 2025 Copyright held by the owner/author(s). ACM ISBN 979-8-4007-1394-1/25/04 https://doi.org/10.1145/3706598.3714178 Sports Co-Viewing Partner woo Song∗ Jeongwoo Ryu Intelligence and Department of Intelligence and mation Information nal University Seoul National University blic of Korea Seoul, Republic of Korea @snu.ac.kr jeongwoo@snu.ac.kr Bongwon Suh Department of Intelligence and Information Seoul National University Seoul, Republic of Korea bongwon@snu.ac.kr left side shows the Low-Arousal BleacherBot providing calm The right side depicts the High-Arousal BleacherBot actively nd enjoyment. COVID-19 pandemic, existing solutions, such as second-screen platforms and rule-based AI companions, struggle to facilitate meaningful social interactions. This study explores the potential of Large Language Models, which offer human-like interactions and personalization. Our formative study with ten participants revealed the importance of managing arousal levels, highlighting the need to balance between high-and low-arousal levels across different viewing contexts. Based on these insights, we developed ‘BleacherBot’, a sports co-viewing agent with distinct interaction styles that vary in arousal levels. Our main study with 27 participants demonstrated that matching users’ preferred arousal levels with the agent’s interaction style significantly enhanced their engagement and overall CHI ’25, April 26–May 01, 2025, Yokohama, Japan enjoyment. We propose design guidelines for AI co-viewing agents that consider their role as complements to human social interactions."
+}

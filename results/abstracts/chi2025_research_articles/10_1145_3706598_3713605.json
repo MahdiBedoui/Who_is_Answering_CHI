@@ -1,0 +1,10 @@
+{
+ "doi": "10.1145/3706598.3713605",
+ "year": 2025,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "pdf",
+ "fetched_at": "2026-06-11T01:25:33+00:00",
+ "quality": "ok",
+ "text": "Muscle synergy analysis provides a method for quantifying differences in muscle use between expert and novice athletes. However, the practical applications of muscle synergy analysis with feedback remain underexplored. In this paper, we present a golf putting training system that utilizes electrical muscle stimulation (EMS) feedback guided by muscle synergy analysis. Considering the individual differences, we use optimal transport to compute the muscle synergy similarity between users and experts. This approach allows users to model their muscle usage after the expert whose synergy is closest. Based on the muscle synergy differences between the expert and the user, EMS is applied to the muscles that need activation. As a result, users can practice putting with increased awareness of the muscles targeted by EMS, resulting in changes in muscle synergy This work is licensed under a Creative Commons Attribution 4.0 International License. CHI ’25, Yokohama, Japan © 2025 Copyright held by the owner/author(s). ACM ISBN 979-8-4007-1394-1/25/04 https://doi.org/10.1145/3706598.3713605 th Electrical Muscle Stimulation Muscle Synergy Analysis Shoichiro Takeda NTT Human Informatics Laboratories NTT Corporation Yokosuka, Kanagawa, Japan shoichiro.takeda@ntt.com using electrical muscle stimulation feedback guided by muscle myography sensors attached to both arms. (Middle) After muscle ata of muscle synergy in putting are selected from three experts cal muscle stimulation is applied to two target muscles selected he model expert. and improved performance. User studies with 44 novices demonstrated that the proposed system significantly improved putting accuracy."
+}
