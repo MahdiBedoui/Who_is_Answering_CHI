@@ -102,7 +102,12 @@ def main() -> None:
         t0 = time.time()
         try:
             safe_pdf = ascii_safe_copy(pdf)
-            result = converter.convert(str(safe_pdf), max_num_pages=2)
+            # page_range converts ONLY pages 1-2 (max_num_pages would instead
+            # REJECT any document longer than 2 pages -- not what we want).
+            try:
+                result = converter.convert(str(safe_pdf), page_range=(1, 2))
+            except TypeError:  # older docling without page_range: convert fully
+                result = converter.convert(str(safe_pdf))
             md = result.document.export_to_markdown()
         except Exception as exc:
             print(f"  ERROR {doi}: {exc}", flush=True)
