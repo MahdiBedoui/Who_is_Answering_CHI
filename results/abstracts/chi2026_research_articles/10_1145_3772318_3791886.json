@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3772318.3791886",
+ "year": 2026,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T02:59:03+00:00",
+ "text": "Walking aids are critical for people with mobility impairments, yet current options remain unsatisfactory. Static knee braces are lightweight and affordable, but their rigid joints force users into unnatural gait patterns, leading to fatigue, reduced safety, and high abandonment rates. Robotic exoskeletons, in contrast, offer dynamic assistance that adapts to gait phases but rely on sensors, motors, and batteries that make them heavy, complex, and prohibitively expensive."
+}

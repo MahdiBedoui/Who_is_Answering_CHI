@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3772318.3791741",
+ "year": 2026,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T02:59:02+00:00",
+ "text": "Boundaries such as walls, windows, and doors are ubiquitous in the physical world, yet their potential in mixed reality (MR) remains underexplored. We present Unbounded, a Research through Design inquiry into object--boundary interaction (OBI). Building on prior work, we articulate a design space aimed at providing a shared language for OBI. To demonstrate its potential, we design and implement eight examples across productivity and art exploration scenarios, showcasing how OBIs can enrich and reframe everyday interactions. We further engage with six MR experts in one-on-one feedback sessions, using the design space and examples as design probes. Their reflections broaden the conceptual scope of OBI, reveal new possibilities for how the framework may be applied, and highlight implications for future MR interaction design. https://www.zhuoyuelyu.com/unbounded"
+}

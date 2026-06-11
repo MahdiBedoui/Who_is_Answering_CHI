@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3772318.3790719",
+ "year": 2026,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T02:58:54+00:00",
+ "text": "Lightweight augmented reality (AR) glasses are increasingly entering everyday use, extending interaction design beyond short, isolated sessions. However, most existing gesture vocabularies are inherited from VR headsets or early AR goggles. These systems tend to prioritize recognizer accuracy while overlooking fatigue, sustainability, and social legibility in daily contexts. To address this gap, we collaborated with physical therapists (PTs) to reimagine gesture design for everyday AR, drawing on their expertise in safe and sustainable movement. Through a review of 104 AR applications, we identified 15 common gesture intents and implemented an on-device gesture generator. Ten licensed physical therapists, with an average of 14.8 years of professional experience, then shaped these gesture intents through three iterative stages: unaided gesture performance, PT-guided gesture substitution, and stage-aware card sorting. This work contributes (1) a PT-informed gesture translation method, (2) the Everyday-AR Golden Ergonomic Canvas, and (3) a stage-aware social legibility framework that illustrates how gesture suitability shifts with social readability. Together, these contributions provide a recognizer-agnostic reference framework for designing sustainable and socially coherent gesture vocabularies for lightweight AR glasses."
+}

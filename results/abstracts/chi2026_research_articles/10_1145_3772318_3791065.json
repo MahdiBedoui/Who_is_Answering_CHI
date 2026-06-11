@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3772318.3791065",
+ "year": 2026,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T02:58:56+00:00",
+ "text": "The rise in popularity and value of esports motivates the creation of computational training tools (CTTs) for learning, assessment, and skill gain. While some tools exist commercially, much of the work in the research literature is rarely used outside of a lab, resulting in a lack of knowledge on the challenges involved in real-world integration. In this work, we develop a bespoke CTT for League of Legends—MySkills—based on prior work and deploy it at a professional training academy for three months. Based on two rounds of stakeholder interviews, we uncover insights into users’ perspectives on using CTTs in esports coaching and the challenges inherent in introducing a novel tool into an existing, real-world esports training context. From these results, we connect the domain of esports training technology to existing conversations on translational HCI, challenges in bridging research and practice, and present implications for future work."
+}

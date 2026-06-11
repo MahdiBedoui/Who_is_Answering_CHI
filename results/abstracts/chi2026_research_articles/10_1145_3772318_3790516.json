@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3772318.3790516",
+ "year": 2026,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T02:58:52+00:00",
+ "text": "When novices fabricate, they naturally start by choosing a workflow (e.g., laser cutting, 3D printing, wire bending) and the corresponding software (e.g., Adobe Illustrator, Fusion 360, Rhino) from a narrow set of options they know. As they advance their design, another workflow might better suit their design intent, but their models remain committed to the original workflow. This prohibits exploration, a learning mechanism fostering informed decision-making."
+}

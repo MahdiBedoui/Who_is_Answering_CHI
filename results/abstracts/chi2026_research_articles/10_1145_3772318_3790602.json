@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3772318.3790602",
+ "year": 2026,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T02:58:53+00:00",
+ "text": "Content-curating algorithms provide a crucial service for social media users by surfacing relevant content, but they can also bring about harms when their objectives are misaligned with user values and welfare. Yet, potential behavioral consequences of this alignment problem remain understudied in controlled experiments. In a preregistered, two-wave, collaborative filtering experiment, we demonstrate that small changes to the metrics used for sampling and ranking posts affect the beliefs people form. Our results show observable differences in two types of outcomes within statisticized groups: belief accuracy and consensus. We find partial support for hypotheses that the recently proposed approaches of \"bridging-based ranking\" and \"intelligence-based ranking\" promote consensus and belief accuracy, respectively. We also find that while personalized, engagement-based ranking promotes posts that participants perceive favorably, it simultaneously leads those participants to form more polarized and less accurate beliefs than any of the other algorithms considered."
+}

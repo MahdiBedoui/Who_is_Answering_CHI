@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3772318.3790729",
+ "year": 2026,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T02:58:54+00:00",
+ "text": "Instrumental music conveys rich affective experiences through acoustic cues, yet instrumental passages often remain inaccessible to Deaf and Hard-of-Hearing (DHH) audiences. Although captioning practices for vocal songs have expanded, instrumental music remains largely uncaptioned, with no established criteria for representing musical content in text. We propose μCap (Music Captions), an automatic instrumental music captioning system that transforms instrumental audio into time-aligned, non-lexical textual renderings enhanced with simple visuals. Drawing on Preliminary surveys with DHH individuals and expert group discussions, we developed a phonetic-like captioning schema grounded in music sound analysis and linguistics. We then implemented μCap using audio feature extraction and a retrieval-augmented generation pipeline to produce expressive, sound-mimetic captions. Two user evaluations with DHH participants (n=20 and n=15) showed that μCap enhanced music appreciation, immersion, and perceived presence of acoustic detail. This work contributes empirical evidence and insights for designing caption-based visual representations that make instrumental music more accessible."
+}

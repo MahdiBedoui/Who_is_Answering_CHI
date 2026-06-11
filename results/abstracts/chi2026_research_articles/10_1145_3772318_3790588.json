@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3772318.3790588",
+ "year": 2026,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T02:58:53+00:00",
+ "text": "Despite decades of research, behavior change technologies remain limited in effectiveness because they mainly focus on offering information. Immersive technologies, such as extended, virtual, and augmented reality, promise to address this limitation by shifting from information-centric to experience-centric interventions. However, we do not know which technical and psychological components of immersive technologies make interventions effective. This scoping review of 53 articles analyzes how immersive technology components are linked to theory-informed behavior change techniques, summarizes their effectiveness, and synthesizes their unique advantages for experience-based immersive behavior change interventions. We offer both a formalization of the impact of immersive technology components on behavior change, and summarize practical suggestions for designing and systematically evaluating immersive behavior change interventions in a framework toward theory-driven Extended Reality behavior change interventions."
+}

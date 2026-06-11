@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3772318.3790474",
+ "year": 2026,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T02:58:52+00:00",
+ "text": "People's identities change during life transitions, e.g., studying abroad. They bring everyday objects that embody memories and reflect their identities during such moves. To assist in these transitions, we ask how people's human identities could be influenced by their objects through an artificial agent. This paper presents an exploratory research-through-design study around how people undergoing life transitions experience conversing with their everyday objects through a chatbot. Drawing on a two-week field deployment and interviews with 12 participants, we contribute (1) a conceptualization of 'trans-embodiment' describing the asynchronous imagination of object and human identities on the chatbot, (2) empirical evidence of the resulting emotional and reflective experiences, and (3) three types of object identities for designing conversational agents that role-play objects. Our contributions sum up to triangulating human-agent-object identity as trans-embodiment in supporting life transitions."
+}

@@ -1,0 +1,10 @@
+{
+ "doi": "10.1145/3772318.3791394",
+ "year": 2026,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "pdf",
+ "fetched_at": "2026-06-11T03:00:17+00:00",
+ "quality": "ok",
+ "text": "VR mindfulness meditation has been widely used for stress reduction and psychological rehabilitation owing to its immersion and controllability. However, the common static-body with visualmovement paradigm often disrupts the natural coordination between vision, vestibular sense, and proprioception, inducing sensory conflicts that hinder the stable onset and maintenance of state mindfulness. Despite its relevance, this issue has long been overlooked in both research and practice. To address this gap, we developed a VR meditation system supporting dynamic breathing feedback and eye-tracking, and conducted a three-factor within-subject CHI ’26, April 13–17, 2026, Barcelona, Spain experiment in a fixed-route navigation scenario. By manipulating visual reference, body posture, and locomotion intention, we induced different types and levels of sensory conflict. Multimodal analyses of questionnaires, eye-movement behaviors, and individualdifference measures suggested that sensory conflict weakens state mindfulness, and that increases in vestibulo-ocular reflex activity and instability in visual attention may help explain this association. Cluster analysis further showed that interoceptive awareness and motion sickness sensitivity significantly moderated these effects."
+}

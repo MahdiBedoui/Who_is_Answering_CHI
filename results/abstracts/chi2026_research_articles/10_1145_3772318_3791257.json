@@ -1,0 +1,10 @@
+{
+ "doi": "10.1145/3772318.3791257",
+ "year": 2026,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "semanticscholar",
+ "fetched_at": "2026-06-11T03:01:56+00:00",
+ "quality": "ok",
+ "text": "Spatial tensions in real-world deployments of autonomous robots (e.g., sidewalk conflicts, boundary violations) expose a critical oversight: the neglect of space as a social construct through which people form expectations and regulate access and behavior, that is, Territoriality. Beyond proxemics, Human–Robot Interaction lacks the theoretical models and shared vocabulary needed to support empirical research on this dimension. To address this gap, we adapt insights from environmental psychology to develop NOX (ENtry, Occupancy, EXit), a stage-based model of human–robot territorial dynamics. NOX pinpoints sources of robot territorial infringement (i.e., friction points) which were validated in a between-subjects vignette study (N = 290). Our findings indicate that mismatches between robot behavior and human expectations at these friction points are associated with more negative affect, higher defensive intent, and lower perceived appropriateness. NOX clarifies this facet of human–robot spatial relationship and identifies future directions for design and research toward harmonious integration in human environments."
+}

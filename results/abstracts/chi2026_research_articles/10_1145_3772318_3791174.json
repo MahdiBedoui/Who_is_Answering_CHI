@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3772318.3791174",
+ "year": 2026,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T02:58:57+00:00",
+ "text": "The Wizard-of-Oz (WoZ) method has long been a core prototyping technique in Human-Computer Interaction (HCI), in which users interact with systems that seem autonomous but are actually controlled by hidden human operators. Advances in interactive technologies have expanded the landscape of future system behaviors, broadening both where and how WoZ is used. However, as more envisioned behaviors become technically feasible, the distinction between engineering a system and simulating an interaction becomes blurred, making it essential to clarify when and why to employ wizarding. This paper presents the first systematic review of WoZ in HCI, drawing on 194 papers from SIGCHI venues to identify ten application domains, five wizard control types, eight motivations, and five categories of concerns. Building on these findings, we propose a reciprocal evolution framework that interprets how technology and wizarding shape each other, and derive guidelines for the rigorous application of WoZ. We further illustrate the framework through emerging prototyping practices with Large Language Models (LLMs)."
+}

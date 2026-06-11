@@ -1,0 +1,10 @@
+{
+ "doi": "10.1145/3772318.3790756",
+ "year": 2026,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "pdf",
+ "fetched_at": "2026-06-11T02:59:44+00:00",
+ "quality": "ok",
+ "text": "Data-driven policymaking has become central in public administration, leveraging datasets to optimize resource allocation and service delivery. Yet this trend raises critical questions about equity, representation, and the inclusion of marginalized communities in data governance. This paper examines the intersection of bureaucratic frameworks, data systems, and community needs, with a focus on disadvantaged groups. Drawing on a nationally representative survey (N = 754) and computational text analysis, we show that low-income respondents and residents of disadvantaged communities are more skeptical of data reliability and transparency, and place greater emphasis on community voice and ethical safeguards than their more advantaged counterparts. Our contribution lies in integrating intersectionality and place-based justice with HCI theories of data governance. We conclude with design recommendations for civic technologies and participatory data infrastructures that create accessible platforms, embed feedback loops, and support co-governance models fostering transparency, trust, and accountability."
+}

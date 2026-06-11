@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3772318.3790572",
+ "year": 2026,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T02:58:53+00:00",
+ "text": "An interactive vignette is a popular and immersive visual storytelling approach that invites viewers to role-play a character and influences the narrative in an interactive environment. However, it has not been widely used by everyday storytellers yet due to authoring complexity, which conflicts with the immediacy of everyday storytelling. We introduce DiaryPlay, an AI-assisted authoring system for interactive vignette creation in everyday storytelling. It takes a natural language story as input and extracts the three core elements of an interactive vignette (environment, characters, and events), enabling authors to focus on refining these elements instead of constructing them from scratch. Then, it automatically transforms the single-branch story input into a branch-and-bottleneck structure using an LLM-powered narrative planner, which enables flexible viewer interactions while freeing the author from multi-branching. A technical evaluation (N=16) shows that DiaryPlay-generated character activities are on par with human-authored ones regarding believability. A user study (N=16) shows that DiaryPlay effectively supports authors in creating interactive vignette elements, maintains authorial intent while reacting to viewer interactions, and provides engaging viewing experiences."
+}

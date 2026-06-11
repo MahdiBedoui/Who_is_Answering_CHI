@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3772318.3790463",
+ "year": 2026,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T02:58:52+00:00",
+ "text": "Achieving touchpad-like pointing with a single IMU ring is highly desirable for portable and wearable interaction, yet challenging due to incomplete motion data and significant user variability. We present TraceRing, a finger-worn IMU system that enables precise two-dimensional cursor control. To address the limitations of generic end-to-end models, we propose a personalized training framework that learns user-specific representations through joint multi-task and contrastive learning, while dynamically selecting the most suitable expert model. This approach enables personalization without requiring per-user fine-tuning, and reduces velocity prediction error by 33.9% over state-of-the-art baselines. Furthermore, a real-time study shows it delivers speed and accuracy far exceeding those of AirMouse (2.26s v.s. 3.01s in average task completion time). These results demonstrate TraceRing as a portable and comfortable alternative for mobile computing and AR interaction applications."
+}

@@ -1,0 +1,9 @@
+{
+ "doi": "10.1145/3772318.3791042",
+ "year": 2026,
+ "ptype": "Research Article",
+ "section": "abstract",
+ "source": "openalex",
+ "fetched_at": "2026-06-11T02:58:56+00:00",
+ "text": "On a visualization, the position of the marks encoding data is the most expressive and effective visual channel. It conveys order and quantity without impairing the perception of other visual channels. In the field of Information Visualization, position is often restricted to two dimensions, because using the third dimension, depth, usually affects the perception of size, which is also one of the most effective visual channels."
+}
