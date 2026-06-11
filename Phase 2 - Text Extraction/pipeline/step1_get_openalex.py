@@ -4,7 +4,8 @@
 Reads : the corpus folder   <data store>/sigchi/VERIFIED COUNT/CHI/<year>/<type>/*.pdf
 
 Two output modes:
-  --out-dir FOLDER   one .txt file per paper, named by DOI (10_1145_xxx_yyy.txt).
+  --out-dir FOLDER   one .json file per paper, named by DOI (10_1145_xxx_yyy.json):
+                     {doi, year, ptype, section, source, fetched_at, text}
                      Papers OpenAlex has no abstract for get NO file; they are listed
                      in _missing.txt in the same folder.
   --out FILE.csv     one CSV (doi, year, ptype, abstract). Default mode if neither given:
@@ -113,14 +114,15 @@ def main() -> None:
 
     if args.out_dir:
         # ---- one .txt per paper ----
+        from datetime import datetime, timezone
         out_dir = Path(args.out_dir).resolve()
         out_dir.mkdir(parents=True, exist_ok=True)
-        print(f"Output : {out_dir}  (one .txt per paper)\n")
+        print(f"Output : {out_dir}  (one .json per paper)\n")
         missing = []
         n = 0
         for year, ptype, stem, doi in iter_papers(corpus, args.years, args.types):
-            txt = out_dir / f"{stem}.txt"
-            if txt.exists() and txt.stat().st_size > 0:
+            jf = out_dir / f"{stem}.json"
+            if jf.exists() and jf.stat().st_size > 0:
                 continue  # resume: already saved
             try:
                 abstract = get_abstract(year, stem, doi)
@@ -128,7 +130,17 @@ def main() -> None:
                 print(f"  ERROR {doi}: {exc} (will retry on next run)", flush=True)
                 continue
             if abstract:
-                txt.write_text(abstract + "\n", encoding="utf-8")
+                record = {
+                    "doi": doi,
+                    "year": year,
+                    "ptype": ptype,
+                    "section": "abstract",
+                    "source": "openalex",
+                    "fetched_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+                    "text": abstract,
+                }
+                jf.write_text(json.dumps(record, ensure_ascii=False, indent=1),
+                              encoding="utf-8")
             else:
                 n_missing += 1
                 missing.append(doi)
@@ -137,7 +149,7 @@ def main() -> None:
                 print(f"  {n} done ({n_missing} without abstract)", flush=True)
         (out_dir / "_missing.txt").write_text("\n".join(missing) + "\n" if missing else "",
                                               encoding="utf-8")
-        print(f"\nDone. {n - n_missing} abstracts saved as .txt, {n_missing} missing "
+        print(f"\nDone. {n - n_missing} abstracts saved as .json, {n_missing} missing "
               f"(listed in _missing.txt)")
         print(f"(fetched from API: {n_fetched}, reused saved answers: {n_reused})")
     else:
