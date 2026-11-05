@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3613904.3642478",
- "year": 2024,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:14:48+00:00",
- "text": "Stratifying depressed individuals may help to improve recovery rates by identifying the subgroups who would benefit from targeted treatments. Detecting depressed individuals with prominent anhedonia (i.e. lack of pleasure) may be one effective approach, given these individuals experience poorer treatment outcomes. This paper explores the linguistic features associated with anhedonia among depressed adults. Over 9 weeks, 218 individuals with depressive symptoms completed a fortnightly psychometric measure of depression (PHQ-9) and provided text data (SMS, social media posts, expressive essays, emotion diaries, personal letters). Linguistic features were examined using LIWC-22. Greater use of discrepancy words was significantly associated with higher anhedonia, but in SMS data only. Machine learning showed some utility for predicting increased anhedonia, with discrepancy words the most important linguistic feature in the model. Discrepancy words were not found to be associated with overall depression scores. These results suggest that this linguistic feature may show some promise for the stratification of anhedonic depression."
-}

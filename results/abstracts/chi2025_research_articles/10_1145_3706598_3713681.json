@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3706598.3713681",
- "year": 2025,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:15:19+00:00",
- "text": "The contemporary AI development landscape is dominated by big corporations, lacks diversity, and mostly centres the Global North, or applies extractivist logics in the South. This paper showcases a feminist process of AI development from Latin America, where we created an interactive, AI-powered tool that helps criminal court officers open justice data, addressing a data gap on gender-based violence. Through a collaborative autoethnography, drawing from Latin American feminisms, we unpack and visibilize the feminist work that was required, as a crucial step to counter hegemonic narratives. Foregrounding the subjugated knowledges of our experiences, we offer a concrete example of a feminist approach to AI development grounded in practice. With this, we aim to critically inspire those who consider building technology in service of social justice causes, or who choose to build AI systems otherwise."
-}

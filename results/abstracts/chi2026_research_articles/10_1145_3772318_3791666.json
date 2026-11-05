@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3772318.3791666",
- "year": 2026,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T02:59:01+00:00",
- "text": "Many software development platforms now support LLM-driven programming, or “vibe coding”, a technique that allows one to specify programs in natural language and iterate from observed behavior, all without directly editing source code. While its adoption is accelerating, little is known about which skills best predict success in this workflow. We report a preregistered cross-sectional study with tertiary-level students (N = 100) who completed measures of computer-science achievement, domain-general cognitive skills, written-communication proficiency, and a vibe-coding assessment. Tasks were curated via an eight-expert consensus process and executed in a purpose-built, vibe-coding environment that mirrors commercial tools while enabling controlled evaluation. We find that both writing skill and CS achievement are significant predictors of vibe-coding performance, and that CS achievement remains a significant predictor after controlling for domain-general cognitive skills. The results may inform tool and curriculum design, including when to emphasize prompt-writing versus CS fundamentals to support future software creators."
-}

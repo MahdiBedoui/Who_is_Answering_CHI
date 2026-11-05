@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3772318.3790287",
- "year": 2026,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T02:58:50+00:00",
- "text": "Visualizations often encode multivariate data by mapping attributes to distinct visual channels such as color, size, or shape. The effectiveness of these encodings depends on separability--the extent to which channels can be perceived independently. Yet systematic evidence for separability, especially in map-based contexts, is lacking. We present a crowdsourced experiment that evaluates the separability of four channel pairs--color (ordered) x shape, color (ordered) x size, size x shape, and size x orientation--in the context of bivariate symbol maps. Both accuracy and speed analyses show that color x shape is the most separable and size x orientation the least separable, while size x color and size x shape do not differ. Separability also proved asymmetric--performance depended on which channel encoded the task-relevant variable, with color and shape outperforming size, and square shape especially difficult to discriminate. Our findings advance the empirical understanding of visual separability, with implications for multivariate map design."
-}

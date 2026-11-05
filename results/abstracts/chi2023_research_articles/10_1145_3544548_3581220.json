@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3544548.3581220",
- "year": 2023,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:14:08+00:00",
- "text": "Enabling blind visitors to explore museum floors while feeling the facility’s atmosphere and increasing their autonomy and enjoyment are imperative for giving them a high-quality museum experience. We designed a science museum exploration system for blind visitors using an autonomous navigation robot. Blind users can control the robot to navigate them toward desired exhibits while playing short audio descriptions along the route. They can also browse detailed explanations on their smartphones and call museum staff if interactive support is needed. Our real-world user study at a science museum during its opening hour revealed that blind participants could explore the museum safely and independently at their own pace. The study also showed that the sighted visitors who saw the participants walking with the robot accepted the assistive robot well. We finally conducted focus group sessions with the blind participants and discussed further requirements toward a more independent museum experience."
-}

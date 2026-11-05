@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3772318.3791444",
- "year": 2026,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T02:58:59+00:00",
- "text": "We present AutoOptimization, a novel multi-objective optimization framework for adapting user interfaces. From a user’s verbal preferences for changing a UI, our framework guides a prioritization-based Pareto frontier search over candidate layouts. It selects suitable objective functions for UI placement while simultaneously parameterizing them according to the user’s instructions to define the optimization problem. A solver then generates a series of optimal UI layouts, which our framework validates against the user’s instructions to adapt the UI with the final solution. Our approach thus overcomes the previous need for manual inspection of layouts and the use of population averages for objective parameters. We integrate multiple agents sequentially within our framework, enabling the system to leverage their reasoning capabilities to interpret user preferences, configure the optimization problem, and validate optimization outcomes. We evaluate each step of our framework inside a Mixed Reality use case and demonstrate that AutoOptimization effectively increases the usability of UI adaptation schemes."
-}

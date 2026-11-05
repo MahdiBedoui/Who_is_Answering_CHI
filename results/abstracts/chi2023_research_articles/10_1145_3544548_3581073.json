@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3544548.3581073",
- "year": 2023,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:14:07+00:00",
- "text": "Engaging with multiple streams of personal health data to inform self-care of chronic health conditions remains a challenge. Existing informatics tools provide limited support for patients to make data actionable. To design better tools, we conducted two studies with Type 1 diabetes patients and their clinicians. In the first study, we observed data review sessions between patients and clinicians to articulate the tasks involved in assessing different types of data from diabetes devices to make care decisions. Drawing upon these tasks, we designed novel data interfaces called episode-driven data narratives and performed a task-driven evaluation. We found that as compared to the commercially available diabetes data reports, episode-driven data narratives improved engagement and decision-making with data. We discuss implications for designing data interfaces to support interaction with multidimensional health data to inform self-care."
-}

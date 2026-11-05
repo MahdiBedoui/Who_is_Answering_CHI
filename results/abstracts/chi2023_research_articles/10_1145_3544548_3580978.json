@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3544548.3580978",
- "year": 2023,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:14:06+00:00",
- "text": "The recent popularity of augmented reality (AR) devices has enabled players to participate in interactive narratives through virtual events and characters populated in a real-world environment, where different actions may lead to different story branches. In this paper, we propose a novel approach to adapt narratives to real spaces for AR experiences. Our optimization-based approach automatically assigns contextually compatible locations to story events, synthesizing a navigation graph to guide players through different story branches while considering their walking experiences. We validated the effectiveness of our approach for adapting AR narratives to different scenes through experiments and user studies."
-}

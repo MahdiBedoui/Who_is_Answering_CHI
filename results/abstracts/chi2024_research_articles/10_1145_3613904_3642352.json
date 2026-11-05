@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3613904.3642352",
- "year": 2024,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:14:47+00:00",
- "text": "As Artificial Intelligence (AI) becomes ubiquitous, the need for Explainable AI (XAI) has become critical for transparency and trust among users. A significant challenge in XAI is catering to diverse users, such as data scientists, domain experts, and end-users. Recent research has started to investigate how users’ characteristics impact interactions with and user experience of explanations, with a view to personalizing XAI. However, are we heading down a rabbit hole by focusing on unimportant details? Our research aimed to investigate how user characteristics are related to using, understanding, and trusting an AI system that provides explanations. Our empirical study with 149 participants who interacted with an XAI system that flagged inappropriate comments showed that very few user characteristics mattered; only age and the personality trait openness influenced actual understanding. Our work provides evidence to reorient user-focused XAI research and question the pursuit of personalized XAI based on fine-grained user characteristics."
-}

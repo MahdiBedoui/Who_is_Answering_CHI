@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3706598.3713682",
- "year": 2025,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:15:19+00:00",
- "text": "Danmaku, a system of scene-aligned, time-synced, floating comments, can augment video content to create g'collective knowledge'. However, its chaotic nature often hinders viewers from effectively assimilating the collective knowledge, especially in knowledge-intensive science videos. With a formative study, we examined viewers' practices for processing collective knowledge and the specific barriers they encountered. Building on these insights, we designed a processing pipeline to filter, classify, and cluster danmaku, leading to the development of CoKnowledge - a tool incorporating a video abstract, knowledge graphs, and supplementary danmaku features to support viewers' assimilation of collective knowledge in science videos. A within-subject study (N=24) showed that CoKnowledge significantly enhanced participants' comprehension and recall of collective knowledge compared to a baseline with unprocessed live comments. Based on our analysis of user interaction patterns and feedback on design features, we presented design considerations for developing similar support tools."
-}

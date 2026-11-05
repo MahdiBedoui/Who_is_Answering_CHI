@@ -1,219 +1,205 @@
 # Who's Answering CHI?
 
-> A systematic audit of online-survey methodology, and the integrity practices that surround it, across ~16,000 ACM SIGCHI papers (2022–2026).
-
-[![Stage 1](https://img.shields.io/badge/Stage%201%20%E2%80%94%20Corpus-complete-brightgreen)](Phase%201%20-%20Data%20Collection/README.md)
-[![Stage 2](https://img.shields.io/badge/Stage%202%20%E2%80%94%20Classification-in%20progress-yellow)](Phase%202%20-%20Text%20Extraction/README.md)
-[![Sources](https://img.shields.io/badge/validated-Crossref%20%2B%20OpenAlex-blue)]()
-[![License](https://img.shields.io/badge/code-MIT-green)](LICENSE) [![Data](https://img.shields.io/badge/data-CC--BY--4.0-lightgrey)](LICENSE-DATA)
-
----
+A census of how CHI papers collect data online, and how they protect it:
+every Research Article at CHI 2022-2026 (5,524 papers), classified by a
+rules-then-LLM pipeline and validated against human annotations.
 
 ## What this project does
 
-We classify every SIGCHI-published paper from 2022–2026 on three questions:
+Every paper is classified on three questions (the full rules are in
+[CODEBOOK.md](CODEBOOK.md)):
 
-1. **Did the authors run an online survey?** (yes / no + supporting quotes)
-2. **If yes, did they use any fraud-detection methods?** (yes / no + which ones + supporting quotes)
-3. **If yes, which participant-source platform or panel did they recruit from?** (e.g., Prolific, MTurk, social media, etc. + supporting quotes)
+1. **Q1. Does the paper rest on data collected online, with no researcher
+   present?** Yes only if all three hold for at least one of its data
+   collections: data was collected from participants for the results, it
+   was collected online, and nobody from the research team was there.
+   (yes / no, with the sentences it rests on)
+2. **Q2. If yes, which data-quality checks do the authors report?**
+   Attention checks, speed filters, bot detection, reputation filters and
+   nine more categories. (which checks, with their sentences)
+3. **Q3. If yes, where did the participants come from?** Prolific, MTurk,
+   CloudResearch, social media, university pools and more. (which sources,
+   with their sentences)
 
-The third question enables sub-analyses across panels and platforms: comparing fraud-defense practices by recruitment source, tracking platform share over time, and crosstabbing venue × platform × method.
+Q3 makes the sub-analyses possible: quality checks by recruitment source,
+platform share over time.
 
-The output is a structured dataset (CSV / JSON), one record per paper, that quantifies, for the first time at this scale, how the SIGCHI community collects and protects online-survey data.
+The output is one record per paper, every answer traceable to the paper's
+own sentences.
 
-## Status
+## Corpus snapshot
 
-| Stage | Status | Description |
-|---|---|---|
-| 1. Corpus assembly | ✓ Complete | ~16,000 papers PDFs downloaded, organized, dual-source validated |
-| 2. PDF → text (GROBID) | ⏳ In progress | Extract abstract + methods per paper |
-| 3. Regex + NLP detection | Planned | Two parallel tracks classify survey usage |
-| 4. LLM adjudication | Planned | Resolve regex/NLP disagreements |
-| 5. Fraud-method detection | Planned | Same pipeline, second objective |
-| 6. Participant-source classification | Planned | Identify recruitment platform / panel per survey paper (Prolific, MTurk, etc.) |
-| 7. Gold-standard validation | Planned | 300 hand-labeled papers → precision / recall / F1 / IRR |
+| Year | Research Articles |
+|---|---|
+| 2022 | 637 |
+| 2023 | 879 |
+| 2024 | 1,057 |
+| 2025 | 1,249 |
+| 2026 | 1,702 |
+| **Total** | **5,524** |
 
-## Corpus snapshot (Stage 1)
-
-**~16,000 papers** across **28 venues**, fully validated against Crossref and OpenAlex:
-
-*(The per-venue, per-year DOI keep-lists in [`data/keep_lists/`](data/keep_lists/) are the canonical machine-readable record of what was scraped and validated.)*
+Counts match the ACM Digital Library for every year.
 
 ## Pipeline architecture
 
 ```
-                                STAGE 1 (done)
-   ┌────────────────────────────────────────────────────────────────┐
-   │  ACM DL  ───►  Crossref ───►  OpenAlex                         │
-   │       │           │              │                             │
-   │       └───── DOI keep-lists ─────┘                             │
-   │                       │                                        │
-   │                       ▼                                        │
-   │              sigchi_downloader.py  (Chrome, Cloudflare-aware)  │
-   │                       │                                        │
-   │                       ▼                                        │
-   │              organize_by_year.py  →  organize_by_type.py       │
-   │                       │                                        │
-   │                       ▼                                        │
-   │   sigchi/VERIFIED COUNT/<venue>/<year>/{RA,Short,_excluded}/   │
-   └────────────────────────────────────────────────────────────────┘
-                                  │
-                                  ▼
-                          STAGES 2–6 (planned)
-   ┌────────────────────────────────────────────────────────────────┐
-   │  PDFs in sigchi/VERIFIED COUNT/<venue>/<year>/<type>/          │
-   │           │                                                    │
-   │           ├── Metadata from FOLDER PATH                        │
-   │           │      venue, year, content_type                     │
-   │           ├── DOI from FILENAME                                │
-   │           │      10_1145_X_Y.pdf → 10.1145/X.Y                 │
-   │           │                                                    │
-   │           ▼                                                    │
-   │     GROBID (Docker, ML parser)                                 │
-   │           │                                                    │
-   │           ▼                                                    │
-   │     TEI XML  (abstract, section hierarchy, references)         │
-   │           │                                                    │
-   │  ┌────────┴────────┐                                           │
-   │  ▼                 ▼                                           │
-   │ Abstract:          Methods:                                    │
-   │  OpenAlex          GROBID section list                         │
-   │  (primary,         → lexicon/regex heading classifier          │
-   │   by DOI)            (methods-family vs results/discussion)    │
-   │  GROBID            → slice methods region verbatim             │
-   │  (fallback)        → quality flag: `needs_llm_methods`         │
-   │                                  │                             │
-   │                                  ▼ (only flagged papers)       │
-   │                       LLM section classifier                   │
-   │                       (picks correct sections;                 │
-   │                        GROBID still slices the text)           │
-   │                                                                │
-   │  Pydantic-validated JSON  (one record per paper)               │
-   │           │                                                    │
-   │           ▼                                                    │
-   │  ┌──────────────────────────────────────────────────────────┐  │
-   │  │       Stage 3: parallel detection on methods text        │  │
-   │  └──────────────────────────────────────────────────────────┘  │
-   │              ┌───────────┴───────────┐                         │
-   │              ▼                       ▼                         │
-   │        Regex track               NLP track                     │
-   │       (labels A)                (labels B)                     │
-   │              │                       │                         │
-   │              └──────► Compare ◄──────┘                         │
-   │                       │                                        │
-   │           ┌───────────┼───────────┐                            │
-   │           ▼           ▼           ▼                            │
-   │       agree yes   agree no   disagree                          │
-   │           │           │           │                            │
-   │           │           │           ▼                            │
-   │           │           │      LLM decides                       │
-   │           │           │           │                            │
-   │           ▼           ▼           ▼                            │
-   │      LABEL: YES   LABEL: NO   LABEL: yes/no                    │
-   │                       │                                        │
-   │                       ▼                                        │
-   │              Final labels for all ~16,000                      │
-   │                       │                                        │
-   │                       ▼                                        │
-   │         Validate vs 300 hand-labeled papers                    │
-   │                       │                                        │
-   │                       ▼                                        │
-   │              Precision · Recall · F1 · IRR                     │
-   └────────────────────────────────────────────────────────────────┘
+                      CHI Research Articles (PDFs)
+                        5,524 papers, 2022-2026
+                                   │
+                                   ▼
+   ┌──────────────────────────────────────────────────────────────────┐
+   │ PHASE 1 - DATA PREPARATION                                       │
+   │                                                                  │
+   │ 0 inventory    DOI, SHA-256, page count; counts vs ACM           │
+   │        │                                                         │
+   │        ▼                                                         │
+   │ 1 ligatures    repair "fi", "ff", "fl" in the text layer         │
+   │        │                                                         │
+   │        ▼                                                         │
+   │ 2 extract      blocks in reading order, labelled by kind         │
+   │        │                                                         │
+   │        ▼                                                         │
+   │ 3 sections     where each section starts and ends                │
+   │        │                                                         │
+   │        ▼                                                         │
+   │ 4 zones        method, related work, limitations, ...            │
+   │        │                                                         │
+   │        ▼                                                         │
+   │ 5 sentences    numbered, tagged with section and study           │
+   └──────────────────────────────────────────────────────────────────┘
+                                   │
+                                   ▼
+   ┌──────────────────────────────────────────────────────────────────┐
+   │ PHASE 2 - NLP AND REGEX DETECTORS        (once per question)     │
+   │                                                                  │
+   │ Regex: cue patterns per sentence                                 │
+   │        Prolific, MTurk, "online survey", Zoom, interview, lab    │
+   │ NLP:   each cue placed by section and study, and read as         │
+   │        evidence for or against each check                        │
+   │                           │                                      │
+   │               ┌───────────┼───────────┐                          │
+   │               ▼           ▼           ▼                          │
+   │           agree yes    agree no    conflict / unclear            │
+   │               │           │           │                          │
+   └──────────────────────────────────────────────────────────────────┘
+                   │           │           ▼
+                   │           │       ┌──────────────────────────────┐
+                   │           │       │ PHASE 3 - LLM AS JUDGE       │
+                   │           │       │ reads the sentences, decides │
+                   │           │       │ and cites them by number;    │
+                   │           │       │ every citation is checked    │
+                   │           │       └──────────────────────────────┘
+                   ▼           ▼           ▼
+                  YES         NO        yes / no
+                   │           │           │
+                   └───────────┴───┬───────┘
+                                   ▼
+                        Q1 for all 5,524 papers
+                                   │
+                                   ▼
+                             Q1 Yes papers
+                                   │
+                                   ▼
+   ┌──────────────────────────────────────────────────────────────────┐
+   │ PHASE 2 + PHASE 3 AGAIN, ON Q1 YES PAPERS ONLY                   │
+   │                                                                  │
+   │ Detectors find sentences on quality checks and recruiting;       │
+   │ the judge decides which checks and which sources are reported    │
+   └──────────────────────────────────────────────────────────────────┘
+                 │                                   │
+                 ▼                                   ▼
+       Q2: data-quality checks            Q3: participant sources
+                 │                                   │
+                 └─────────────────┬─────────────────┘
+                                   ▼
+   ┌──────────────────────────────────────────────────────────────────┐
+   │ VALIDATION: RQ 1, RQ 2, RQ 3                                     │
+   │                                                                  │
+   │ Validate vs human annotations: precision, recall, F1, kappa      │
+   │ Writes output/results/: one validation file per question         │
+   └──────────────────────────────────────────────────────────────────┘
 ```
 
-Pipeline is run **three times**: first for online-survey detection (Obj 1), then for fraud-detection methods (Obj 2), then for participant-source classification (Obj 3). Objectives 2 and 3 are restricted to survey-yes papers.
+Phases 2 and 3 run twice: first for Q1 on every paper, then for Q2 and Q3 on
+the Q1 Yes papers only.
 
 ## Repository layout
 
 ```
 .
-├── Phase 1 - Data Collection/     # Corpus assembly + validation code
-│   ├── sigchi_downloader.py           # Concurrent, Cloudflare-aware ACM PDF downloader
-│   ├── organize_by_year.py            # Bucket PDFs by publication year
-│   ├── organize_by_type.py            # Split into RA / Short / _excluded
-│   ├── validate_count.py              # Crossref + OpenAlex cross-check
-│   ├── find_missing.py                # Find DOIs missing vs Crossref
-│   ├── analyze_chi24.py               # Page-count + completeness analysis
-│   ├── diff_chi24.py                  # Compare DOI sets across sources
-│   ├── build_chi_ea_csv.py            # Build CHI Extended-Abstract CSV
-│   ├── audit_chi_ea.py                # Audit CHI EA keep-lists
-│   ├── organize_chi_ea.py             # Organize CHI EA PDFs
-│   ├── spot_check.py                  # Manual spot-check helper
-│   ├── build_manifest.py             # Build contributor-facing manifest
-│   └── README.md                      # Phase 1 methodology (corpus build + validation)
-├── Phase 2 - Text Extraction/     # PDF → structured JSON code
-│   ├── extract_corpus.py              # Production GROBID batch (resumable, 14 workers)
-│   ├── extract_paper.py               # Single-PDF debug CLI (thin wrapper over src/)
-│   ├── escalate_methods.py            # LLM rescue for low-confidence methods
-│   ├── init_db.py                     # Create PostgreSQL schema
-│   ├── load_to_db.py                  # Load JSON records into Postgres
-│   ├── reorganize_extracted.py        # Maintenance: reshape data/extracted/
-│   ├── qa_report.py                   # Extraction QA: coverage + quality stats
-│   ├── review_abstracts.py            # Manual review CLI for extracted abstracts
-│   ├── compare_grobid_models.py       # A/B compare GROBID model variants
-│   ├── fix_abstracts_experiment.py    # Experiment: re-extract failing abstracts
-│   ├── docling_abstract_experiment.py # Experiment: Docling as abstract fallback
-│   ├── src/                           # Phase 2 library package (imported by the scripts above)
-│   │   ├── grobid.py                      # GROBID REST client (PDF → TEI XML)
-│   │   ├── extract.py                     # Per-paper PDF → validated record orchestration
-│   │   ├── methods.py                     # Methods-section isolation from TEI
-│   │   ├── heading_classifier.py          # Regex / LLM / hybrid heading classifiers
-│   │   ├── abstract.py                    # OpenAlex-primary abstract selection
-│   │   ├── schema.py                      # Pydantic record contract
-│   │   ├── models.py                      # SQLAlchemy ORM (papers table)
-│   │   ├── db.py                          # Engine/session + schema creation
-│   │   └── pdf_fallback.py                # pdfplumber heuristic fallback (debug CLI only)
-│   └── README.md                      # Phase 2 methodology (extraction pipeline)
-├── data/
-│   ├── keep_lists/<venue>/        # Per-venue, per-year DOI lists (canonical record)
-│   ├── master/                    # acm_dois_classified.csv + UbiComp full-paper CSVs
-│   └── downloads/                 # *_missing.csv (download queues)
-├── docker-compose.yml             # GROBID (+ optional local Postgres) for Phase 2
-├── requirements.txt               # Python dependencies
-├── .gitignore                     # Excludes the 124 GB PDF corpus and local-only files
-├── LICENSE                        # MIT (code)
-├── LICENSE-DATA                   # CC-BY-4.0 (DOI keep-lists, coverage data)
-└── README.md                      # You are here
+├── Phase 1 - Data Preparation/          # PDFs -> numbered sentences
+│   ├── inventory.py                         # Module 0: corpus manifest, counts vs ACM
+│   ├── ligatures.py                         # Module 1: ligature repair in memory
+│   ├── extract.py                           # Module 2: text blocks in reading order
+│   ├── sections.py                          # Module 3: section boundaries
+│   ├── zones.py                             # Module 4: what each section is for
+│   ├── sentences.py                         # Module 5: numbered sentences
+│   └── README.md                            # Methods, checks and findings per module
+├── Phase 2 - NLP and Regex Detectors/   # Evidence per question, clear papers settled
+│   ├── q1_evidence.py                       # Module 6: Q1 cues and routing
+│   ├── q23_evidence.py                      # Module 8: Q2 and Q3 cues
+│   └── README.md
+├── Phase 3 - LLM-as-Judge/              # Decides the rest, citing sentences
+│   ├── q1_judge.py                          # Module 7: Q1, three checks per data collection
+│   ├── q23_judge.py                         # Module 9: quality checks and sources
+│   └── README.md                            # Prompts, versions, gate rules
+├── RQ 1 - Online Data Collection/
+│   └── evaluate_q1.py                       # Validation vs human annotations
+├── RQ 2 - Data Quality Checks/
+│   └── evaluate_q2.py
+├── RQ 3 - Participant Sources/
+│   └── evaluate_q3.py
+├── tests/                               # Unit tests, one folder per phase
+├── CODEBOOK.md                          # The three questions and their rules
+├── config.py                            # Paths and constants (reads .env)
+├── rq_utils.py                          # Shared by the RQ scripts
+├── conftest.py                          # Lets the tests import each folder's scripts
+├── requirements.txt                     # Python dependencies (PyMuPDF pinned)
+├── .env.example                         # Settings to copy into .env
+├── output/                              # Everything the scripts write (gitignored)
+└── README.md                            # You are here
 ```
 
 ## Quick start
 
-```bash
-# 1. Clone + install
-git clone <repo-url>
-cd "Who's Answering CHI"
+```
+# 1. Install
 pip install -r requirements.txt
+copy .env.example .env        # set CHI_CORPUS and OPENAI_API_KEY
 
-# 2. Verify a venue's count against Crossref + OpenAlex
-python "Phase 1 - Data Collection/validate_count.py" --issn 2573-0142 --year 2024 --issue ISS
+# 2. Phase 1: PDFs to sentences
+py "Phase 1 - Data Preparation/inventory.py"
+py "Phase 1 - Data Preparation/ligatures.py"
+py "Phase 1 - Data Preparation/extract.py"
+py "Phase 1 - Data Preparation/sections.py"
+py "Phase 1 - Data Preparation/zones.py"
+py "Phase 1 - Data Preparation/sentences.py"
 
-# 3. Download a venue's missing PDFs
-python "Phase 1 - Data Collection/sigchi_downloader.py" --csv data/downloads/<venue>_missing.csv
+# 3. Q1: rules, then the judge
+py "Phase 2 - NLP and Regex Detectors/q1_evidence.py"
+py "Phase 3 - LLM-as-Judge/q1_judge.py" --model gpt-4.1-2025-04-14
+py "Phase 3 - LLM-as-Judge/q1_judge.py" --model gpt-4.1-2025-04-14 --final
 
-# 4. Organize by year, then by content type
-#    (edit VENUE in each script first)
-python "Phase 1 - Data Collection/organize_by_year.py"
-python "Phase 1 - Data Collection/organize_by_type.py"
+# 4. Q2 and Q3: rules, then the judge, on Q1 Yes papers
+py "Phase 2 - NLP and Regex Detectors/q23_evidence.py"
+py "Phase 3 - LLM-as-Judge/q23_judge.py"
+py "Phase 3 - LLM-as-Judge/q23_judge.py" --final
+
+# 5. Validation
+py "RQ 1 - Online Data Collection/evaluate_q1.py"
+py "RQ 2 - Data Quality Checks/evaluate_q2.py"
+py "RQ 3 - Participant Sources/evaluate_q3.py"
+
+# 6. Tests
+py -m pytest tests -q
 ```
 
-The 124 GB PDF corpus is **not** in this repo. Run the downloader against the keep-lists in `data/keep_lists/` to reconstruct it locally.
+The PDFs are not in this repo: ACM's licence does not allow sharing them.
+`output/inventory.jsonl` lists every paper by DOI and SHA-256, so the corpus
+can be rebuilt from the ACM Digital Library and checked. The human
+annotations are released separately; set `ANNOTATIONS` in `.env` to use the
+`evaluate_*` scripts. The judges cost about $55 (Q1) and $10 (Q2 and Q3) at
+OpenAI's 2026 prices, and skip papers already answered, so a run can be
+interrupted and resumed.
 
-### Local data store
 
-Large local-only artifacts (the `sigchi/` PDF corpus, `data/extracted_cloud/` extraction outputs, caches) live in a separate data-store folder outside the repo. Every script takes its data location as a CLI flag, so point them there explicitly, e.g.:
-
-```bash
-DATA_STORE="../Who's Answering CHI"   # adjust to your local path
-python "Phase 2 - Text Extraction/extract_corpus.py" --corpus-root "$DATA_STORE/sigchi/VERIFIED COUNT"
-python "Phase 2 - Text Extraction/qa_report.py"      --input-dir   "$DATA_STORE/data/extracted_cloud"
-```
-
-## Methodology highlights
-
-- **Dual-source validation** : every paper count is confirmed by both Crossref *and* OpenAlex (see `Phase 1 - Data Collection/validate_count.py`)
-- **Per-venue ground truth** : keep-lists are scraped directly from ACM DL using venue concept IDs, never inferred
-- **Track separation** : main proceedings (proc-style DOIs) and journal tracks (PACMHCI ISS / GROUP / MHCI / EICS issues) are reconciled per event year, not per publication year
-- **Type bucketing** : Research Article / Short Paper / `_excluded` mirrors ACM's own ContentItemType taxonomy
-
-Full methodology, including venue-specific de

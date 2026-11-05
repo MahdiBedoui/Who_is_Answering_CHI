@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3772318.3791878",
- "year": 2026,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T02:59:03+00:00",
- "text": "Ceramics practice is an embodied activity where creators use manual tools in unique ways to shape physical material. Clay 3D printing uses the same material as manual ceramics craft, enabling new opportunities for form and texture by precisely controlling the 3D printing toolpath. However, current clay 3D printing design workflows require developing forms through digital software rather than tool-based making. We present Clay ARtools, an augmented reality (AR) system for designing clay 3D printed vessels. We developed Clay ARtools in collaboration with a professional ceramicist to create AR toolpath editing operations that reference manual use of ceramic tools. Through the design and fabrication of 3D-printed clay artifacts, we demonstrate how AR ceramic tools enable precise and controllable modifications of the toolpath, from the overall form down to individual toolpath points. We demonstrate how extending physical tool metaphors with digital representations and numerical precision enables craft-like interaction with CAM-based design techniques."
-}

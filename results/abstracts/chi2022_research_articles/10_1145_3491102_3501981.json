@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3491102.3501981",
- "year": 2022,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:10:47+00:00",
- "text": "From zooming on smartphones and mid-air gestures to deformable user interfaces, thumb-index pinching grips are used in many interaction techniques. However, there is still a lack of systematic understanding of how the accuracy and efficiency of such grips are affected by various factors such as counterforce, grip span, and grip direction. Therefore, in this paper, we contribute an evaluation (N = 18) of thumb-index pinching performance in a visual targeting task using scales up to 75 items. As part of our findings, we conclude that the pinching interaction between the thumb and index finger is a promising modality also for one-dimensional input on higher scales. Furthermore, we discuss and outline implications for future user interfaces that benefit from pinching as an additional and complementary interaction modality."
-}

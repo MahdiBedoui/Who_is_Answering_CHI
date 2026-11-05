@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3544548.3581188",
- "year": 2023,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:14:07+00:00",
- "text": "Digital interventions are often used to support people with mental health conditions, but low engagement frequently reduces their effectiveness. We investigate the use of a Physical Artefact for Well-being Support (PAWS) to improve engagement and effectiveness of an audio-only guided well-being intervention. Through our handheld shape-changing biofeedback-based PAWS, users can synchronously feel their breath via kinaesthetic haptic feedback. By evaluating our device in a randomised-controlled experimental paradigm (N=58), we demonstrate significant reductions in physiological and subjective (self-reported) anxiety compared to an audio-only control. Our findings conclude that synchronous interactions with one‘s own physiological data via the PAWS, improves engagement and effectiveness of an intervention."
-}

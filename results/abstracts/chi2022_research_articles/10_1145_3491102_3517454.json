@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3491102.3517454",
- "year": 2022,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:10:48+00:00",
- "text": "Haptic Feedback is essential for lifelike Virtual Reality (VR) experiences. To provide a wide range of matching sensations of being touched or stroked, current approaches typically need large numbers of different physical textures. However, even advanced devices can only accommodate a limited number of textures to remain wearable. Therefore, a better understanding is necessary of how expectations elicited by different visualizations affect haptic perception, to achieve a balance between physical constraints and great variety of matching physical textures."
-}

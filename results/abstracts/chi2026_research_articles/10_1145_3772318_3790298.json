@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3772318.3790298",
- "year": 2026,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T02:58:50+00:00",
- "text": "Conversational agents are increasingly used in education for learning support. An application is “learning by explaining”, where learners explain their understanding to an agent. However, existing research focuses on single roles, leaving it unclear how different pedagogical roles influence learners’ interaction patterns, learning outcomes and experiences. We conducted a between-subjects study (N=96) comparing agents with three pedagogical roles (Tutee, Peer, Challenger) and a control condition while learning an economics concept. We found that different pedagogical roles shaped learning dynamics, including interaction patterns and experiences. Specifically, the Tutee agent elicited the most cognitive investment but led to high pressure. The Peer agent fostered high absorption and interest through collaborative dialogue. The Challenger agent promoted cognitive and metacognitive acts, enhancing critical thinking with moderate pressure. The findings highlight how agent roles shape different learning dynamics, guiding the design of educational agents tailored to specific pedagogical goals and learning phases."
-}

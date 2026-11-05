@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3613904.3642951",
- "year": 2024,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:14:51+00:00",
- "text": "There are currently multiple proposed security label designs for consumer products, with each prioritizing different security and privacy factors. These differences risk making product comparisons more confusing than informative. Standardized labels could potentially resolve this by informing consumers of a product's security features at the point of purchase. But which standard? This survey, of 500 participants, studied four label designs and measured comprehension, response time, acceptability, and cognitive load. We gauged understanding of participant perception and preferences using three smart devices: light bulbs, cameras, and thermostats. We identified preferences and behaviors before, during, and after label use for product selection. At first, participants believed more information-dense labels would better support their purchasing behavior; however, after they evaluated and compared products, participants gravitated towards less cognitively demanding designs. We identified how participants utilized and prioritized label elements to provide recommendations for US label design efforts."
-}

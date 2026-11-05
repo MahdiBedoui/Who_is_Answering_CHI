@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3544548.3581552",
- "year": 2023,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:14:10+00:00",
- "text": "Variable font file technology enables adjusting fonts on scaled axes that can include weight, and grade. While making text bold increases the character width, grade achieves boldness without increasing character width or causing text reflow. Through two studies with a total of 459 participants, we examined the effect of varying grade levels on both glancing and paragraph reading tasks in light and dark modes. We show that dark text on a light background (Light Mode) is read reliably faster than its polar opposite (Dark Mode). We found an effect of mode for both glance and paragraph reading and an effect of grade for LM with heavier, increased grade levels. Paragraph readers are not choosing, or preferring, LM over DM despite fluency benefits and reported visual clarity. Software designers can vary grade across the tested font formats to influence design aesthetics and user preferences without worrying about reducing reading fluency."
-}

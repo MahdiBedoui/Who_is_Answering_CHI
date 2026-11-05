@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3613904.3642368",
- "year": 2024,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:14:47+00:00",
- "text": "Computer Emergency Response Teams (CERTs) provide advisory, preventive and reactive cybersecurity services for authorities, citizens, and businesses. However, their responsibility of monitoring, analyzing, and communicating cyber threats have become challenging due to the growing volume and varying quality of information disseminated through public channels. Based on a design case study conducted from 2021 to 2023, this paper combines three iterations of expert interviews, design workshops and cognitive walkthroughs to design an automated, cross-platform and real-time cybersecurity dashboard. By adopting the notion of cyber situational awareness, the study extracts user requirements and design heuristics for enhanced threat awareness and mission awareness in CERTs, discussing the aspects of source integration, data management, customizable visualization, relationship awareness, information assessment, software integration, (inter-)organizational collaboration, and communication of stakeholder warnings."
-}

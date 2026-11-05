@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3772318.3790394",
- "year": 2026,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T02:58:51+00:00",
- "text": "The growing popularity of wearable camera glasses raises pressing concerns about bystanders being recorded without their consent. Most existing privacy-enhancing technologies (PETs) rely on opt-out models that place the burden of privacy protection on bystanders. We conducted a qualitative study on wearers’ and bystanders’ perceptions of opt-in, privacy-by-default approaches for camera glasses. To enable this study, we designed and evaluated an opt-in privacy-by-default protocol. We then conducted semi-structured interviews with camera glass wearers and bystanders (N = 18) to examine their perceptions of the protocol. Our findings show that bystanders viewed the opt-in protocol as essential and advocated for even stronger anonymization. Wearers appreciated the protocol’s safeguards but found it visually limiting, expressing desire for a context-dependent version that can be enabled in relevant scenarios. Our findings highlight the need for context-aware PETs that provide effective mechanisms for consent negotiation."
-}

@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3613904.3642103",
- "year": 2024,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:14:46+00:00",
- "text": "The richness of the information in photos can often threaten privacy, thus image editing methods are often employed for privacy protection. Existing image privacy protection techniques, like blurring, often struggle to maintain the balance between robust privacy protection and preserving image usability. To address this, we introduce a generative content replacement (GCR) method in image privacy protection, which seamlessly substitutes privacy-threatening contents with similar and realistic substitutes, using state-of-the-art generative techniques. Compared with four prevalent image protection methods, GCR consistently exhibited low detectability, making the detection of edits remarkably challenging. GCR also performed reasonably well in hindering the identification of specific content and managed to sustain the image’s narrative and visual harmony. This research serves as a pilot study and encourages further innovation on GCR and the development of tools that enable human-in-the-loop image privacy protection using approaches similar to GCR."
-}

@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3706598.3713376",
- "year": 2025,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:15:17+00:00",
- "text": "layer that integrates the tap location into the LLM's attention mechanism, enabling it to utilize the tap location for text correction. We fine-tuned the touch location-informed LLM on synthetic touch locations and correction commands, achieving significantly higher correction accuracy than the state-of-the-art method VT [45]. A 16-person user study demonstrated that Tap&Say outperforms VT [45] with 16.4% shorter task completion time and 47.5% fewer keyboard clicks and is preferred by users."
-}

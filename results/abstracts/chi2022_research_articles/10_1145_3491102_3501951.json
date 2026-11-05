@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3491102.3501951",
- "year": 2022,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:10:47+00:00",
- "text": "Existing approaches for embedding unobtrusive tags inside 3D objects require either complex fabrication or high-cost imaging equipment. We present InfraredTags, which are 2D markers and barcodes imperceptible to the naked eye that can be 3D printed as part of objects, and detected rapidly by low-cost near-infrared cameras. We achieve this by printing objects from an infrared-transmitting filament, which infrared cameras can see through, and by having air gaps inside for the tag’s bits, which appear at a different intensity in the infrared image."
-}

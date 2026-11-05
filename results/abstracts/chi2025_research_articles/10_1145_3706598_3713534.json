@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3706598.3713534",
- "year": 2025,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:15:18+00:00",
- "text": "In the era of artificial intelligence, AI-assisted decision-making has become a common paradigm.Explainable Artificial Intelligence has been one of the more explored factors in improving transparency of AI tools in AI-assisted decision-making, but sometimes with contradictory results.Furthermore, while individual AI-assisted decisionmaking has garnered substantial investigation, the domain of group AI-assisted decision-making remains notably underexplored.This research presents the first look at the impact of explainability and team composition on AI-assisted decision-making.With a controlled experiment on mushroom edibility classification, with 89 participants, we show that the impact of XAI is more pronounced in decision-making with groups (2-person) than in individual decisionmaking.Groups rely less on incorrect AI recommendations when explanations are available, but they rely more on incorrect AI recommendations when explanations are absent, compared to individual decision makers.This phenomenon underscores the amplified effect of explainability in AI-assisted decision-making in group settings."
-}

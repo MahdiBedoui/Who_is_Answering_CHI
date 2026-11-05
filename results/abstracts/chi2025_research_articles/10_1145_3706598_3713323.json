@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3706598.3713323",
- "year": 2025,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:15:17+00:00",
- "text": "Conversational agents that mimic people have raised questions about the ethics of anthropomorphizing machines with human social identity cues. Critics have also questioned assumptions of identity neutrality in humanlike agents. Recent work has revealed that intersectional Japanese pronouns can elicit complex and sometimes evasive impressions of agent identity. Yet, the role of other \"neutral\" non-pronominal self-referents (NPSR) and voice as a socially expressive medium remains unexplored. In a crowdsourcing study, Japanese participants (N = 204) evaluated three ChatGPT voices (Juniper, Breeze, and Ember) using seven self-referents. We found strong evidence of voice gendering alongside the potential of intersectional self-referents to evade gendering, i.e., ambiguity through neutrality and elusiveness. Notably, perceptions of age and formality intersected with gendering as per sociolinguistic theories, especially boku and watakushi. This work provides a nuanced take on agent identity perceptions and champions intersectional and culturally-sensitive work on voice agents."
-}

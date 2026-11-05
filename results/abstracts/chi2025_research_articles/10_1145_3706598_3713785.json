@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3706598.3713785",
- "year": 2025,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:15:19+00:00",
- "text": "Figure 1: UIDEC allows UI/UX designers to specify design constraints 1 , generate and organize design ideas on a canvas 2 , refine or regenerate specific UI elements 3 , navigate through different generated versions 4 , and save and arrange design examples 5, among other features.We investigated the design of UIDEC to understand designers' needs in creative ideation under constraints and to identify opportunities for using AI-powered tools to support this process."
-}

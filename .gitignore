@@ -1,45 +1,28 @@
-# --- Big binary corpus (track in repo as just the metadata, not the PDFs) ---
-sigchi/
-sigchi/**
+# secrets: never commit
+.env
 
-# --- Backups and temporary files ---
-*.bak
-*.bak.*
-_tmp.py
-.tmp/
+# corpus and derived outputs (PDFs cannot be redistributed; outputs are large and rebuildable)
+output/
+output_claude/
+*.pdf
+
+# local scratch: files waiting to be deleted by hand
+_to_delete/
+
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+*.egg-info/
+
+# editors and OS
+.vscode/
+.idea/
 .DS_Store
 Thumbs.db
 
-# --- Python caches ---
-__pycache__/
-*.py[cod]
-*$py.class
-.pytest_cache/
-
-# --- Virtual environments ---
-venv/
-env/
-.venv/
-.env
-
-# --- Editor / IDE ---
-.idea/
-.vscode/
-*.swp
-*.swo
-
-# --- OS junk ---
-Desktop.ini
-*.lnk
-
-# --- Outputs that can be regenerated ---
-data/analysis/chi24_disk_dois.txt
-data/analysis/chi24_analysis.csv
-
-# --- Misc accidental files ---
-data/extras/
-
-# --- Local-only working folders (notes, screenshots, side projects) ---
-STEP 2/
-Screenshots/
-lit-happens/
+# local working copies, never part of the release
+output_claude/
+_to_delete/
+data/

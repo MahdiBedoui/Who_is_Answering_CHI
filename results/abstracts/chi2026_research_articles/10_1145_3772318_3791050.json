@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3772318.3791050",
- "year": 2026,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T02:58:56+00:00",
- "text": "Web search engines have evolved drastically over the past two decades, transitioning from simple link providers to direct answer providers. AI technologies, particularly generative large language models, have accelerated this shift by embedding conversational and personalized features directly into search systems. As a result, user expectations and approaches to search have fundamentally changed."
-}

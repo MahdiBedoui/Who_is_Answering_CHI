@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3772318.3790511",
- "year": 2026,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T02:58:52+00:00",
- "text": "Managing multiple activities in virtual reality (VR) is often hindered by fragmented workflows and disruptive application switching. We present JourneyVR, a metaphorical interaction model designed for spatial and sequential workflows that reframes tasks as continuous journeys rather than isolated sessions. Users construct a Journey Map as a layout of islands (tasks) and bridges (transitions), which expands into an immersive world where activities unfold as a coherent, embodied narrative. Through a formative study, a controlled comparison, and an expert evaluation, JourneyVR was shown to enhance experiential continuity, intention to use, and overall satisfaction compared to using a conventional app launcher. Participants highlighted how the metaphor fosters motivation and achievement, while we identify boundaries regarding task type, scalability, and flexibility. Our findings demonstrate that framing sequential activities as navigable journeys can transform fragmented tasks into meaningful narratives, offering concrete guidelines for sustained engagement and more flexible workflows in immersive environments."
-}

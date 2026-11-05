@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3706598.3714116",
- "year": 2025,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:15:21+00:00",
- "text": "In redirected walking techniques, curvature gain and bending gain, which are referred to as curvature manipulation, are important redirection gains. The applied gains can differ when multiple paths are mapped, and sudden changes in gain may cause discomfort. This study proposes quadratic curvature manipulation (QCM) based on the habituation mechanism to effectively reduce discomfort. This method quadratically adjusts the path curvature, thereby reducing user's perception of curvature changes. Furthermore, we introduce the segmented curvature change (SCC) mode that combines QCM with linear curvature manipulation to facilitate more natural gain transitions, thereby reducing discomfort. Two experiments were conducted. Experiment 1 examined the relationship between QCM parameters and gains at which users felt discomfort. Experiment 2 further examined the effects of different curvature change modes on discomfort. The results indicate that using the SCC mode in curvature manipulations is more effective than other methods in reducing discomfort."
-}

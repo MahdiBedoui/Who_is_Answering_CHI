@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3772318.3793215",
- "year": 2026,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T02:59:04+00:00",
- "text": "As AI agents act on behalf of users, designers increasingly combine explainability (XAI) and anthropomorphism to build trust. Yet, whether these cues create synergy or interference remains a critical, open question. Our online experiment (N=900) revealed a counterintuitive interference effect: anthropomorphism reduced trust in an explainable agent. A preregistered lab study with eye-tracking (N=57) reversed this finding: under controlled conditions, the combined design elicited the highest trust. Eye-tracking reveals the mechanism: XAI promotes deeper cognitive engagement (e.g., longer fixations), which primes users to allocate attention to social cues (e.g., avatars). Our findings show that trust depends on cognitive engagement moderating social cue processing, yielding a critical design insight: effectively pairing explanatory and anthropomorphic interfaces requires first securing the user’s cognitive engagement to avoid undermining trust."
-}

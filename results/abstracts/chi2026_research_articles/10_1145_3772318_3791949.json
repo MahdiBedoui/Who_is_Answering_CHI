@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3772318.3791949",
- "year": 2026,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T02:59:03+00:00",
- "text": "Conceptual CAD requires transforming functional requirements into parametric 3D models, yet existing systems have steep learning curves and limit creativity through premature fixation. Generative AI shows promise in producing diverse alternatives, while current methods mainly reconstruct CAD modeling sequences of existing designs, making them unsuitable for early stages where ideas are vague and intent is difficult to express. We present Req2CAD, an interactive system that enables designers to progress from design problems toward conceptual CAD models through functional decomposition, function–structure reasoning, and component-level CAD creation and iteration. Req2CAD introduces a data annotation pipeline that maps functional requirements to the 3D structural design space, a dual-feature CAD representation to support design space exploration and CAD ideation, and a progressive CAD generation method that enables rapid CAD model creation through multi-modal intent expression. A technical evaluation and user study demonstrate the effectiveness of Req2CAD, highlighting its potential for human–AI co-creation."
-}

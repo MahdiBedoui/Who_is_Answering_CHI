@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3613904.3641925",
- "year": 2024,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:14:45+00:00",
- "text": "Gaze-assisted interaction techniques enable intuitive selections without requiring manual pointing but can result in unintended selections, known as Midas touch. A confirmation trigger eliminates this issue but requires additional physical and conscious user effort. Brain-computer interfaces (BCIs), particularly passive BCIs harnessing anticipatory potentials such as the Stimulus-Preceding Negativity (SPN) - evoked when users anticipate a forthcoming stimulus - present an effortless implicit solution for selection confirmation. Within a VR context, our research uniquely demonstrates that SPN has the potential to decode intent towards the visually focused target. We reinforce the scientific understanding of its mechanism by addressing a confounding factor - we demonstrate that the SPN is driven by the user’s intent to select the target, not by the stimulus feedback itself. Furthermore, we examine the effect of familiarly placed targets, finding that SPN may be evoked quicker as users acclimatize to target locations; a key insight for everyday BCIs."
-}

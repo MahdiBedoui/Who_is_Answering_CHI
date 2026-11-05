@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3706598.3713199",
- "year": 2025,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:15:16+00:00",
- "text": "Advancements in artificial intelligence-powered search engines have enhanced the efficiency of online health information searches by generating direct answers to queries using top-ranked featured snippets (FS). However, such functionalities may contribute to health anxiety, particularly when the displayed results are distressing. This study investigated the effect of algorithmic transparency (AT) explanations (absence vs. presence) on mitigating FS-triggered health anxiety. The results of an online experiment (N = 206) yielded two key findings: First, participants exposed to AT explanations detailing the selection process of FS experienced reduced trust in the search engine and distressing results, which subsequently alleviated health anxiety. Second, the moderating effect of pre-existing cyberchondria on the relationship between AT explanations and trust was observed, but only within a limited threshold. Overall, the findings empirically validate AT explanations as an effective approach to mitigate FS-induced health anxiety. Theoretical and practical implications are discussed."
-}

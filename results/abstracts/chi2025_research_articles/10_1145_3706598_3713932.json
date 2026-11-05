@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3706598.3713932",
- "year": 2025,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:15:20+00:00",
- "text": "Figure 1: GUI prototype (1) and three views (2-4) of our assistant for GUI prototype designers integrated as a plug-in into a prototyping tool.Our assistant displays user stories (2) imported from collaboration tools (e.g., JIRA) for prototype designers to reference while working.It detects whether a user story is implemented (3, 4), identifies relevant GUI components (3), and generates GUI components for user stories (4). Figure uses Google Material 3 Design Kit [24] components under CC BY 4.0."
-}

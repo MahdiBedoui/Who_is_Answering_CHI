@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3706598.3713296",
- "year": 2025,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:15:17+00:00",
- "text": "Figure 1: With Data Formulator 2, analysts can iterate on a previous design by (1) selecting a chart from data threads and (2) providing combined natural language and graphical user interface inputs in the chart builder to specify the new design.The AI model generates code to transform the data and update the chart.Data threads are updated with new charts for future use."
-}

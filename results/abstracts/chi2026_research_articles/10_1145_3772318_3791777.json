@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3772318.3791777",
- "year": 2026,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T02:59:02+00:00",
- "text": "Sustaining the effectiveness of behavior change technologies remains a key challenge. AI self-modeling, which generates personalized portrayals of one’s ideal self, has shown promise for motivating behavior change, yet prior work largely examines short-term effects. We present one of the first longitudinal evaluations of AI self-modeling in fitness engagement through a two-stage empirical study. A 1-week, three-arm experiment (visual self-modeling (VSM), auditory self-modeling (ASM), Control; N=28) revealed that VSM drove initial performance gains, while ASM showed no significant effects. A subsequent 4-week study (VSM vs. Control; N=31) demonstrated that VSM sustained higher performance levels but exhibited diminishing improvement rates after two weeks. Interviews uncovered a catalyst effect that fostered early motivation through clear, attainable goals, followed by habituation and internalization which stabilized performance. These findings highlight the temporal dynamics of personalized nudging and inform the design of behavior change technologies for long-term engagement."
-}

@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3772318.3791073",
- "year": 2026,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T02:58:57+00:00",
- "text": "The integration of artificial intelligence (AI) into work and educational settings is rapidly increasing, yet accurately gauging its adoption remains a challenge. The majority of research uses self-reported surveys. The resulting estimates vary widely, sometimes differing by as much as 40 percentage points in the same setting. This paper studies whether social desirability bias–--the tendency to answer surveys in a way that would be viewed favorably by an outside party–--can potentially explain this discrepancy. We collect data on AI use in a large representative sample of university students. We assess the potential for social desirability bias using a common tool from psychology, indirect questioning: all students report both their own AI use and the use of their peers. The data reveals a significant gap, with approximately 60% of students reporting using AI themselves compared to 90% of their peers. In a follow-up study, natural language processing reveals social desirability bias as key driver of the gap between own and others’ AI use: students are hesitant to admit AI use due to negative perceptions. This suggests that using self-reports may underestimate the actual prevalence of AI in settings where social desirability bias plays a role, such as education."
-}

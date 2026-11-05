@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3772318.3791573",
- "year": 2026,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T02:59:00+00:00",
- "text": "In response to calls for open data and growing privacy threats, organizations are increasingly adopting privacy-preserving techniques that add noise to published datasets. These techniques seek to protect privacy of data subjects while enabling useful analyses. With expert feedback, we developed empirically-driven documentation explaining the noise characteristics of two Wikipedia pageview datasets: one using rounding (heuristic privacy) and another using differential privacy (DP, formal privacy). We then used these documents to conduct a task-based contextual inquiry (n=15) exploring how data users—largely unfamiliar with these methods—perceive, interact with, and interpret privacy-preserving noise during data analysis."
-}

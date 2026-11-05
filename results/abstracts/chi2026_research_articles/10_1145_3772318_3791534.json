@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3772318.3791534",
- "year": 2026,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T02:59:00+00:00",
- "text": "Data tables play a central role in scientific papers. However, their meaning is often co-constructed with surrounding text through narrative interplay, making comprehension cognitively demanding for readers. In this work, we explore how interfaces can better support this reading process. We conducted a formative study that revealed key characteristics of text-table narrative interplay, including linking mechanisms, multi-granularity alignments, and mention typologies, as well as a layered framework of readers’ intents. Informed by these insights, we present TableTale, an augmented reading interface that enriches text with data tables at multiple granularities, including paragraphs, sentences, and mentions. TableTale automatically constructs a document-level linking schema within the paper and progressively renders cascade visual cues on text and tables that unfold as readers move through the text. A within-subject study with 24 participants showed that TableTale reduced cognitive workload and improved reading efficiency, demonstrating its potential to enhance paper reading and inform future reading interface design."
-}

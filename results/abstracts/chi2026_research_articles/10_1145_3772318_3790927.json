@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3772318.3790927",
- "year": 2026,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T02:58:55+00:00",
- "text": "Generative Artificial Intelligence (GenAI) is increasingly integrated into photo applications on personal devices, making editing photographs easier than ever while potentially influencing the memories they represent. This study explores how and why people use GenAI to edit personal photos and how this shapes their remembering experience. We conducted a two-phase qualitative study with 12 participants: a photo editing session using a GenAI tool guided by the Remembering Experience (RX) dimensions, followed by semi-structured interviews where participants reflected on the editing process and results. Findings show that participants prioritised felt memory over factual accuracy. For different photo elements, environments were modified easily, however, editing was deemed unacceptable if it touched upon a person's identity. Editing processes brought positive and negative impacts, and itself also became a remembering experience. We further discuss potential benefits and risks of GenAI editing for remembering purposes and propose design implications for responsible GenAI."
-}

@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3706598.3713309",
- "year": 2025,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:15:17+00:00",
- "text": "Figure 1: A design novice uses Infuencer to ideate and make promotional posts to promote their homemade juice.Infuencer has the following core features: (A) The user can input a topic via a text block and explores the related images and captions in three dimensions.(B) Context-aware exploration is supported which updates the image and caption recommendation by dragging a brand/product image or message to the initial image and caption recommendation.(C) Various materials (i.e., image and text) can be fexibly fused to make a new image or caption.(D) Infuencer allows the user to not only easily create harmonious promotional posts but also quickly obtain multiple post alternatives.Steps in (A), (B), and (C) can be fexibly combined or skipped; as soon as the user fnds satisfed image and/or caption, they can go to (D) for post generation."
-}

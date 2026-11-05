@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3491102.3501905",
- "year": 2022,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:10:47+00:00",
- "text": "Isolated silos of scientific research and the growing challenge of information overload limit awareness across the literature and hinder innovation. Algorithmic curation and recommendation, which often prioritize relevance, can further reinforce these informational “filter bubbles.” In response, we describe Bridger, a system for facilitating discovery of scholars and their work. We construct a faceted representation of authors with information gleaned from their papers and inferred author personas, and use it to develop an approach that locates commonalities and contrasts between scientists to balance relevance and novelty. In studies with computer science researchers, this approach helps users discover authors considered useful for generating novel research directions. We also demonstrate an approach for displaying information about authors, boosting the ability to understand the work of new, unfamiliar scholars. Our analysis reveals that Bridger connects authors who have different citation profiles and publish in different venues, raising the prospect of bridging diverse scientific communities."
-}

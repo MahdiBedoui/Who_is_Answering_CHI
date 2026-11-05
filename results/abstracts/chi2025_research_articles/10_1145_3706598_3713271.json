@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3706598.3713271",
- "year": 2025,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:15:16+00:00",
- "text": "Large language models (LLMs) like GPT-4 can convert natural-language descriptions of a task into computer code, making them a promising interface for end-user programming. We undertake a systematic analysis of how people with and without programming experience describe information-processing tasks (IPTs) in natural language, focusing on the characteristics of successful communication. Across two online between-subjects studies, we paired crowdworkers either with one another or with an LLM, asking senders (always humans) to communicate IPTs in natural language to their receiver (either a human or LLM). Both senders and receivers tried to answer test cases, the latter based on their sender’s description. While participants with programming experience tended to communicate IPTs more successfully than non-programmers, this advantage was not overwhelming. Furthermore, a user interface that solicited example test cases from senders often, but not always, improved IPT communication. Allowing receivers to request clarification, though, was less successful at improving communication."
-}

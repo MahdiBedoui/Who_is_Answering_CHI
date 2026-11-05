@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3772318.3790277",
- "year": 2026,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T02:58:50+00:00",
- "text": "Intelligence and knowledgeability are sometimes treated interchangeably in virtual agents, yet they shape interaction in different ways. We disentangled these traits and tested how each drives human perceptions and interaction in virtual reality (VR). To address the lack of prior research examining both traits simultaneously, we created a VR application where participants collaborated with a virtual agent to complete a jigsaw puzzle while engaging in free-flowing conversation about the puzzle’s art piece. We manipulated intelligence through the virtual agent’s puzzle-solving ability and knowledgeability through its predefined depth of knowledge in art. Using a 2 × 2 within-group study, we collected perceptual responses, logged data, and qualitative feedback. Results showed intelligence significantly influenced perceptions of intelligence, knowledge, rapport, trust, co-presence, uncanny valley, and intelligence and knowledge comparisons, while knowledgeability impacted perceived knowledge, trust, and intelligence and knowledge comparisons. Interaction effects further highlighted their interdependence, offering design implications for virtual agents."
-}

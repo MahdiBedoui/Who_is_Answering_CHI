@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3772318.3791734",
- "year": 2026,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T02:59:02+00:00",
- "text": "Whispered and dysarthric speech hinder effective communication and undermine the reliability of voice-enabled systems. We present CLARIS, a compact speech-to-speech restoration system that turns such atypical input into clear, expressive speech. CLARIS requires no disorder-specific architectural tuning, generalizes across languages, and adapts quickly to new accents and speakers, enabling practical personalization. On whispered English, Hindi, and clinically challenging dysarthric speech, CLARIS delivers state-of-the-art intelligibility and naturalness, with listener studies confirming gains in quality, intelligibility, naturalness, and prosody. The system runs in real time, converting one second of input in about 30ms and enables inclusive, private, and personalized voice interaction. Audio samples are available at https://claris-w2s.github.io/CLARIS/"
-}

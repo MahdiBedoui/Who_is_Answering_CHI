@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3772318.3791794",
- "year": 2026,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T02:59:02+00:00",
- "text": "Embodiment can enhance conversational agents, such as increasing their perceived presence. This is typically achieved through visual representations of a virtual body; however, visual modalities are not always available, such as when users interact with agents using headphones or display-less glasses. In this work, we explore auditory embodiment. By introducing auditory cues of bodily presence - through spatially localized voice and situated Foley audio from environmental interactions - we investigate how audio alone can convey embodiment and influence perceptions of a conversational agent. We conducted a 2 (spatialization: monaural vs. spatialized) x 2 (Foley: none vs. Foley) within-subjects study, where participants (n=24) engaged in conversations with agents. Our results show that spatialization and Foley increase co-presence, but reduce users' perceptions of the agent's attention and other social attributes."
-}

@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3706598.3713723",
- "year": 2025,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:15:19+00:00",
- "text": "Tools to inspect runtime state, like print statements and debuggers, are an essential part of programming.Yet, a major limitation is that they present data at a fixed, low level of abstraction which can overload the user with irrelevant details.In contrast, human drawings of data structures use many illustrative visual abstractions to show the most useful information.We attempt to bridge the gap by surveying 80 programmer-produced diagrams to develop a mechanical approach for capturing visual abstraction, termed abstraction moves.An abstraction move selects data objects of interest, and then revisualizes, simplifies, or annotates them.We implement these moves as a diagramming language for JavaScript code, named Chisel, and show that it can effectively reproduce 78 out of the 80 surveyed diagrams.In a preliminary study with four CS educators, we evaluate its usage and discover potential contexts of use.Our approach of mechanically moving between levels of abstraction in data displays opens the doors to new tools and workflows in programming education and software development."
-}

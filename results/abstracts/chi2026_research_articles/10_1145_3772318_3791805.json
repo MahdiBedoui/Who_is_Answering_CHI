@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3772318.3791805",
- "year": 2026,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T02:59:02+00:00",
- "text": "Interactive electrical-muscle-stimulation (EMS) supports motor-skills by actuating the user’s muscles. However, existing EMS-interfaces exclusively focus on demonstrating movements/sequences (e.g., which fingers to actuate to play a piano melody) and have not investigated EMS for skills requiring precise force application (e.g., playing musical instruments, practicing culinary techniques, operating force-sensitive tools). Our user study found that when EMS-interfaces demonstrate a force, participants trying to recall this force, overshoot by a median 19%; with especially larger overshoots at lower target-forces (e.g., produce a ∼ 1.2 kg force, after a 1 kg demonstration). This force mismatch renders EMS-interfaces unable to accurately demonstrate forces—drastically limiting the growing potential of EMS for HCI. To significantly improve on this, we modeled users’ recall of EMS-demonstrated forces. This model allows to adjust EMS-interfaces to render a target force that, when recalled, matches the intended force best—in our study, this improved median force recall by ∼ 35%."
-}

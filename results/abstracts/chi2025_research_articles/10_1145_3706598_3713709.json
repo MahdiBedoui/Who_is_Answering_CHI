@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3706598.3713709",
- "year": 2025,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:15:19+00:00",
- "text": "Kawaii\" is the Japanese concept of cute, which carries sociocultural connotations related to social identities and emotional responses.Yet, virtually all work to date has focused on the visual side of kawaii, including in studies of computer agents and social robots.In pursuit of formalizing the new science of kawaii vocalics, we explored what elements of voice relate to kawaii and how they might be manipulated, manually and automatically.We conducted a four-phase study (grand = 512) with two varieties of computer voices: text-to-speech (TTS) and game character voices.We found kawaii \"sweet spots\" through manipulation of fundamental and formant frequencies, but only for certain voices and to a certain extent.Findings also suggest a ceiling effect for the kawaii vocalics of certain voices.We offer empirical validation of the preliminary kawaii vocalics model and an elementary method for manipulating kawaii perceptions of computer voice."
-}

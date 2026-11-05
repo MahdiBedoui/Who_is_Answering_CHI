@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3613904.3642932",
- "year": 2024,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:14:51+00:00",
- "text": "The computational notebook serves as a versatile tool for data analysis. However, its conventional user interface falls short of keeping pace with the ever-growing data-related tasks, signaling the need for novel approaches. With the rapid development of interaction techniques and computing environments, there is a growing interest in integrating emerging technologies in data-driven workflows. Virtual reality, in particular, has demonstrated its potential in interactive data visualizations. In this work, we aimed to experiment with adapting computational notebooks into VR and verify the potential benefits VR can bring. We focus on the navigation and comparison aspects as they are primitive components in analysts’ workflow. To further improve comparison, we have designed and implemented a Branching&Merging functionality. We tested computational notebooks on the desktop and in VR, both with and without the added Branching&Merging capability. We found VR significantly facilitated navigation compared to desktop, and the ability to create branches enhanced comparison."
-}

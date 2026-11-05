@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3772318.3791378",
- "year": 2026,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T02:58:59+00:00",
- "text": "Interior design often struggles to capture the subtleties of client experience, leaving gaps between what clients feel and what designers can act upon. We present AIDED, a designer-AI co-design workflow that integrates multimodal client data into generative AI (GAI) design processes. In a within-subjects study with twelve professional designers, we compared four modalities: baseline briefs, gaze heatmaps, questionnaire visualizations, and AI-predicted overlays. Results show that questionnaire data were trusted, creativity-enhancing, and satisfying; gaze heatmaps increased cognitive load; and AI-predicted overlays improved GAI communication but required natural language mediation to establish trust. Interviews confirmed that an authenticity-interpretability trade-off is central to balancing client voices with professional control. Our contributions are: (1) a system that incorporates experiential client signals into GAI design workflows; (2) empirical evidence of how different modalities affect design outcomes; and (3) implications for future AI tools that support human-data interaction in creative practice."
-}

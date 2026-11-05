@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3772318.3791904",
- "year": 2026,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T02:59:03+00:00",
- "text": "As generative AI (genAI) rapidly enters classrooms, accompanied by district-level policy rollouts and industry-led teacher trainings, it is important to rethink the canonical “adopt and train” playbook. Decades of educational technology research show that tools promising personalization and access often deepen inequities due to uneven resources, training, and institutional support. Against this backdrop, we conducted semi-structured interviews with 22 teachers from a large U.S. school district that was an early adopter of genAI. Our findings reveal the motivations driving adoption, the factors underlying resistance, and the boundaries teachers negotiate to align genAI use with their values. We further contribute by unpacking the sociotechnical dynamics—including district policies, professional norms, and relational commitments—that shape how teachers navigate the promises and risks of these tools."
-}

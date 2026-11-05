@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3491102.3517469",
- "year": 2022,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:10:48+00:00",
- "text": "The data table is a basic but versatile representation to communicate data. From government reports to bank statements, tables effectively carry essential data-driven information by visually organizing data using rows, columns, and other arrangements (e.g., merged cells). However, many tables online neglect the accessibility requirements for people who rely on screen readers, such as people who are blind or have low vision (BLV). First, we consolidated guidelines to understand what makes a table inaccessible for BLV people. We conducted an interview study to understand the importance of tables and identify further design requirements for an accessible table. We built a tool that automatically detects HTML formatted tables online and transforms them into accessible tables. Our evaluative study demonstrates how our tool can help participants understand the table’s structure and layout and support smooth navigation when the table is large and complex."
-}

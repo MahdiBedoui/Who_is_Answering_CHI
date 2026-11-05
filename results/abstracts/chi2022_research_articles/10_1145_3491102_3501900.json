@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3491102.3501900",
- "year": 2022,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:10:47+00:00",
- "text": "Previous qualitative work has documented that platform workers place an immense importance on their reputation due to the use of algorithmic management by online labor platforms. We provide a general experimental method, which can be used across platforms and time, for numerically quantifying the intensity with which platform workers experience reputation system-based algorithmic management. Our method works via an experiment where workers choose between a monetary bonus or a positive review. We demonstrate this method by measuring the value that freelancers assigned to positive feedback on Upwork in June 2020. The median freelancer in our sample valued a single positive review at ∼ $49 USD. We also find that less experienced freelancers valued a positive review more highly than those with more experience. Qualitative data collected during the experiment indicates that many freelancers considered issues related to reputation system-based algorithmic management while choosing between the monetary reward and the positive review."
-}

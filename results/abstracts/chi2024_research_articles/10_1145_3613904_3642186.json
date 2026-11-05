@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3613904.3642186",
- "year": 2024,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:14:46+00:00",
- "text": "Programmers regularly explore the execution of code examples to verify assumptions by adding print statements or commenting in and out setup code in their implementation to isolate code paths of interest. In our formative study on developing embedded programs, where proximity to hardware dictates low abstraction levels, we observed that wrong assumptions occur frequently. However, traditional editors for embedded programs lack support for such explorations. Consequently, programmers have to re-create and clean up setup and print statements in their code for each example."
-}

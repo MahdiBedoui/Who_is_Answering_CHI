@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3544548.3581338",
- "year": 2023,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:14:08+00:00",
- "text": "In recent years, there has been a proliferation of multimedia applications that leverage machine learning (ML) for interactive experiences. Prototyping ML-based applications is, however, still challenging, given complex workflows that are not ideal for design and experimentation. To better understand these challenges, we conducted a formative study with seven ML practitioners to gather insights about common ML evaluation workflows."
-}

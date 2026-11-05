@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3706598.3714314",
- "year": 2025,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:15:23+00:00",
- "text": "decoder, and 95.4% on real-word tap typing data. In particular, our decoder supports Flexible Typing, allowing users to enter a word with taps, gestures, multi-stroke gestures, and tap-gesture combinations. User study results show that Flexible Typing is beneficial and well-received by participants, where 35.9% of words were entered using word gestures, 29.0% with taps, 6.1% with multi-stroke gestures, and the remaining 29.0% using tap-gestures. Our investigation suggests that the LLM-based decoder improves decoding accuracy over existing word gesture decoders while enabling the Flexible Typing method, which enhances the overall typing experience and accommodates diverse user preferences."
-}

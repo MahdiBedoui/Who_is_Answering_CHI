@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3544548.3580783",
- "year": 2023,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:14:05+00:00",
- "text": "Although fluidic computation has been utilized to develop interactive devices in the field of Human-Computer Interaction (HCI), the limited computation complexity of previous work hinders the exploration of richer interaction modalities. Based on the Fluidic Computation Kit we developed, this paper explores how unconventional mechanical computing can be leveraged to design shape-changing interfaces that integrate input sensing, output, and complex computation. After introducing the design space enabled by the Kit, we explain how to design four types of elementary computational components and six categories of operators. We end by providing several application scenarios which illustrate the Fluidic Computation Kit’s potential to build sophisticated circuits (e.g., a parallel processor) for use in the field of HCI."
-}

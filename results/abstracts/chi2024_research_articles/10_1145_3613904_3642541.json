@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3613904.3642541",
- "year": 2024,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:14:48+00:00",
- "text": "Technology plays a pivotal role in driving transformation through grassroots movements, which operate on a local scale while embracing a global perspective on sustainability. Consequently, research emerged within Sustainable HCI, aiming to derive design principles that can empower these movements to scale their impact. However, a notable gap exists in contributions when addressing scalability of large free and open-source software (FOSS) projects."
-}

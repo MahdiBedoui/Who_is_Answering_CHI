@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3772318.3791562",
- "year": 2026,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T02:59:00+00:00",
- "text": "Biometric payment, i.e., biometric authentication implemented in digital payment systems, can reduce memory demands and streamline payment for older adults. However, older adults’ perceptions and practices regarding biometric payment remain underexplored. We conducted semi-structured interviews with 22 Chinese older adults, including both users and non-users. Participants were motivated to use biometric payment due to convenience and perceived security. However, they also worried about loss of control due to its password-free nature and expressed concerns about biometric data security. Participants also identified desired features for biometric payment, such as lightweight and context-aware cognitive confirmation mechanisms to enhance user control. We outline recommendations for more accessible and informative digital financial services that better support older adults."
-}

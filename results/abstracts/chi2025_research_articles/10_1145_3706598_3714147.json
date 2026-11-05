@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3706598.3714147",
- "year": 2025,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:15:21+00:00",
- "text": "Figure 1: Two user-defined patterns of swarm robot co-speech gestures corresponding to the word \"run.\"Each pattern includes multiple phases, with red squares indicating the robots that have moved relative to the previous phase."
-}

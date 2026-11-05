@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3491102.3501832",
- "year": 2022,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:10:47+00:00",
- "text": "Why do some peer production projects do a better job at engaging potential contributors than others? We address this question by comparing three Indian language Wikipedias, namely, Malayalam, Marathi, and Kannada. We found that although the three projects share goals, technological infrastructure, and a similar set of challenges, Malayalam Wikipedia’s community engages language speakers in contributing at a much higher rate than the others. Drawing from a grounded theory analysis of interviews with 18 community participants from the three projects, we found that experience with participatory governance and free/open-source software in the Malayalam community supported high engagement of contributors. Counterintuitively, we found that financial resources intended to increase participation in the Marathi and Kannada communities hindered the growth of these communities. Our findings underscore the importance of social and cultural context in the trajectories of peer production communities."
-}

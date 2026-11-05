@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3491102.3501906",
- "year": 2022,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:10:47+00:00",
- "text": "(Dis)Appearables is an approach for actuated Tangible User Interfaces (TUIs) to appear and disappear. This technique is supported by Stages: physical platforms inspired by theatrical stages. Self-propelled TUI’s autonomously move between front and back stage allowing them to dynamically appear and disappear from users’ attention. This platform opens up a novel interaction design space for expressive displays with dynamic physical affordances."
-}

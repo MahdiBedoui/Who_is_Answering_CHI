@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3772318.3791696",
- "year": 2026,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T02:59:01+00:00",
- "text": "The overreliance on large language models (LLMs)-generated answers poses risks to the development of learners’ critical thinking. Socratic instruction, which follows “tutor asks, student answers” approach, could mitigate overreliance by engaging learners with LLM-generated questions rather than passively seeking answers from LLMs. However, learners without effective response strategies often produce superficial answers and therefore undermine Socratic instruction. To bridge the gap, we first conducted a formative study (N=20) to analyze learners’ dialogue logs and interviews, deriving 18 Scaffolding Cards as response strategies to guide learners in framing their answers. A subsequent mixed-methods study (N=34) demonstrated that Scaffolding Cards improved critical thinking, optimized cognitive load allocation, and increased learning satisfaction compared to that without scaffolds. Our work reconfigures scaffolding by incorporating state-aware, agency-preserving, and function-transparent support. We further provide actionable implications for designing responsive and personalized scaffolding to facilitate learner-LLM interaction, introducing innovative perspectives for reclaiming learner agency in LLM-driven education."
-}

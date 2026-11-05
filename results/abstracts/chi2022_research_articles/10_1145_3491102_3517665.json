@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3491102.3517665",
- "year": 2022,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:10:48+00:00",
- "text": "Augmented Reality (AR) experiences tightly associate virtual contents with environmental entities. However, the dissimilarity of different environments limits the adaptive AR content behaviors under large-scale deployment. We propose ScalAR, an integrated workflow enabling designers to author semantically adaptive AR experiences in Virtual Reality (VR). First, potential AR consumers collect local scenes with a semantic understanding technique. ScalAR then synthesizes numerous similar scenes. In VR, a designer authors the AR contents’ semantic associations and validates the design while being immersed in the provided scenes. We adopt a decision-tree-based algorithm to fit the designer’s demonstrations as a semantic adaptation model to deploy the authored AR experience in a physical scene. We further showcase two application scenarios authored by ScalAR and conduct a two-session user study where the quantitative results prove the accuracy of the AR content rendering and the qualitative results show the usability of ScalAR."
-}

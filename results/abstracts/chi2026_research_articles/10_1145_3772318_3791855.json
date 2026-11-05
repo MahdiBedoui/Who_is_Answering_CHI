@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3772318.3791855",
- "year": 2026,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T02:59:02+00:00",
- "text": "Social media feeds use predictive models to maximize engagement, often misaligning how people consume content with how they wish to. We introduce Bonsai, a system that enables people to build personalized and intentional feeds. Bonsai implements a platform-agnostic framework comprising Planning, Sourcing, Curating, and Ranking modules. This framework allows users to express their intent in natural language and exert fine-grained control over a procedurally transparent feed creation process. We evaluated the system with 15 Bluesky users in a two-phase, multi-week study. We find that participants successfully used our system to discover new content, filter out irrelevant or toxic posts, and disentangle engagement from intent, but curating intentional feeds required more effort than they are used to. Simultaneously, users sought system transparency mechanisms to effectively use (and trust) intentional, personalized feeds. Overall, our work highlights intentional feedbuilding as a viable path beyond engagement-based optimization."
-}

@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3613904.3642045",
- "year": 2024,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:14:46+00:00",
- "text": "A majority of people experience trauma, spurring calls to incorporate trauma-informed approaches (TIA) from public health and social work into technology design. While technologies touted as trauma-informed are starting to propagate the literature, there persists a gap in knowledge around how design teams apply TIA and qualify their technology as adhering to trauma-informed principles. We address this through a 12-month development project with trauma and sexual violence experts to produce Ube, a data donation platform for collecting online dating sexual consent data to improve sexual risk detection AI. Through analysis of design documentation we retrospectively articulate a trauma-informed design process that evolved through the course of Ube’s development, comprising three elements for integrating trauma-informed principles: design goals that adapt the definition of TIA to the application domain, design activities that map to trauma-informed principles, and consequent design choices. We conclude with methodological recommendations to improve trauma-informed design processes."
-}

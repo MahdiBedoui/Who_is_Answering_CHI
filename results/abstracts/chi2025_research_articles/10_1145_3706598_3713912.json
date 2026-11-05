@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3706598.3713912",
- "year": 2025,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:15:20+00:00",
- "text": "Figure 1: Our study explores user perceptions of web-browser tracking protection plugins under the three conditions no plugin, functional plugin, and placebo plugin, where users were only primed with narratives without altering the website.During a hotel booking task, users felt more protected with functional or placebo plugins despite no actual changes to the website, revealing the participant's inability to judge tracking protection effectiveness accurately.We generated the figure using DALL-E."
-}

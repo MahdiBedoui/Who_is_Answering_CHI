@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3772318.3791084",
- "year": 2026,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T02:58:57+00:00",
- "text": "AI assistants are transforming creative and knowledge domains, holding similar promise for mechanical design via 3D CAD software. Yet, current AI assistance for CAD relies on geometry or command history, lacking rich design intent. We investigate think-aloud computing as a lightweight approach to capture designers’ spoken intent and inform how future AI assistance could leverage this to provide in-situ feedback. Through a three-part study with 10 designers and 10 experts, we (1) recorded designers’ think-aloud verbalizations during 3D modelling, (2) compared expert feedback with and without think-aloud recordings, and (3) interviewed the original designers to evaluate feedback quality. Findings show that verbalizations surface rationale, future actions, and challenges — insights absent from geometric and command data — that enable feedback attuned to designers’ goals. By harnessing think-aloud data, we uncover when to intervene, what to prompt, and characteristics of effective feedback, paving the way for context-aware AI assistance for CAD."
-}

@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3772318.3791287",
- "year": 2026,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T02:58:58+00:00",
- "text": "Modern user interfaces are complex composites, with elements originating from various sources, such as the operating system, apps, a web browser, or websites. We posit that security and privacy decisions can to some extent depend on users correctly identifying an element’s source, a concept we term “surface attribution.” Through two large-scale vignette-based surveys (N = 4, 400 and N = 3, 057), we present the first empirical measurement of this ability."
-}

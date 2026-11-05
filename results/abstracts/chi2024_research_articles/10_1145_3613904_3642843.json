@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3613904.3642843",
- "year": 2024,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:14:50+00:00",
- "text": "Two popular approaches for helping consumers avoid phishing threats are phishing awareness videos and tools supporting users in identifying phishing emails. Awareness videos and tools have each been shown on their own to increase people’s phishing detection rate. Videos have been shown to be a particularly effective awareness measure; link-centric warnings have been shown to provide effective tool support. However, it is unclear how these two approaches compare to each other. We conducted a between-subjects online experiment (n=409) in which we compared the effectiveness of the NoPhish video and the TORPEDO tool and their combination. Our main findings suggest that the TORPEDO tool outperformed the NoPhish video and that the combination of both performs significantly better than just the tool. We discuss the implications of our findings for the design and deployment of phishing awareness measures and support tools."
-}

@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3613904.3642003",
- "year": 2024,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:14:45+00:00",
- "text": "Despite decades of effort, pedestrian infrastructure in cities continues to be unsafe or inaccessible to people with disabilities. In this paper, we examine the potential of community-driven digital civics to assess sidewalk accessibility through a deployment study of an open-source crowdsourcing tool called Project Sidewalk. We explore Project Sidewalk’s potential as a platform for civic learning and service. Specifically, we assess its effectiveness as a tool for community members to learn about human mobility, urban planning, and accessibility advocacy. Our findings demonstrate that community-driven digital civics can support accessibility advocacy and education, raise community awareness, and drive pro-social behavioral change. We also outline key considerations for deploying digital civic tools in future community-led accessibility initiatives."
-}

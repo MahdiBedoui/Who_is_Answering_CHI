@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3706598.3713432",
- "year": 2025,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:15:17+00:00",
- "text": "Human-Computer Counter-Choreographies is an artistic research project that combines critical design, choreography and embodied sense-making with data tracking. The project has evolved into various formats such as workshops, a live-coding performance piece, web-based tools and artworks. In this talk, Joana Chicau will introduce the motivations behind the project and how it has impacted audiences by raising awareness of data tracking. She will also demo a custom version of the open-source DuckDuckGo privacy extension which unveils online tracking algorithms through audio and visual feedback."
-}

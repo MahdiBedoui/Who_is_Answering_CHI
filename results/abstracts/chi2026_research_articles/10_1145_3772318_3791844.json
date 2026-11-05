@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3772318.3791844",
- "year": 2026,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T02:59:02+00:00",
- "text": "Storytelling infographics are a powerful medium for communicating data-driven stories through visual presentation. However, existing authoring tools lack support for maintaining story consistency and aligning with users’ story goals throughout the design process. To address this gap, we conducted formative interviews and a quantitative analysis to identify design needs and common story-informed layout patterns in infographics. Based on these insights, we propose a narrative-centric workflow for infographic creation consisting of three phases: story construction, visual encoding, and spatial composition. Building on this workflow, we developed InfoAlign, a human–AI co-creation system that transforms long or unstructured text into stories, recommends semantically aligned visual designs, and generates layout blueprints. Users can intervene and refine the design at any stage, ensuring their intent is preserved and the infographic creation process remains transparent. Evaluations show that InfoAlign preserves story coherence across authoring stages and effectively supports human–AI co-creation for storytelling infographic design."
-}

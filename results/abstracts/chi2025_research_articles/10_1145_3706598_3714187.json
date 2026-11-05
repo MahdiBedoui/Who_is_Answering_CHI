@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3706598.3714187",
- "year": 2025,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:15:22+00:00",
- "text": "The absence of a human operator in automated vehicles (AVs) may require external Human-Machine Interfaces (eHMIs) to facilitate communication with other road users in uncertain scenarios, for example, regarding the right of way. Given the plethora of adjustable parameters, balancing visual and auditory elements is crucial for effective communication with other road users. With N=37 participants, this study employed multi-objective Bayesian optimization to enhance eHMI designs and improve trust, safety perception, and mental demand. By reporting the Pareto front, we identify optimal design trade-offs. This research contributes to the ongoing standardization efforts of eHMIs, supporting broader adoption."
-}

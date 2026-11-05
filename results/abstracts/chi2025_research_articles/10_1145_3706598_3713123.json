@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3706598.3713123",
- "year": 2025,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:15:16+00:00",
- "text": "We introduce Datamancer, a wearable device enabling bimanual gesture interaction across multi-display ubiquitous analytics environments. Datamancer addresses the gap in gesture-based interaction within data visualization settings, where current methods are often constrained by limited interaction spaces or the need for installing bulky tracking setups. Datamancer integrates a finger-mounted pinhole camera and a chest-mounted gesture sensor, allowing seamless selection and manipulation of visualizations on distributed displays. By pointing to a display, users can acquire the display and engage in various interactions, such as panning, zooming, and selection, using both hands. Our contributions include (1) an investigation of the design space of gestural interaction for physical ubiquitous analytics environments; (2) a prototype implementation of the Datamancer system that realizes this model; and (3) an evaluation of the prototype through demonstration of application scenarios, an expert review, and a user study."
-}

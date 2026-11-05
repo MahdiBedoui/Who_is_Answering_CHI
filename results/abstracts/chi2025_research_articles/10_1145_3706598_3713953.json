@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3706598.3713953",
- "year": 2025,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:15:20+00:00",
- "text": "Unlike the free exploration of childhood, the demands of daily life reduce our motivation to explore our surroundings, leading to missed opportunities for informal learning. Traditional tools for knowledge acquisition are reactive, relying on user initiative and limiting their ability to uncover hidden interests. Through formative studies, we introduce AiGet, a proactive AI assistant integrated with AR smart glasses, designed to seamlessly embed informal learning into low-demand daily activities (e.g., casual walking and shopping). AiGet analyzes real-time user gaze patterns, environmental context, and user profiles, leveraging large language models to deliver personalized, context-aware knowledge with low disruption to primary tasks. In-lab evaluations and real-world testing, including continued use over multiple days, demonstrate AiGet's effectiveness in uncovering overlooked yet surprising interests, enhancing primary task enjoyment, reviving curiosity, and deepening connections with the environment. We further propose design guidelines for AI-assisted informal learning, focused on transforming everyday moments into enriching learning experiences. © 2025 Copyright held by the owner/author(s)."
-}

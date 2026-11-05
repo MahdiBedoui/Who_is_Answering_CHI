@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3613904.3642066",
- "year": 2024,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:14:46+00:00",
- "text": "The Family Education Rights and Privacy Act (FERPA) is intended to protect student privacy, but has not adapted well to current technology. We consider a special class of student data: directory information. Unlike other FERPA-controlled data, directory information (e.g., student names, contact information, university affiliation) can be shared publicly online or by request without explicit permission."
-}

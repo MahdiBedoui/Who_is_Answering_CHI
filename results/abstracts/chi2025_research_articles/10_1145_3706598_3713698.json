@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3706598.3713698",
- "year": 2025,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:15:19+00:00",
- "text": "The interdisciplinary field of Human-Computer Interaction (HCI) thrives on productive engagement with different domains, yet this engagement often breaks due to idiosyncratic writing styles and unfamiliar concepts. Inspired by the dialogic model of abstract metaphors, as well as the potential of Large Language Models (LLMs) to produce on-demand support, we investigate the use of metaphors to facilitate engagement between Science and Technology Studies (STS) and System HCI. Our reflective-style survey with early-career HCI researchers (N=48) reported that limited prior exposure to STS research can hinder perceived openness of the work, and ultimately interest in reading. The survey also revealed that metaphors enhance likelihood to continue reading STS papers, and alternative perspectives can build critical thinking skills to mitigate potential risks of LLM-generated metaphors. We lastly offer a specified model of metaphor exchange (within this generative context) that incorporates alternative perspectives to construct shared understanding in interdisciplinary engagement."
-}

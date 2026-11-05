@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3706598.3714268",
- "year": 2025,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:15:22+00:00",
- "text": "Current AI sound awareness systems can provide deaf and hard of hearing people with information about sounds, including discrete sound sources and transcriptions. However, synthesizing AI outputs based on DHH people's ever-changing intents in complex auditory environments remains a challenge. In this paper, we describe the co-design process of SoundWeaver, a sound awareness system prototype that dynamically weaves AI outputs from different AI models based on users’ intents and presents synthesized information through a heads-up display. Adopting a Research through Design perspective, we created SoundWeaver with one DHH co-designer, adapting it to his personal contexts and goals (e.g., cooking at home and chatting in a game store). Through this process, we present design implications for the future of “intent-driven” AI systems for sound accessibility."
-}

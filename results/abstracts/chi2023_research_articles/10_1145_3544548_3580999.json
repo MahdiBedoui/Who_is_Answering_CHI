@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3544548.3580999",
- "year": 2023,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:14:06+00:00",
- "text": "AI-based design tools are proliferating in professional software to assist engineering and industrial designers in complex manufacturing and design tasks. These tools take on more agentic roles than traditional computer-aided design tools and are often portrayed as “co-creators.” Yet, working effectively with such systems requires different skills than working with complex CAD tools alone. To date, we know little about how engineering designers learn to work with AI-based design tools. In this study, we observed trained designers as they learned to work with two AI-based tools on a realistic design task. We find that designers face many challenges in learning to effectively co-create with current systems, including challenges in understanding and adjusting AI outputs and in communicating their design goals. Based on our findings, we highlight several design opportunities to better support designer-AI co-creation."
-}

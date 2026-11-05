@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3544548.3580678",
- "year": 2023,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:14:05+00:00",
- "text": "This paper presents the design and evaluation of GestureExplorer, an Immersive Analytics tool that supports the interactive exploration, classification and sensemaking with large sets of 3D temporal gesture data. GestureExplorer features 3D skeletal and trajectory visualisations of gestures combined with abstract visualisations of clustered sets of gestures. By leveraging the large immersive space afforded by a Virtual Reality interface our tool allows free navigation and control of viewing perspective for users to gain a better understanding of gestures."
-}

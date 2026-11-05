@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3544548.3581508",
- "year": 2023,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:14:09+00:00",
- "text": "Authentication ceremonies detect and mitigate Man-in-the-Middle (MitM) attacks on end-to-end encrypted messengers, such as Signal, WhatsApp, or Threema. However, prior work found that adoption remains low as non-expert users have difficulties using them correctly. Anecdotal evidence suggests that security researchers also have trouble authenticating others. Since their issues are probably unrelated to user comprehension or usability, the root causes may lie deeper."
-}

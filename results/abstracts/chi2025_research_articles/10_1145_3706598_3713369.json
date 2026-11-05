@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3706598.3713369",
- "year": 2025,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:15:17+00:00",
- "text": "We introduce SqueezeMe, a soft and flexible inductive pressure sensor with high sensitivity made from ferromagnetic elastomers for wearable and embedded applications. Constructed with silicone polymers and ferromagnetic particles, this biocompatible sensor responds to pressure and deformation by varying inductance through ferromagnetic particle density changes, enabling precise measurements. We detail the fabrication process and demonstrate how silicones with varying Shore hardness and different ferromagnetic fillers affect the sensor’s sensitivity. Applications like weight, air pressure, and pulse measurements showcase the sensor’s versatility for integration into soft robotics and flexible electronics."
-}

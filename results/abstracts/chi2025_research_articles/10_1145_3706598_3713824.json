@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3706598.3713824",
- "year": 2025,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:15:20+00:00",
- "text": "Despite the importance of viewers' trust in data visualization, there is a lack of research on the viewers' own perspective on their trust. In addition, much of the research on trust remains relatively theoretical and inaccessible for designers. This work aims to address this gap by conducting a qualitative study to explore how viewers perceive different data visualizations and how their perceptions impact their trust. Three dominant themes emerged from the data. First, users appeared to be consistent, listing similar rationale for their trust across different stimuli. Second, there were diverse opinions about what factors were most important to trust perception and about why the factors matter. Third, despite this disagreement, there were important trends to the factors that users reported as impactful. Finally, we leverage these themes to give specific and actionable guidelines for visualization designers to make more trustworthy visualizations."
-}

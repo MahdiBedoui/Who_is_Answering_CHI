@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3772318.3790880",
- "year": 2026,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T02:58:55+00:00",
- "text": "For Deaf and Hard of Hearing (DHH) individuals, limited access to sound cues in outdoor environments can reduce situational awareness, making it challenging to notice events and respond to potential dangers. To address this, we investigated the needs for sound awareness and preferences of DHH individuals for visualizing environmental sounds using AR glasses. We conducted four participatory design workshops with DHH participants, social workers, and designers to explore sound awareness needs and co-design ideal visual representations. Based on our insights, we conducted interviews with 15 DHH participants to select their preferred visualizations. The most voted designs were implemented in prototype, which eight DHH participants evaluated in outdoor environment. Results demonstrate that visualizing sound cues through AR can enhance situational awareness and increase sense of safety and confidence among DHH individuals while walking outdoors. Our findings provide design suggestions for translating auditory information into accessible visual representations for DHH users."
-}

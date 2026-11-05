@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3491102.3517594",
- "year": 2022,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:10:48+00:00",
- "text": "Behaviour in virtual environments might be informed by our experiences in physical environments, but virtual environments are not constrained by the same physical, perceptual, or social cues. Instead of replicating the properties of physical spaces, one can create virtual experiences that diverge from reality by dynamically manipulating environmental, aural, and social properties. This paper explores digital proxemics, which describe how we use space in virtual environments and how the presence of others influences our behaviours, interactions, and movements. First, we frame the open challenges of digital proxemics in terms of activity, social signals, audio design, and environment. We explore a subset of these challenges through an evaluation that compares two audio designs and two displays with different social signal affordances: head-mounted display (HMD) versus desktop PC. We use quantitative methods using instrumented tracking to analyse behaviour, demonstrating how personal space, proximity, and attention compare between desktop PC and HMDs."
-}

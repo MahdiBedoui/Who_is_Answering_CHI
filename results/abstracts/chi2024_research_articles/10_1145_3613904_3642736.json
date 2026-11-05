@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3613904.3642736",
- "year": 2024,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:14:50+00:00",
- "text": "Despite the fact that spatio-temporal patterns of vibration, characterized as rhythmic compositions of tactile content, have exhibited an ability to elicit specific emotional responses and enhance the emotion conveyed by music, limited research has explored their underlying mechanism in regulating emotional states within the pre-sleep context. Aiming to investigate whether synergistic spatio-temporal tactile displaying of music can facilitate relaxation before sleep, we developed 16 vibration patterns and an audio-tactile prototype for presenting an ambient experience in a pre-sleep scenario. The stress-reducing effects were further evaluated and compared via a user experiment. The results showed that the spatio-temporal tactile display of music significantly reduced stress and positively influenced users’ emotional states before sleep. Furthermore, our study highlights the therapeutic potential of incorporating quantitative and adjustable spatio-temporal parameters correlated with subjective psychophysical perceptions in the audio-tactile experience for stress management."
-}

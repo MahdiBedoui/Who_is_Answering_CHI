@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3706598.3713259",
- "year": 2025,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:15:16+00:00",
- "text": "Large language model (LLM) systems have been shown to stimulate creative thinking among creators, yet empirical research on whether users can seek inspiration in their everyday lives through these technologies is lacking. This paper explores which attributes of LLMs influence inspiration-seeking processes. Focusing on use cases of travel, cooking, and self-care, we interviewed 20 participants as they explored scenarios of these use cases using LLMs. Thematic analysis revealed that the vast data of LLMs inspires users with unexpected ideas, many of which were highly personalized, and inspired participants towards being motivated to act. Participants were also sensitive to the deficiencies of LLMs, and noted how ethical issues associated with these technologies could negatively impact them applying inspirational ideas into practice. We discuss the behavioral patterns of users actively seeking inspiration via LLMs, and provide design opportunities for LLMs that make the inspiration-seeking process more human-centric."
-}

@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3706598.3713943",
- "year": 2025,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:15:20+00:00",
- "text": "Effective communication is crucial for meeting security needs, yet gender-related communication challenges faced by women security experts within software development remain underexplored.In an interview study with 25 women security experts, we investigated gender-related communication challenges hindering the adoption of security requirements, and strategies to overcome these.Key challenges included the undervaluation of women's security expertise, communication barriers, resistance to women's security-related suggestions, and instances of hostility.Communication challenges with stakeholders who were men disrupted team collaboration, resulting in delays, weakened security measures, and increased organizational risk.Consequently, women security experts often had to adopt strategies, such as leveraging allied men and overpreparing, to assert their security competence.We further offer insights into women's participation in security studies.Based on our findings, we provide recommendations on how to address gender-related challenges."
-}

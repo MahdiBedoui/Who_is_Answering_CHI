@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3772318.3791137",
- "year": 2026,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T02:58:57+00:00",
- "text": "Collecting mobile datasets remains challenging for academic researchers due to limited data access and technical barriers. Commercial organizations often possess exclusive access to mobile data, leading to a \"data monopoly\" that restricts the independence of academic research. Existing open-source mobile data collection frameworks primarily focus on mobile sensing data rather than screen content, which is crucial for various research studies. We present Crepe, a no-code Android app that enables researchers to collect information displayed on screen through simple demonstrations of target data. Crepe utilizes a novel Graph Query technique which augments the structures of mobile UI screens to support flexible identification, location, and collection of specific data pieces. The tool emphasizes participants' privacy and agency by providing full transparency over collected data and allowing easy opt-out. We designed and built Crepe for research purposes only and in scenarios where researchers obtain explicit consent from participants. Code for Crepe will be open-sourced to support future academic research data collection."
-}

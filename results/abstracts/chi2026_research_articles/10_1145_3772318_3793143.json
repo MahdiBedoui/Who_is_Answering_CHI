@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3772318.3793143",
- "year": 2026,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T02:59:03+00:00",
- "text": "Users of Virtual Reality (VR) primarily sense their environment through audiovisual cues. The lack of haptic feedback on their body can make them unaware of virtual obstacles outside their field of view. This lack of sensing can cause the user to unknowingly penetrate virtual objects, breaking the scene’s plausibility and disrupting the experience of other users in the same virtual space. We propose a haptic belt that increases the user’s scene awareness by rendering signals of collisions and proximity to virtual objects around the user."
-}

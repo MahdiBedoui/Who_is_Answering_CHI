@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3706598.3713542",
- "year": 2025,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:15:18+00:00",
- "text": "Youth are particularly likely to encounter hateful internet content, which can severely impact their well-being.While most social media provide reporting mechanisms, in several countries, severe hateful content can alternatively be reported to law enforcement or dedicated reporting centers.However, in Germany, many youth never resort to reporting.While research in human-computer interaction has investigated adults' views on platform-based reporting, youth perspectives and platform-independent alternatives have received little attention.By involving a diverse group of 47 German adolescents and young adults in eight focus group interviews, we investigate how youth-sensitive reporting systems for hateful content can be designed.We explore German youth's reporting barriers, fnding that on platforms, they feel particularly discouraged by defcient rule enforcement and feedback, while platform-independent alternatives are rather unknown and perceived as time-consuming and disruptive.We further elicit their requirements for platformindependent reporting tools and contribute with heuristics for designing youth-sensitive and inclusive reporting systems."
-}

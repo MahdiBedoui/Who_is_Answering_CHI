@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3772318.3793423",
- "year": 2026,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T02:59:04+00:00",
- "text": "This paper presents a theoretical model for interactive visualization literacy to describe how people use interactive data visualizations and systems. Literacies have become an important concept in describing modern life skills, with visualization literacy generally referring to the use and interpretation of data visualizations. However, prior work on visualization literacy overlooks interaction and its associated challenges, despite it being an intrinsic aspect of using visualizations. Based on existing theoretical frameworks, we derive a two-dimensional model that combines four well-known literacies with five novel ones. We found evidence for our model through analyzing existing visualization systems as well as through observations from an exploratory study involving such systems. We conclude by outlining steps towards measuring, evaluating, designing for, and teaching interactive visualization literacy."
-}

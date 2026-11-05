@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3613904.3642412",
- "year": 2024,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:14:48+00:00",
- "text": "Teleportation is a popular method of navigation in virtual reality (VR) because it does not induce symptoms of VR sickness, such as nausea and disorientation. However, teleportation may reduce spatial awareness, causing users to miss important aspects of their surroundings. We present ACTIVE, a novel approach to teleportation that uses techniques from cinematography to enhance the user experience of navigation in VR. ACTIVE adapts heuristics from continuity editing to dynamically reposition and reorient the camera after teleportation. This approach aims to improve the aesthetic quality of entities and environmental features while respecting users’ intended trajectory through the virtual environment. In a user study, we found that even though ACTIVE did not improve users’ recall of which entities were present in the environment, it increased engagement by significantly improving aesthetic appeal. Lastly, despite removing some agency from users, ACTIVE had no impact on presence or VR sickness compared to teleportation."
-}

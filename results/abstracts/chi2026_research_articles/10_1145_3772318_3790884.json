@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3772318.3790884",
- "year": 2026,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T02:58:55+00:00",
- "text": "Current hospital medication management systems generate fragmented clinical workflows, forcing clinicians to improvise repairs by creating external artifacts. We argue that instead of formalizing their workarounds into new electronic health record (EHR) features, future systems should explicitly support improvisation capabilities that help clinicians better handle unpredictable breakdowns. In a field study (144 hours) with 11 clinicians, we observed how resource constraints require local optimizations — “expert hacks” by clinicians — at the expense of global consistency. Subsequent group interviews with 20 clinicians highlighted three distinct issues: one clinician’s prescribing shortcut often becomes another clinician’s roadblock; medication notes fail to distinguish between norms and deviations; and clinicians often reify personal strategies to translate medication data across systems. We argue that simply adding new electronic features will not suffice. Instead, we propose a novel design approach that focuses on helping clinicians create personal tools that let them successfully manage information breakdowns in their particular context."
-}

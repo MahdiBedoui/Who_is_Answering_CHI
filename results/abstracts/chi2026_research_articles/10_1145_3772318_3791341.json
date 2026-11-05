@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3772318.3791341",
- "year": 2026,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T02:58:59+00:00",
- "text": "Non-custodial wallets (NCWs) grant users full control over their keys and crypto assets, whereas custodial wallets (CWs) rely on centralized exchanges. Security breaches at major exchanges are on the rise, exemplified by the 2022 FTX fraud, yet their influence on users’ security perceptions and risk mitigation behaviors remains understudied."
-}

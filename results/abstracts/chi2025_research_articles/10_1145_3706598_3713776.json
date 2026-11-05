@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3706598.3713776",
- "year": 2025,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:15:19+00:00",
- "text": "Dark patterns are deceptive strategies that recent work in humancomputer interaction (HCI) has captured throughout digital domains, including social networking sites (SNSs).While research has identified difficulties among people to recognise dark patterns effectively, few studies consider vulnerable populations and their experience in this regard, including people with attention deficit hyperactivity disorder (ADHD), who may be especially susceptible to attention-grabbing tricks.Based on an interactive web study with 135 participants, we investigate SNS users' ability to recognise and avoid dark patterns by comparing results from participants with and without ADHD.In line with prior work, we noticed overall low recognition of dark patterns with no significant differences between the two groups.Yet, ADHD individuals were able to avoid specific dark patterns more often.Our results advance previous work by understanding dark patterns in a realistic environment and offer insights into their effect on vulnerable populations."
-}

@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3706598.3713823",
- "year": 2025,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:15:20+00:00",
- "text": "Machine learning (ML) is increasingly used in healthcare practices, due to its potential to support personalization, diagnostic and prediction, automatization, and increase effectiveness. In physiotherapy, most existing ML solutions suggest replacing the physiotherapist, neglecting the complexity of their skills and practice. We articulate an alternative to the design of ML technology for physiotherapy: one that emphasizes the relational aspects of the practice and offers personalized support to physiotherapists and patients alike. Based on domain studies and design explorations with physiotherapists, interaction designers and ML experts, we present 1) insights on physiotherapy's in-clinic and out-of-clinic looped structure, 2) opportunities and requirements to integrate ML in that loop, and 3) a conceptual interactive ML-based infrastructure that exploits those opportunities. Our work widens current ML developmental aims for physiotherapy, proposing a vision that encodes sustainable sociotechnical relationships in healthcare practices."
-}

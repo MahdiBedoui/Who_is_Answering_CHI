@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3706598.3713572",
- "year": 2025,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:15:18+00:00",
- "text": "With growing investment in consumer augmented reality (AR) headsets and glasses, wearable AR is moving from niche applications to everyday use. However, current research primarily examines AR in controlled settings, offering limited insights into its use in real-world daily life. To address this gap, we adopt a digital ethnographic approach, analysing 27 hours of 112 YouTube videos featuring early adopters. These videos capture usage ranging from continuous periods of hours to intermittent use over weeks and months. Our analysis shows that currently, wearable AR is primarily used for media consumption and gaming. While productivity is a desired use case, frequent use is constrained by current hardware limitations and the nascent application ecosystem. Users seek continuity in their digital experience, desiring functionalities similar to those on smartphones, tablets, or computers. We propose implications for everyday AR development that promote adoption while ensuring safe, ethical, and socially-aware integration into daily life."
-}

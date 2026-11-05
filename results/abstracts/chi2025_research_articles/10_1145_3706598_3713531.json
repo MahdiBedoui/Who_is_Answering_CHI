@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3706598.3713531",
- "year": 2025,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:15:18+00:00",
- "text": "Biased news articles can distort readers' perceptions by presenting information in a way that favors or disfavors a particular point of view.Subtly embedded in the text, these biased news articles can shape our views daily without people even realizing it.To address this issue, we propose BIASsist, an LLM-based approach designed to mitigate bias in news articles.Based on existing research, we defned six types of bias and introduced three assistive components-identifcation, explanation, and neutralization-to provide a broader range of bias information and enhance readers' bias-awareness.We conducted a mixed-method study with 36 participants to evaluate the efectiveness of BIASsist.The results show participants' bias awareness signifcantly improved and their interest in identifying bias increased.Participants also tended to engage more actively in critically evaluating articles.Based on these fndings, we discuss its potential to improve media literacy and critical thinking in today's information overload era."
-}

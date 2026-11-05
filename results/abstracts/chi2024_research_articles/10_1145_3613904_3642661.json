@@ -1,9 +1,0 @@
-{
- "doi": "10.1145/3613904.3642661",
- "year": 2024,
- "ptype": "Research Article",
- "section": "abstract",
- "source": "openalex",
- "fetched_at": "2026-06-11T01:14:49+00:00",
- "text": "Dark patterns are malicious UI design strategies that nudge users towards decisions going against their best interests. To create technical countermeasures against them, dark patterns must be automatically detectable. While researchers have devised algorithms to detect some patterns automatically, there has only been little work to use obtained results to technically counter the effects of dark patterns when users face them on their devices."
-}
